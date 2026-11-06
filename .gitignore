@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and runtime data
+*.log
+logs/
+outputs/
+.cache/
+data/
+
+# Build artifacts
+build/
+dist/
+
+# Model weights and checkpoints
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS files
+.idea/
+.DS_Store
+Thumbs.db
