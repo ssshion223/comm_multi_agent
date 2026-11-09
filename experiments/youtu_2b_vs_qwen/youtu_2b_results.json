@@ -1,0 +1,1066 @@
+{
+  "label": "youtu-2b",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "runs_per_case": 3,
+  "summary": {
+    "label": "youtu-2b",
+    "total_runs": 45,
+    "overall_pass_rate": 0.8888888888888888,
+    "overall_format_rate": 0.9333333333333333,
+    "overall_median_seconds": 0.6184078439982841,
+    "overall_p95_seconds": 1.1933658422014557,
+    "overall_median_completion_tokens": 26,
+    "truncated_runs": 0,
+    "cases": [
+      {
+        "case_id": "zh_exact_ok",
+        "category": "instruction_zh",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.06361691300116945,
+        "median_completion_tokens": 2,
+        "median_decode_tps": 45.46074464699732,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "en_exact_ok",
+        "category": "instruction_en",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.0563879499968607,
+        "median_completion_tokens": 2,
+        "median_decode_tps": 44.175464946768564,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "zh_math",
+        "category": "reasoning_zh",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.05855419200088363,
+        "median_completion_tokens": 2,
+        "median_decode_tps": 43.7598459653422,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "en_math",
+        "category": "reasoning_en",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.058329904000856914,
+        "median_completion_tokens": 2,
+        "median_decode_tps": 44.59706551308924,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "zh_json",
+        "category": "json_zh",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.6445997949995217,
+        "median_completion_tokens": 28,
+        "median_decode_tps": 44.38606672047793,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "en_json",
+        "category": "json_en",
+        "runs": 3,
+        "pass_rate": 0.3333333333333333,
+        "format_rate": 1.0,
+        "median_seconds": 0.6654445559979649,
+        "median_completion_tokens": 29,
+        "median_decode_tps": 43.91130543606279,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "zh_classify",
+        "category": "classification_zh",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.06775764900521608,
+        "median_completion_tokens": 2,
+        "median_decode_tps": 45.15284237142728,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "en_classify",
+        "category": "classification_en",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.05800911800179165,
+        "median_completion_tokens": 2,
+        "median_decode_tps": 43.733053441791306,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "zh_tool_select",
+        "category": "tool_select_zh",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.6184078439982841,
+        "median_completion_tokens": 26,
+        "median_decode_tps": 44.10174448860499,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "en_tool_select",
+        "category": "tool_select_en",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.6601744390063686,
+        "median_completion_tokens": 26,
+        "median_decode_tps": 43.381087234160695,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "zh_tool_chain",
+        "category": "tool_chain_zh",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.8876855769995018,
+        "median_completion_tokens": 34,
+        "median_decode_tps": 43.16963817676116,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "en_tool_chain",
+        "category": "tool_chain_en",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 0.0,
+        "median_seconds": 0.8070791049976833,
+        "median_completion_tokens": 30,
+        "median_decode_tps": 41.519618019514226,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "zh_path_length",
+        "category": "path_length_zh",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.8401148679986363,
+        "median_completion_tokens": 32,
+        "median_decode_tps": 37.64918489514702,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "long_context",
+        "category": "long_context",
+        "runs": 3,
+        "pass_rate": 0.0,
+        "format_rate": 1.0,
+        "median_seconds": 0.13150331399810966,
+        "median_completion_tokens": 3,
+        "median_decode_tps": 42.244001351808045,
+        "truncated_runs": 0
+      },
+      {
+        "case_id": "network_concept",
+        "category": "network_knowledge",
+        "runs": 3,
+        "pass_rate": 1.0,
+        "format_rate": 1.0,
+        "median_seconds": 1.2166274760020315,
+        "median_completion_tokens": 50,
+        "median_decode_tps": 44.43320997357705,
+        "truncated_runs": 0
+      }
+    ]
+  },
+  "rows": [
+    {
+      "wall_seconds": 0.11652865799987921,
+      "prompt_tokens": 18,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 37.54317465084848,
+      "prompt_tokens_per_second": 408.76193224169856,
+      "case_id": "zh_exact_ok",
+      "category": "instruction_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "正常",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.08791798299353104,
+      "prompt_tokens": 19,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 35.23359875977732,
+      "prompt_tokens_per_second": 421.9903879967178,
+      "case_id": "en_exact_ok",
+      "category": "instruction_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "OK",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.09468793400446884,
+      "prompt_tokens": 29,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 35.06803198204517,
+      "prompt_tokens_per_second": 573.4767025089604,
+      "case_id": "zh_math",
+      "category": "reasoning_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "7",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.10654458499629982,
+      "prompt_tokens": 31,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 34.51131971286582,
+      "prompt_tokens_per_second": 591.2611600543961,
+      "case_id": "en_math",
+      "category": "reasoning_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "9",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.7105862949974835,
+      "prompt_tokens": 44,
+      "completion_tokens": 28,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 42.89840703915195,
+      "prompt_tokens_per_second": 760.5773312579595,
+      "case_id": "zh_json",
+      "category": "json_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "{\n  \"device\": \"R1\",\n  \"interface\": \"Gi0/1\",\n  \"status\": \"DOWN\"\n}",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.47721708600147394,
+      "prompt_tokens": 39,
+      "completion_tokens": 18,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 43.21817807414714,
+      "prompt_tokens_per_second": 686.0691846609374,
+      "case_id": "en_json",
+      "category": "json_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "{\"device\":\"R2\",\"interface\":\"Gi0/2\",\"status\":\"DOWN\"}",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.10114500499912538,
+      "prompt_tokens": 50,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 36.285786857288,
+      "prompt_tokens_per_second": 860.9783525442789,
+      "case_id": "zh_classify",
+      "category": "classification_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "LINK",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.09556709000025876,
+      "prompt_tokens": 48,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 39.16960438699569,
+      "prompt_tokens_per_second": 895.2892546240737,
+      "case_id": "en_classify",
+      "category": "classification_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "LINK",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.7550213619979331,
+      "prompt_tokens": 241,
+      "completion_tokens": 26,
+      "finish_reason": "tool_calls",
+      "decode_tokens_per_second": 45.39355302602503,
+      "prompt_tokens_per_second": 1383.460727008612,
+      "case_id": "zh_tool_select",
+      "category": "tool_select_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "C",
+          "end": "D"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.7590452700023889,
+      "prompt_tokens": 243,
+      "completion_tokens": 26,
+      "finish_reason": "tool_calls",
+      "decode_tokens_per_second": 45.34505775146555,
+      "prompt_tokens_per_second": 1376.5642775881684,
+      "case_id": "en_tool_select",
+      "category": "tool_select_en",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "C",
+          "end": "D"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 1.000074191004387,
+      "prompt_tokens": 559,
+      "completion_tokens": 34,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 42.15699264059357,
+      "prompt_tokens_per_second": 1455.520334136842,
+      "case_id": "zh_tool_chain",
+      "category": "tool_chain_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "A",
+          "end": "G"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "A",
+          "B",
+          "D",
+          "G"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "content": "A → B → D → G",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.916561862002709,
+      "prompt_tokens": 561,
+      "completion_tokens": 30,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 43.556536384226725,
+      "prompt_tokens_per_second": 1450.458836092441,
+      "case_id": "en_tool_chain",
+      "category": "tool_chain_en",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "A",
+          "end": "G"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "A",
+          "B",
+          "D",
+          "G"
+        ]
+      },
+      "passed": true,
+      "format_ok": false,
+      "content": "AB→DG",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 1.0035711809978238,
+      "prompt_tokens": 587,
+      "completion_tokens": 32,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 38.57875853555033,
+      "prompt_tokens_per_second": 1254.499089917933,
+      "case_id": "zh_path_length",
+      "category": "path_length_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "cal_path_len",
+        "arguments": {
+          "path": [
+            "A",
+            "B",
+            "D",
+            "G"
+          ]
+        }
+      },
+      "tool_result": 3,
+      "passed": true,
+      "format_ok": true,
+      "content": "3",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 1.36712074100069,
+      "prompt_tokens": 1624,
+      "completion_tokens": 3,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 45.15488124266233,
+      "prompt_tokens_per_second": 1253.7649642603599,
+      "case_id": "long_context",
+      "category": "long_context",
+      "passed": false,
+      "format_ok": true,
+      "content": "42",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 2.26916698399873,
+      "prompt_tokens": 37,
+      "completion_tokens": 97,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 45.15643175757769,
+      "prompt_tokens_per_second": 665.151599135303,
+      "case_id": "network_concept",
+      "category": "network_knowledge",
+      "passed": true,
+      "format_ok": true,
+      "content": "丢包指的是数据在传输过程中丢失的现象，而时延则是指从发送请求到收到响应所需的时间间隔；两者的核心区别在于：**丢包是物理层面的错误导致的数据缺失问题，直接影响通信的连续性（如视频卡顿），属于“质量”范畴；而时延则是信号传播和系统处理导致的延迟现象，影响的是传输效率与实时体验，也归类为“性能”或“速度”维度的问题。**",
+      "run_index": 1
+    },
+    {
+      "wall_seconds": 0.06361691300116945,
+      "prompt_tokens": 18,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 45.531120520876016,
+      "prompt_tokens_per_second": 47.03890117126864,
+      "case_id": "zh_exact_ok",
+      "category": "instruction_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "正常",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.0563879499968607,
+      "prompt_tokens": 19,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 46.36713497472991,
+      "prompt_tokens_per_second": 45.93899301727306,
+      "case_id": "en_exact_ok",
+      "category": "instruction_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "OK",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.05571114900521934,
+      "prompt_tokens": 29,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 43.7598459653422,
+      "prompt_tokens_per_second": 45.35353077237063,
+      "case_id": "zh_math",
+      "category": "reasoning_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "7",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.05504998499964131,
+      "prompt_tokens": 31,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 45.63084645220169,
+      "prompt_tokens_per_second": 46.895516788595,
+      "case_id": "en_math",
+      "category": "reasoning_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "9",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.642113704001531,
+      "prompt_tokens": 44,
+      "completion_tokens": 28,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 44.38606672047793,
+      "prompt_tokens_per_second": 45.32064355313845,
+      "case_id": "zh_json",
+      "category": "json_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "{\n  \"device\": \"R1\",\n  \"interface\": \"Gi0/1\",\n  \"status\": \"DOWN\"\n}",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.6654445559979649,
+      "prompt_tokens": 39,
+      "completion_tokens": 29,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 44.39659478118028,
+      "prompt_tokens_per_second": 43.14063848144953,
+      "case_id": "en_json",
+      "category": "json_en",
+      "passed": false,
+      "format_ok": true,
+      "content": "{\n  \"device\": \"Device R2\",\n  \"interface\": \"Gi0/2\",\n  \"status\": \"DOWN\"\n}",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.06775764900521608,
+      "prompt_tokens": 50,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 46.3070155128502,
+      "prompt_tokens_per_second": 45.31448250860975,
+      "case_id": "zh_classify",
+      "category": "classification_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "LINK",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.05800911800179165,
+      "prompt_tokens": 48,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 43.733053441791306,
+      "prompt_tokens_per_second": 45.08566275924256,
+      "case_id": "en_classify",
+      "category": "classification_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "LINK",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.6184078439982841,
+      "prompt_tokens": 241,
+      "completion_tokens": 26,
+      "finish_reason": "tool_calls",
+      "decode_tokens_per_second": 43.33146141420024,
+      "prompt_tokens_per_second": 44.04510218463707,
+      "case_id": "zh_tool_select",
+      "category": "tool_select_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "C",
+          "end": "D"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.6601744390063686,
+      "prompt_tokens": 243,
+      "completion_tokens": 26,
+      "finish_reason": "tool_calls",
+      "decode_tokens_per_second": 43.381087234160695,
+      "prompt_tokens_per_second": 34.51251078515962,
+      "case_id": "en_tool_select",
+      "category": "tool_select_en",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "C",
+          "end": "D"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.8876855769995018,
+      "prompt_tokens": 559,
+      "completion_tokens": 34,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 43.16963817676116,
+      "prompt_tokens_per_second": 104.51778108750752,
+      "case_id": "zh_tool_chain",
+      "category": "tool_chain_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "A",
+          "end": "G"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "A",
+          "B",
+          "D",
+          "G"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "content": "A → B → D → G",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.8070791049976833,
+      "prompt_tokens": 561,
+      "completion_tokens": 30,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 40.835216290528955,
+      "prompt_tokens_per_second": 105.88173010746996,
+      "case_id": "en_tool_chain",
+      "category": "tool_chain_en",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "A",
+          "end": "G"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "A",
+          "B",
+          "D",
+          "G"
+        ]
+      },
+      "passed": true,
+      "format_ok": false,
+      "content": "AB→DG",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.8401148679986363,
+      "prompt_tokens": 587,
+      "completion_tokens": 32,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 33.211557622052474,
+      "prompt_tokens_per_second": 102.88595092340141,
+      "case_id": "zh_path_length",
+      "category": "path_length_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "cal_path_len",
+        "arguments": {
+          "path": [
+            "A",
+            "B",
+            "D",
+            "G"
+          ]
+        }
+      },
+      "tool_result": 3,
+      "passed": true,
+      "format_ok": true,
+      "content": "3",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.13150331399810966,
+      "prompt_tokens": 1624,
+      "completion_tokens": 3,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 35.656344155033786,
+      "prompt_tokens_per_second": 37.89170550566481,
+      "case_id": "long_context",
+      "category": "long_context",
+      "passed": false,
+      "format_ok": true,
+      "content": "42",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 1.2166274760020315,
+      "prompt_tokens": 37,
+      "completion_tokens": 50,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 44.23268922112553,
+      "prompt_tokens_per_second": 37.64918489514702,
+      "case_id": "network_concept",
+      "category": "network_knowledge",
+      "passed": true,
+      "format_ok": true,
+      "content": "丢包指的是数据在传输过程中丢失的现象，而时延则是指从发送请求到收到响应所需的时间间隔；两者是衡量不同方面性能的指标：前者反映的是数据的完整性和可靠性问题，后者则是通信效率的问题。",
+      "run_index": 2
+    },
+    {
+      "wall_seconds": 0.05774815400218358,
+      "prompt_tokens": 18,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 45.46074464699732,
+      "prompt_tokens_per_second": 44.37344692935747,
+      "case_id": "zh_exact_ok",
+      "category": "instruction_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "正常",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.055101937003200874,
+      "prompt_tokens": 19,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 44.175464946768564,
+      "prompt_tokens_per_second": 45.349417259988215,
+      "case_id": "en_exact_ok",
+      "category": "instruction_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "OK",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.05855419200088363,
+      "prompt_tokens": 29,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 43.87504387504387,
+      "prompt_tokens_per_second": 44.78079799382025,
+      "case_id": "zh_math",
+      "category": "reasoning_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "7",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.058329904000856914,
+      "prompt_tokens": 31,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 44.59706551308924,
+      "prompt_tokens_per_second": 44.75674707962225,
+      "case_id": "en_math",
+      "category": "reasoning_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "9",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.6445997949995217,
+      "prompt_tokens": 44,
+      "completion_tokens": 28,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 44.39781760061039,
+      "prompt_tokens_per_second": 45.21408871004205,
+      "case_id": "zh_json",
+      "category": "json_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "{\n  \"device\": \"R1\",\n  \"interface\": \"Gi0/1\",\n  \"status\": \"DOWN\"\n}",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.676878354002838,
+      "prompt_tokens": 39,
+      "completion_tokens": 29,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 43.91130543606279,
+      "prompt_tokens_per_second": 43.9792417978714,
+      "case_id": "en_json",
+      "category": "json_en",
+      "passed": false,
+      "format_ok": true,
+      "content": "{\n  \"device\": \"Device R2\",\n  \"interface\": \"Gi0/2\",\n  \"status\": \"DOWN\"\n}",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.05851732299925061,
+      "prompt_tokens": 50,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 45.15284237142728,
+      "prompt_tokens_per_second": 45.16507836141096,
+      "case_id": "zh_classify",
+      "category": "classification_zh",
+      "passed": true,
+      "format_ok": true,
+      "content": "LINK",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.05740930299361935,
+      "prompt_tokens": 48,
+      "completion_tokens": 2,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 45.26935264825713,
+      "prompt_tokens_per_second": 45.06940688660537,
+      "case_id": "en_classify",
+      "category": "classification_en",
+      "passed": true,
+      "format_ok": true,
+      "content": "LINK",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.6131368379938067,
+      "prompt_tokens": 241,
+      "completion_tokens": 26,
+      "finish_reason": "tool_calls",
+      "decode_tokens_per_second": 44.10174448860499,
+      "prompt_tokens_per_second": 41.625041625041625,
+      "case_id": "zh_tool_select",
+      "category": "tool_select_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "C",
+          "end": "D"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.6274425219962723,
+      "prompt_tokens": 243,
+      "completion_tokens": 26,
+      "finish_reason": "tool_calls",
+      "decode_tokens_per_second": 43.268989461404935,
+      "prompt_tokens_per_second": 37.3134328358209,
+      "case_id": "en_tool_select",
+      "category": "tool_select_en",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "C",
+          "end": "D"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.8777690249989973,
+      "prompt_tokens": 559,
+      "completion_tokens": 34,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 43.441295295307725,
+      "prompt_tokens_per_second": 99.43075890526735,
+      "case_id": "zh_tool_chain",
+      "category": "tool_chain_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "A",
+          "end": "G"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "A",
+          "B",
+          "D",
+          "G"
+        ]
+      },
+      "passed": true,
+      "format_ok": true,
+      "content": "A → B → D → G",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.7842799030040624,
+      "prompt_tokens": 561,
+      "completion_tokens": 30,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 41.519618019514226,
+      "prompt_tokens_per_second": 101.29659643435981,
+      "case_id": "en_tool_chain",
+      "category": "tool_chain_en",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "bfs_search",
+        "arguments": {
+          "start": "A",
+          "end": "G"
+        }
+      },
+      "tool_result": {
+        "found": true,
+        "path": [
+          "A",
+          "B",
+          "D",
+          "G"
+        ]
+      },
+      "passed": true,
+      "format_ok": false,
+      "content": "AB→DG",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.8201590600001509,
+      "prompt_tokens": 587,
+      "completion_tokens": 32,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 37.64918489514702,
+      "prompt_tokens_per_second": 101.05603557172452,
+      "case_id": "zh_path_length",
+      "category": "path_length_zh",
+      "tool_called": true,
+      "tool_ok": true,
+      "tool_selected": {
+        "name": "cal_path_len",
+        "arguments": {
+          "path": [
+            "A",
+            "B",
+            "D",
+            "G"
+          ]
+        }
+      },
+      "tool_result": 3,
+      "passed": true,
+      "format_ok": true,
+      "content": "3",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 0.11042499700124608,
+      "prompt_tokens": 1624,
+      "completion_tokens": 3,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 42.244001351808045,
+      "prompt_tokens_per_second": 35.87830080367394,
+      "case_id": "long_context",
+      "category": "long_context",
+      "passed": false,
+      "format_ok": true,
+      "content": "42",
+      "run_index": 3
+    },
+    {
+      "wall_seconds": 1.100319306999154,
+      "prompt_tokens": 37,
+      "completion_tokens": 46,
+      "finish_reason": "stop",
+      "decode_tokens_per_second": 44.43320997357705,
+      "prompt_tokens_per_second": 37.46019853905226,
+      "case_id": "network_concept",
+      "category": "network_knowledge",
+      "passed": true,
+      "format_ok": true,
+      "content": "丢包指的是数据传输过程中丢失的比特或字节数（bitrate）与发送速率之间的差异；而时延则是指从发出请求到收到响应所需的时间，是衡量通信系统性能的重要指标之一。",
+      "run_index": 3
+    }
+  ]
+}

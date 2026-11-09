@@ -22,11 +22,8 @@ class BaseAgentExecutor(AgentExecutor):
         super().__init__()
         self.agent = agent
     async def execute(self, context: RequestContext, event_queue: EventQueue):
-        if context.current_task:
-            task = context.current_task
-        else:
-            task = new_task_from_user_message(context.message)
-            await event_queue.enqueue_event(task)
+        task = new_task_from_user_message(context.message)
+        await event_queue.enqueue_event(task)
 
         updater = TaskUpdater(
             event_queue=event_queue,
@@ -34,10 +31,8 @@ class BaseAgentExecutor(AgentExecutor):
             context_id=task.context_id
         )
         data_parts = get_data_parts(context.message.parts)
-        if data_parts:
-            user_input = json.dumps(data_parts[0], ensure_ascii=False)
-        else:
-            user_input = get_message_text(context.message)
+        user_input = json.dumps(data_parts[0], ensure_ascii=False)
+        print(user_input)
         content = await self.agent.run(user_input)
         await updater.add_artifact(
             parts=[new_data_part({"content": content}, media_type="application/json")]
