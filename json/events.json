@@ -1,0 +1,1680 @@
+{
+    "code": 0,
+    "msg": "ok",
+    "data": {
+        "events": [
+            {
+                "eventId": "EVT1000",
+                "type": "node_state_changed",
+                "time": "11:24:19.529536",
+                "tsUs": 1794885859529536,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND001",
+                    "state": "online",
+                    "position": {
+                        "x": 15092.3,
+                        "y": 18621.5
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1001",
+                "type": "node_state_changed",
+                "time": "11:24:19.529842",
+                "tsUs": 1794885859529842,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND002",
+                    "state": "online",
+                    "position": {
+                        "x": 24985.6,
+                        "y": 36118.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1002",
+                "type": "node_state_changed",
+                "time": "11:24:19.530035",
+                "tsUs": 1794885859530035,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND003",
+                    "state": "online",
+                    "position": {
+                        "x": 12999.2,
+                        "y": 4939.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1003",
+                "type": "node_state_changed",
+                "time": "11:24:19.530325",
+                "tsUs": 1794885859530325,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND004",
+                    "state": "online",
+                    "position": {
+                        "x": 26288.7,
+                        "y": 19494.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1004",
+                "type": "node_state_changed",
+                "time": "11:24:19.530498",
+                "tsUs": 1794885859530498,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND005",
+                    "state": "online",
+                    "position": {
+                        "x": 7129.0,
+                        "y": 7515.3
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1005",
+                "type": "node_state_changed",
+                "time": "11:24:19.530671",
+                "tsUs": 1794885859530671,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND006",
+                    "state": "online",
+                    "position": {
+                        "x": 76273.2,
+                        "y": 24226.7
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1006",
+                "type": "node_state_changed",
+                "time": "11:24:19.530869",
+                "tsUs": 1794885859530869,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND007",
+                    "state": "online",
+                    "position": {
+                        "x": 57729.1,
+                        "y": 36803.7
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1007",
+                "type": "node_state_changed",
+                "time": "11:24:19.531064",
+                "tsUs": 1794885859531064,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND008",
+                    "state": "online",
+                    "position": {
+                        "x": 72303.9,
+                        "y": 8469.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1008",
+                "type": "node_state_changed",
+                "time": "11:24:19.531294",
+                "tsUs": 1794885859531294,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND009",
+                    "state": "online",
+                    "position": {
+                        "x": 54614.1,
+                        "y": 22501.9
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1009",
+                "type": "node_state_changed",
+                "time": "11:24:19.531529",
+                "tsUs": 1794885859531529,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND010",
+                    "state": "online",
+                    "position": {
+                        "x": 74702.6,
+                        "y": 23711.3
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1010",
+                "type": "node_state_changed",
+                "time": "11:24:19.531764",
+                "tsUs": 1794885859531764,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND011",
+                    "state": "online",
+                    "position": {
+                        "x": 98976.1,
+                        "y": 17824.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1011",
+                "type": "node_state_changed",
+                "time": "11:24:19.532012",
+                "tsUs": 1794885859532012,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND012",
+                    "state": "online",
+                    "position": {
+                        "x": 107605.2,
+                        "y": 30742.8
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1012",
+                "type": "node_state_changed",
+                "time": "11:24:19.532434",
+                "tsUs": 1794885859532434,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND013",
+                    "state": "online",
+                    "position": {
+                        "x": 88907.5,
+                        "y": 9603.5
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1013",
+                "type": "node_state_changed",
+                "time": "11:24:19.532603",
+                "tsUs": 1794885859532603,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND014",
+                    "state": "online",
+                    "position": {
+                        "x": 103103.3,
+                        "y": 17584.1
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1014",
+                "type": "node_state_changed",
+                "time": "11:24:19.532796",
+                "tsUs": 1794885859532796,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND015",
+                    "state": "online",
+                    "position": {
+                        "x": 97707.0,
+                        "y": 14653.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1015",
+                "type": "node_state_changed",
+                "time": "11:24:19.532945",
+                "tsUs": 1794885859532945,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND016",
+                    "state": "online",
+                    "position": {
+                        "x": 9062.9,
+                        "y": 104217.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1016",
+                "type": "node_state_changed",
+                "time": "11:24:19.533102",
+                "tsUs": 1794885859533102,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND017",
+                    "state": "online",
+                    "position": {
+                        "x": 21959.2,
+                        "y": 112034.1
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1017",
+                "type": "node_state_changed",
+                "time": "11:24:19.533266",
+                "tsUs": 1794885859533266,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND018",
+                    "state": "online",
+                    "position": {
+                        "x": 24638.3,
+                        "y": 114588.9
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1018",
+                "type": "node_state_changed",
+                "time": "11:24:19.533451",
+                "tsUs": 1794885859533451,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND019",
+                    "state": "online",
+                    "position": {
+                        "x": 24651.8,
+                        "y": 113918.6
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1019",
+                "type": "node_state_changed",
+                "time": "11:24:19.533620",
+                "tsUs": 1794885859533620,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND020",
+                    "state": "online",
+                    "position": {
+                        "x": 15782.7,
+                        "y": 116228.3
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1020",
+                "type": "node_state_changed",
+                "time": "11:24:19.533794",
+                "tsUs": 1794885859533794,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND021",
+                    "state": "online",
+                    "position": {
+                        "x": 73172.5,
+                        "y": 93520.6
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1021",
+                "type": "node_state_changed",
+                "time": "11:24:19.533974",
+                "tsUs": 1794885859533974,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND022",
+                    "state": "online",
+                    "position": {
+                        "x": 64727.9,
+                        "y": 95992.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1022",
+                "type": "node_state_changed",
+                "time": "11:24:19.534163",
+                "tsUs": 1794885859534163,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND023",
+                    "state": "online",
+                    "position": {
+                        "x": 64684.5,
+                        "y": 83240.1
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1023",
+                "type": "node_state_changed",
+                "time": "11:24:19.534354",
+                "tsUs": 1794885859534354,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND024",
+                    "state": "online",
+                    "position": {
+                        "x": 48576.4,
+                        "y": 111016.3
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1024",
+                "type": "node_state_changed",
+                "time": "11:24:19.534550",
+                "tsUs": 1794885859534550,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND025",
+                    "state": "online",
+                    "position": {
+                        "x": 74427.3,
+                        "y": 91417.1
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1025",
+                "type": "node_state_changed",
+                "time": "11:24:19.534753",
+                "tsUs": 1794885859534753,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND026",
+                    "state": "online",
+                    "position": {
+                        "x": 109611.0,
+                        "y": 110404.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1026",
+                "type": "node_state_changed",
+                "time": "11:24:19.534964",
+                "tsUs": 1794885859534964,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "GND027",
+                    "state": "online",
+                    "position": {
+                        "x": 106361.7,
+                        "y": 88200.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1027",
+                "type": "node_state_changed",
+                "time": "11:24:19.535189",
+                "tsUs": 1794885859535190,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0001",
+                    "state": "online",
+                    "position": {
+                        "x": 22903.7,
+                        "y": 6425.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1028",
+                "type": "node_state_changed",
+                "time": "11:24:19.535415",
+                "tsUs": 1794885859535415,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0001",
+                    "state": "online",
+                    "position": {
+                        "x": 22903.7,
+                        "y": 6425.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1029",
+                "type": "node_state_changed",
+                "time": "11:24:19.535645",
+                "tsUs": 1794885859535646,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0002",
+                    "state": "online",
+                    "position": {
+                        "x": 62935.2,
+                        "y": 27156.9
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1030",
+                "type": "node_state_changed",
+                "time": "11:24:19.535882",
+                "tsUs": 1794885859535882,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0002",
+                    "state": "online",
+                    "position": {
+                        "x": 62935.2,
+                        "y": 27156.9
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1031",
+                "type": "node_state_changed",
+                "time": "11:24:19.536124",
+                "tsUs": 1794885859536124,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0003",
+                    "state": "online",
+                    "position": {
+                        "x": 99821.3,
+                        "y": 23529.8
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1032",
+                "type": "node_state_changed",
+                "time": "11:24:19.536389",
+                "tsUs": 1794885859536389,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0003",
+                    "state": "online",
+                    "position": {
+                        "x": 99821.3,
+                        "y": 23529.8
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1033",
+                "type": "node_state_changed",
+                "time": "11:24:19.536648",
+                "tsUs": 1794885859536648,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0004",
+                    "state": "online",
+                    "position": {
+                        "x": 17855.5,
+                        "y": 100262.6
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1034",
+                "type": "node_state_changed",
+                "time": "11:24:19.536949",
+                "tsUs": 1794885859536950,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0004",
+                    "state": "online",
+                    "position": {
+                        "x": 17855.5,
+                        "y": 100262.6
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1035",
+                "type": "node_state_changed",
+                "time": "11:24:19.537230",
+                "tsUs": 1794885859537230,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0005",
+                    "state": "online",
+                    "position": {
+                        "x": 52501.5,
+                        "y": 115214.8
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1036",
+                "type": "node_state_changed",
+                "time": "11:24:19.537509",
+                "tsUs": 1794885859537509,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0005",
+                    "state": "online",
+                    "position": {
+                        "x": 52501.5,
+                        "y": 115214.8
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1037",
+                "type": "node_state_changed",
+                "time": "11:24:19.537796",
+                "tsUs": 1794885859537796,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0006",
+                    "state": "online",
+                    "position": {
+                        "x": 108952.2,
+                        "y": 113390.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1038",
+                "type": "node_state_changed",
+                "time": "11:24:19.538084",
+                "tsUs": 1794885859538084,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0006",
+                    "state": "online",
+                    "position": {
+                        "x": 108952.2,
+                        "y": 113390.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1039",
+                "type": "node_state_changed",
+                "time": "11:24:19.538383",
+                "tsUs": 1794885859538383,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0007",
+                    "state": "online",
+                    "position": {
+                        "x": 9520.8,
+                        "y": 32253.1
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1040",
+                "type": "node_state_changed",
+                "time": "11:24:19.538690",
+                "tsUs": 1794885859538690,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0007",
+                    "state": "online",
+                    "position": {
+                        "x": 9520.8,
+                        "y": 32253.1
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1041",
+                "type": "node_state_changed",
+                "time": "11:24:19.538997",
+                "tsUs": 1794885859538998,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0008",
+                    "state": "online",
+                    "position": {
+                        "x": 64169.8,
+                        "y": 11767.3
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1042",
+                "type": "node_state_changed",
+                "time": "11:24:19.539313",
+                "tsUs": 1794885859539313,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0008",
+                    "state": "online",
+                    "position": {
+                        "x": 64169.8,
+                        "y": 11767.3
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1043",
+                "type": "node_state_changed",
+                "time": "11:24:19.539629",
+                "tsUs": 1794885859539630,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0009",
+                    "state": "online",
+                    "position": {
+                        "x": 84180.5,
+                        "y": 28095.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1044",
+                "type": "node_state_changed",
+                "time": "11:24:19.539957",
+                "tsUs": 1794885859539957,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0009",
+                    "state": "online",
+                    "position": {
+                        "x": 84180.5,
+                        "y": 28095.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1045",
+                "type": "node_state_changed",
+                "time": "11:24:19.540293",
+                "tsUs": 1794885859540292,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0010",
+                    "state": "online",
+                    "position": {
+                        "x": 14315.0,
+                        "y": 111391.5
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1046",
+                "type": "node_state_changed",
+                "time": "11:24:19.540635",
+                "tsUs": 1794885859540635,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0010",
+                    "state": "online",
+                    "position": {
+                        "x": 14315.0,
+                        "y": 111391.5
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1047",
+                "type": "node_state_changed",
+                "time": "11:24:19.540986",
+                "tsUs": 1794885859540986,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0011",
+                    "state": "online",
+                    "position": {
+                        "x": 63488.0,
+                        "y": 100520.7
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1048",
+                "type": "node_state_changed",
+                "time": "11:24:19.541346",
+                "tsUs": 1794885859541346,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0011",
+                    "state": "online",
+                    "position": {
+                        "x": 63488.0,
+                        "y": 100520.7
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1049",
+                "type": "node_state_changed",
+                "time": "11:24:19.541709",
+                "tsUs": 1794885859541709,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0012",
+                    "state": "online",
+                    "position": {
+                        "x": 89947.4,
+                        "y": 103036.8
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1050",
+                "type": "node_state_changed",
+                "time": "11:24:19.542071",
+                "tsUs": 1794885859542071,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0012",
+                    "state": "online",
+                    "position": {
+                        "x": 89947.4,
+                        "y": 103036.8
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1051",
+                "type": "node_state_changed",
+                "time": "11:24:19.542454",
+                "tsUs": 1794885859542454,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0013",
+                    "state": "online",
+                    "position": {
+                        "x": 17745.5,
+                        "y": 6548.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1052",
+                "type": "node_state_changed",
+                "time": "11:24:19.542839",
+                "tsUs": 1794885859542839,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0013",
+                    "state": "online",
+                    "position": {
+                        "x": 17745.5,
+                        "y": 6548.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1053",
+                "type": "node_state_changed",
+                "time": "11:24:19.543238",
+                "tsUs": 1794885859543238,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0014",
+                    "state": "online",
+                    "position": {
+                        "x": 43620.6,
+                        "y": 20423.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1054",
+                "type": "node_state_changed",
+                "time": "11:24:19.543635",
+                "tsUs": 1794885859543635,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0014",
+                    "state": "online",
+                    "position": {
+                        "x": 43620.6,
+                        "y": 20423.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1055",
+                "type": "node_state_changed",
+                "time": "11:24:19.544042",
+                "tsUs": 1794885859544042,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0015",
+                    "state": "online",
+                    "position": {
+                        "x": 109158.8,
+                        "y": 24492.1
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1056",
+                "type": "node_state_changed",
+                "time": "11:24:19.544508",
+                "tsUs": 1794885859544508,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0015",
+                    "state": "online",
+                    "position": {
+                        "x": 109158.8,
+                        "y": 24492.1
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1057",
+                "type": "node_state_changed",
+                "time": "11:24:19.544960",
+                "tsUs": 1794885859544960,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0016",
+                    "state": "online",
+                    "position": {
+                        "x": 19472.8,
+                        "y": 94412.3
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1058",
+                "type": "node_state_changed",
+                "time": "11:24:19.545418",
+                "tsUs": 1794885859545418,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0016",
+                    "state": "online",
+                    "position": {
+                        "x": 19472.8,
+                        "y": 94412.3
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1059",
+                "type": "node_state_changed",
+                "time": "11:24:19.545858",
+                "tsUs": 1794885859545858,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0017",
+                    "state": "online",
+                    "position": {
+                        "x": 72543.6,
+                        "y": 90063.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1060",
+                "type": "node_state_changed",
+                "time": "11:24:19.546329",
+                "tsUs": 1794885859546330,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0017",
+                    "state": "online",
+                    "position": {
+                        "x": 72543.6,
+                        "y": 90063.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1061",
+                "type": "node_state_changed",
+                "time": "11:24:19.546793",
+                "tsUs": 1794885859546792,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0018",
+                    "state": "online",
+                    "position": {
+                        "x": 94436.5,
+                        "y": 92832.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1062",
+                "type": "node_state_changed",
+                "time": "11:24:19.547268",
+                "tsUs": 1794885859547268,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0018",
+                    "state": "online",
+                    "position": {
+                        "x": 94436.5,
+                        "y": 92832.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1063",
+                "type": "node_state_changed",
+                "time": "11:24:19.547749",
+                "tsUs": 1794885859547748,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0019",
+                    "state": "online",
+                    "position": {
+                        "x": 30359.6,
+                        "y": 14791.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1064",
+                "type": "node_state_changed",
+                "time": "11:24:19.548235",
+                "tsUs": 1794885859548235,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0019",
+                    "state": "online",
+                    "position": {
+                        "x": 30359.6,
+                        "y": 14791.2
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1065",
+                "type": "node_state_changed",
+                "time": "11:24:19.548739",
+                "tsUs": 1794885859548739,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0020",
+                    "state": "online",
+                    "position": {
+                        "x": 59919.4,
+                        "y": 11191.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1066",
+                "type": "node_state_changed",
+                "time": "11:24:19.549219",
+                "tsUs": 1794885859549219,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "UAV0020",
+                    "state": "online",
+                    "position": {
+                        "x": 59919.4,
+                        "y": 11191.4
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1067",
+                "type": "node_state_changed",
+                "time": "11:24:19.549710",
+                "tsUs": 1794885859549710,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR001",
+                    "state": "online",
+                    "position": {
+                        "x": 30000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1068",
+                "type": "node_state_changed",
+                "time": "11:24:19.550210",
+                "tsUs": 1794885859550210,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR001",
+                    "state": "online",
+                    "position": {
+                        "x": 30000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1069",
+                "type": "node_state_changed",
+                "time": "11:24:19.550717",
+                "tsUs": 1794885859550717,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR001",
+                    "state": "online",
+                    "position": {
+                        "x": 30000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1070",
+                "type": "node_state_changed",
+                "time": "11:24:19.551238",
+                "tsUs": 1794885859551238,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR001",
+                    "state": "online",
+                    "position": {
+                        "x": 30000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1071",
+                "type": "node_state_changed",
+                "time": "11:24:19.551747",
+                "tsUs": 1794885859551746,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR001",
+                    "state": "online",
+                    "position": {
+                        "x": 30000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1072",
+                "type": "node_state_changed",
+                "time": "11:24:19.552269",
+                "tsUs": 1794885859552270,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR001",
+                    "state": "online",
+                    "position": {
+                        "x": 30000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1073",
+                "type": "node_state_changed",
+                "time": "11:24:19.552784",
+                "tsUs": 1794885859552784,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR002",
+                    "state": "online",
+                    "position": {
+                        "x": 70000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1074",
+                "type": "node_state_changed",
+                "time": "11:24:19.553304",
+                "tsUs": 1794885859553304,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR002",
+                    "state": "online",
+                    "position": {
+                        "x": 70000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1075",
+                "type": "node_state_changed",
+                "time": "11:24:19.553827",
+                "tsUs": 1794885859553827,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR003",
+                    "state": "online",
+                    "position": {
+                        "x": 110000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1076",
+                "type": "node_state_changed",
+                "time": "11:24:19.554354",
+                "tsUs": 1794885859554354,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "nodeId": "AIR003",
+                    "state": "online",
+                    "position": {
+                        "x": 110000.0,
+                        "y": 30000.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1077",
+                "type": "link_state_changed",
+                "time": "11:24:19.554912",
+                "tsUs": 1794885859554912,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L99001",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 0.1,
+                        "jitterMs": 0.1,
+                        "bandwidthBps": 1000000000,
+                        "ber": 0.0,
+                        "packetLossRate": 0.0
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1078",
+                "type": "link_state_changed",
+                "time": "11:24:19.555544",
+                "tsUs": 1794885859555544,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00051",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 3.0,
+                        "jitterMs": 8.0,
+                        "bandwidthBps": 21000000,
+                        "ber": 6e-07,
+                        "packetLossRate": 0.002
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1079",
+                "type": "link_state_changed",
+                "time": "11:24:19.556117",
+                "tsUs": 1794885859556117,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00052",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 14.4,
+                        "jitterMs": 9.7,
+                        "bandwidthBps": 220000,
+                        "ber": 5e-05,
+                        "packetLossRate": 0.0009
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1080",
+                "type": "link_state_changed",
+                "time": "11:24:19.556697",
+                "tsUs": 1794885859556697,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00070",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 9.2,
+                        "jitterMs": 10.6,
+                        "bandwidthBps": 150000,
+                        "ber": 8e-06,
+                        "packetLossRate": 0.003
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1081",
+                "type": "link_state_changed",
+                "time": "11:24:19.557281",
+                "tsUs": 1794885859557281,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00069",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 5.7,
+                        "jitterMs": 3.8,
+                        "bandwidthBps": 26000000,
+                        "ber": 3e-06,
+                        "packetLossRate": 0.0005
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1082",
+                "type": "link_state_changed",
+                "time": "11:24:19.557866",
+                "tsUs": 1794885859557866,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00072",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 10.1,
+                        "jitterMs": 13.6,
+                        "bandwidthBps": 200000,
+                        "ber": 7e-05,
+                        "packetLossRate": 4e-05
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1083",
+                "type": "link_state_changed",
+                "time": "11:24:19.558465",
+                "tsUs": 1794885859558465,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00071",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 4.5,
+                        "jitterMs": 3.4,
+                        "bandwidthBps": 27000000,
+                        "ber": 4e-06,
+                        "packetLossRate": 0.0003
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1084",
+                "type": "link_state_changed",
+                "time": "11:24:19.559068",
+                "tsUs": 1794885859559068,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00073",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 5.8,
+                        "jitterMs": 0.5,
+                        "bandwidthBps": 21000000,
+                        "ber": 8e-06,
+                        "packetLossRate": 0.002
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1085",
+                "type": "link_state_changed",
+                "time": "11:24:19.559679",
+                "tsUs": 1794885859559678,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00074",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 6.7,
+                        "jitterMs": 17.6,
+                        "bandwidthBps": 150000,
+                        "ber": 8e-05,
+                        "packetLossRate": 0.0006
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1086",
+                "type": "link_state_changed",
+                "time": "11:24:19.560303",
+                "tsUs": 1794885859560303,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00075",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 2.3,
+                        "jitterMs": 3.8,
+                        "bandwidthBps": 23000000,
+                        "ber": 2e-07,
+                        "packetLossRate": 0.002
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1087",
+                "type": "link_state_changed",
+                "time": "11:24:19.560931",
+                "tsUs": 1794885859560931,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00076",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 261.7,
+                        "jitterMs": 112.1,
+                        "bandwidthBps": 14000000,
+                        "ber": 6e-05,
+                        "packetLossRate": 0.0006
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1088",
+                "type": "link_state_changed",
+                "time": "11:24:19.561573",
+                "tsUs": 1794885859561572,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00078",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 456.3,
+                        "jitterMs": 83.6,
+                        "bandwidthBps": 14000000,
+                        "ber": 2e-06,
+                        "packetLossRate": 0.0005
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1089",
+                "type": "link_state_changed",
+                "time": "11:24:19.562218",
+                "tsUs": 1794885859562218,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00077",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 0.5,
+                        "jitterMs": 6.0,
+                        "bandwidthBps": 27000000,
+                        "ber": 7e-06,
+                        "packetLossRate": 0.001
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1090",
+                "type": "link_state_changed",
+                "time": "11:24:19.562875",
+                "tsUs": 1794885859562874,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00079",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 1.3,
+                        "jitterMs": 2.4,
+                        "bandwidthBps": 28000000,
+                        "ber": 3e-06,
+                        "packetLossRate": 0.0004
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1091",
+                "type": "link_state_changed",
+                "time": "11:24:19.563548",
+                "tsUs": 1794885859563548,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00080",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 14.2,
+                        "jitterMs": 15.3,
+                        "bandwidthBps": 48000,
+                        "ber": 5e-05,
+                        "packetLossRate": 0.003
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1092",
+                "type": "link_state_changed",
+                "time": "11:24:19.564273",
+                "tsUs": 1794885859564273,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00081",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 4.3,
+                        "jitterMs": 9.2,
+                        "bandwidthBps": 25000000,
+                        "ber": 3e-07,
+                        "packetLossRate": 0.0009
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1093",
+                "type": "link_state_changed",
+                "time": "11:24:19.564968",
+                "tsUs": 1794885859564968,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00082",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 3.9,
+                        "jitterMs": 9.6,
+                        "bandwidthBps": 250000,
+                        "ber": 5e-05,
+                        "packetLossRate": 0.003
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1094",
+                "type": "link_state_changed",
+                "time": "11:24:19.565694",
+                "tsUs": 1794885859565694,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00084",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 412.6,
+                        "jitterMs": 164.6,
+                        "bandwidthBps": 13000000,
+                        "ber": 7e-05,
+                        "packetLossRate": 9e-06
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1095",
+                "type": "link_state_changed",
+                "time": "11:24:19.566395",
+                "tsUs": 1794885859566395,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00083",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 4.5,
+                        "jitterMs": 5.6,
+                        "bandwidthBps": 27000000,
+                        "ber": 4e-06,
+                        "packetLossRate": 0.0007000000000000001
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1096",
+                "type": "link_state_changed",
+                "time": "11:24:19.567101",
+                "tsUs": 1794885859567101,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00086",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 19.0,
+                        "jitterMs": 4.7,
+                        "bandwidthBps": 63000,
+                        "ber": 8e-05,
+                        "packetLossRate": 0.002
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1097",
+                "type": "link_state_changed",
+                "time": "11:24:19.567810",
+                "tsUs": 1794885859567810,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00085",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 4.8,
+                        "jitterMs": 3.9,
+                        "bandwidthBps": 28000000,
+                        "ber": 2e-06,
+                        "packetLossRate": 0.002
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1098",
+                "type": "link_state_changed",
+                "time": "11:24:19.568532",
+                "tsUs": 1794885859568532,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00088",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 5.3,
+                        "jitterMs": 3.1,
+                        "bandwidthBps": 47000,
+                        "ber": 8e-05,
+                        "packetLossRate": 8.999999999999999e-05
+                    }
+                }
+            },
+            {
+                "eventId": "EVT1099",
+                "type": "link_state_changed",
+                "time": "11:24:19.569309",
+                "tsUs": 1794885859569310,
+                "payload": {
+                    "instanceId": "20261117-112408",
+                    "scenarioId": "sce01",
+                    "linkId": "L00087",
+                    "event": "link_up",
+                    "params": {
+                        "delayMs": 1.6,
+                        "jitterMs": 3.0,
+                        "bandwidthBps": 26000000,
+                        "ber": 7e-06,
+                        "packetLossRate": 0.0004
+                    }
+                }
+            }
+        ],
+        "nextSinceTsUs": 1794885859569310
+    },
+    "time": "16:07:29.779850",
+    "tsUs": 1794902849779850
+}

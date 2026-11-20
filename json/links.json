@@ -1,0 +1,6458 @@
+{
+    "links": [
+        {
+            "linkId": "L99001",
+            "linkType": "fiber",
+            "srcNodeId": "EXT001",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 0.1,
+                "jitterMs": 0.1,
+                "bandwidthBps": 1000000000,
+                "ber": 0.0,
+                "packetLossRate": 0.0
+            }
+        },
+        {
+            "linkId": "L00196",
+            "linkType": "5g",
+            "srcNodeId": "UAV0001",
+            "dstNodeId": "GND006",
+            "status": "up",
+            "params": {
+                "delayMs": 2.7,
+                "jitterMs": 4.9,
+                "bandwidthBps": 30000000,
+                "ber": 7e-06,
+                "packetLossRate": 3e-05
+            }
+        },
+        {
+            "linkId": "L00197",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0001",
+            "dstNodeId": "GND009",
+            "status": "up",
+            "params": {
+                "delayMs": 17.2,
+                "jitterMs": 12.2,
+                "bandwidthBps": 61000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00215",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0010",
+            "dstNodeId": "GND050",
+            "status": "up",
+            "params": {
+                "delayMs": 326.3,
+                "jitterMs": 121.8,
+                "bandwidthBps": 18000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00214",
+            "linkType": "5g",
+            "srcNodeId": "UAV0010",
+            "dstNodeId": "GND074",
+            "status": "up",
+            "params": {
+                "delayMs": 6.4,
+                "jitterMs": 5.8,
+                "bandwidthBps": 29000000,
+                "ber": 1e-06,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00394",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0100",
+            "dstNodeId": "GND077",
+            "status": "up",
+            "params": {
+                "delayMs": 4.7,
+                "jitterMs": 6.8,
+                "bandwidthBps": 30000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00396",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0101",
+            "dstNodeId": "GND078",
+            "status": "up",
+            "params": {
+                "delayMs": 3.3,
+                "jitterMs": 2.6,
+                "bandwidthBps": 23000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00398",
+            "linkType": "5g",
+            "srcNodeId": "UAV0102",
+            "dstNodeId": "GND067",
+            "status": "up",
+            "params": {
+                "delayMs": 4.5,
+                "jitterMs": 6.0,
+                "bandwidthBps": 25000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00400",
+            "linkType": "5g",
+            "srcNodeId": "UAV0103",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 5.1,
+                "jitterMs": 10.3,
+                "bandwidthBps": 24000000,
+                "ber": 6e-06,
+                "packetLossRate": 4e-05
+            }
+        },
+        {
+            "linkId": "L00402",
+            "linkType": "5g",
+            "srcNodeId": "UAV0104",
+            "dstNodeId": "GND099",
+            "status": "up",
+            "params": {
+                "delayMs": 4.2,
+                "jitterMs": 10.8,
+                "bandwidthBps": 30000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00404",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0105",
+            "dstNodeId": "GND101",
+            "status": "up",
+            "params": {
+                "delayMs": 4.6,
+                "jitterMs": 3.9,
+                "bandwidthBps": 21000000,
+                "ber": 8e-06,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00406",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0106",
+            "dstNodeId": "GND002",
+            "status": "up",
+            "params": {
+                "delayMs": 3.7,
+                "jitterMs": 2.6,
+                "bandwidthBps": 24000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00408",
+            "linkType": "5g",
+            "srcNodeId": "UAV0107",
+            "dstNodeId": "GND004",
+            "status": "up",
+            "params": {
+                "delayMs": 1.2,
+                "jitterMs": 1.7,
+                "bandwidthBps": 30000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00410",
+            "linkType": "5g",
+            "srcNodeId": "UAV0108",
+            "dstNodeId": "GND012",
+            "status": "up",
+            "params": {
+                "delayMs": 2.4,
+                "jitterMs": 3.0,
+                "bandwidthBps": 26000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00412",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0109",
+            "dstNodeId": "GND043",
+            "status": "up",
+            "params": {
+                "delayMs": 4.5,
+                "jitterMs": 1.2,
+                "bandwidthBps": 29000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00216",
+            "linkType": "5g",
+            "srcNodeId": "UAV0011",
+            "dstNodeId": "GND029",
+            "status": "up",
+            "params": {
+                "delayMs": 2.8,
+                "jitterMs": 2.2,
+                "bandwidthBps": 30000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00217",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0011",
+            "dstNodeId": "GND058",
+            "status": "up",
+            "params": {
+                "delayMs": 12.4,
+                "jitterMs": 4.9,
+                "bandwidthBps": 160000,
+                "ber": 5e-06,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00414",
+            "linkType": "5g",
+            "srcNodeId": "UAV0110",
+            "dstNodeId": "GND044",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 5.1,
+                "bandwidthBps": 30000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00416",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0111",
+            "dstNodeId": "GND035",
+            "status": "up",
+            "params": {
+                "delayMs": 3.0,
+                "jitterMs": 7.7,
+                "bandwidthBps": 21000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00418",
+            "linkType": "5g",
+            "srcNodeId": "UAV0112",
+            "dstNodeId": "GND058",
+            "status": "up",
+            "params": {
+                "delayMs": 0.7,
+                "jitterMs": 7.7,
+                "bandwidthBps": 23000000,
+                "ber": 9e-07,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00420",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0113",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 3.6,
+                "jitterMs": 0.4,
+                "bandwidthBps": 22000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00422",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0114",
+            "dstNodeId": "GND044",
+            "status": "up",
+            "params": {
+                "delayMs": 8.0,
+                "jitterMs": 6.2,
+                "bandwidthBps": 24000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00424",
+            "linkType": "5g",
+            "srcNodeId": "UAV0115",
+            "dstNodeId": "GND016",
+            "status": "up",
+            "params": {
+                "delayMs": 7.3,
+                "jitterMs": 8.7,
+                "bandwidthBps": 26000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00426",
+            "linkType": "5g",
+            "srcNodeId": "UAV0116",
+            "dstNodeId": "GND029",
+            "status": "up",
+            "params": {
+                "delayMs": 3.6,
+                "jitterMs": 10.4,
+                "bandwidthBps": 30000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00428",
+            "linkType": "5g",
+            "srcNodeId": "UAV0117",
+            "dstNodeId": "GND034",
+            "status": "up",
+            "params": {
+                "delayMs": 1.6,
+                "jitterMs": 6.1,
+                "bandwidthBps": 30000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00430",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0118",
+            "dstNodeId": "GND040",
+            "status": "up",
+            "params": {
+                "delayMs": 0.1,
+                "jitterMs": 5.9,
+                "bandwidthBps": 25000000,
+                "ber": 8e-07,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00432",
+            "linkType": "5g",
+            "srcNodeId": "UAV0119",
+            "dstNodeId": "GND063",
+            "status": "up",
+            "params": {
+                "delayMs": 4.9,
+                "jitterMs": 1.3,
+                "bandwidthBps": 24000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00219",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0012",
+            "dstNodeId": "GND034",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 7.1,
+                "bandwidthBps": 160000,
+                "ber": 4e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00218",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0012",
+            "dstNodeId": "GND083",
+            "status": "up",
+            "params": {
+                "delayMs": 2.6,
+                "jitterMs": 5.3,
+                "bandwidthBps": 25000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00434",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0120",
+            "dstNodeId": "GND072",
+            "status": "up",
+            "params": {
+                "delayMs": 7.4,
+                "jitterMs": 0.5,
+                "bandwidthBps": 20000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00436",
+            "linkType": "5g",
+            "srcNodeId": "UAV0121",
+            "dstNodeId": "GND078",
+            "status": "up",
+            "params": {
+                "delayMs": 7.3,
+                "jitterMs": 0.8,
+                "bandwidthBps": 26000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00438",
+            "linkType": "5g",
+            "srcNodeId": "UAV0122",
+            "dstNodeId": "GND101",
+            "status": "up",
+            "params": {
+                "delayMs": 7.7,
+                "jitterMs": 6.0,
+                "bandwidthBps": 28000000,
+                "ber": 1e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00440",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0123",
+            "dstNodeId": "GND083",
+            "status": "up",
+            "params": {
+                "delayMs": 7.7,
+                "jitterMs": 1.2,
+                "bandwidthBps": 25000000,
+                "ber": 9e-06,
+                "packetLossRate": 4e-05
+            }
+        },
+        {
+            "linkId": "L00442",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0124",
+            "dstNodeId": "GND097",
+            "status": "up",
+            "params": {
+                "delayMs": 7.0,
+                "jitterMs": 4.6,
+                "bandwidthBps": 29000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00444",
+            "linkType": "5g",
+            "srcNodeId": "UAV0125",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 4.0,
+                "jitterMs": 6.6,
+                "bandwidthBps": 31000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00446",
+            "linkType": "5g",
+            "srcNodeId": "UAV0126",
+            "dstNodeId": "GND101",
+            "status": "up",
+            "params": {
+                "delayMs": 3.8,
+                "jitterMs": 7.1,
+                "bandwidthBps": 27000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00448",
+            "linkType": "5g",
+            "srcNodeId": "UAV0127",
+            "dstNodeId": "GND004",
+            "status": "up",
+            "params": {
+                "delayMs": 3.5,
+                "jitterMs": 4.2,
+                "bandwidthBps": 24000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00450",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0128",
+            "dstNodeId": "GND015",
+            "status": "up",
+            "params": {
+                "delayMs": 8.0,
+                "jitterMs": 7.9,
+                "bandwidthBps": 22000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00452",
+            "linkType": "5g",
+            "srcNodeId": "UAV0129",
+            "dstNodeId": "GND011",
+            "status": "up",
+            "params": {
+                "delayMs": 4.0,
+                "jitterMs": 2.5,
+                "bandwidthBps": 23000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00221",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0013",
+            "dstNodeId": "GND039",
+            "status": "up",
+            "params": {
+                "delayMs": 457.5,
+                "jitterMs": 135.0,
+                "bandwidthBps": 12000000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00220",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0013",
+            "dstNodeId": "GND040",
+            "status": "up",
+            "params": {
+                "delayMs": 2.5,
+                "jitterMs": 0.2,
+                "bandwidthBps": 20000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00454",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0130",
+            "dstNodeId": "GND018",
+            "status": "up",
+            "params": {
+                "delayMs": 4.8,
+                "jitterMs": 1.2,
+                "bandwidthBps": 25000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00456",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0131",
+            "dstNodeId": "GND022",
+            "status": "up",
+            "params": {
+                "delayMs": 1.6,
+                "jitterMs": 6.6,
+                "bandwidthBps": 27000000,
+                "ber": 7e-06,
+                "packetLossRate": 3e-05
+            }
+        },
+        {
+            "linkId": "L00458",
+            "linkType": "5g",
+            "srcNodeId": "UAV0132",
+            "dstNodeId": "GND058",
+            "status": "up",
+            "params": {
+                "delayMs": 2.1,
+                "jitterMs": 10.7,
+                "bandwidthBps": 27000000,
+                "ber": 6e-06,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00460",
+            "linkType": "5g",
+            "srcNodeId": "UAV0133",
+            "dstNodeId": "GND030",
+            "status": "up",
+            "params": {
+                "delayMs": 0.1,
+                "jitterMs": 2.3,
+                "bandwidthBps": 30000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00462",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0134",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 1.2,
+                "jitterMs": 0.8,
+                "bandwidthBps": 22000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00464",
+            "linkType": "5g",
+            "srcNodeId": "UAV0135",
+            "dstNodeId": "GND045",
+            "status": "up",
+            "params": {
+                "delayMs": 1.8,
+                "jitterMs": 10.0,
+                "bandwidthBps": 27000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00466",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0136",
+            "dstNodeId": "GND045",
+            "status": "up",
+            "params": {
+                "delayMs": 3.9,
+                "jitterMs": 6.1,
+                "bandwidthBps": 29000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00468",
+            "linkType": "5g",
+            "srcNodeId": "UAV0137",
+            "dstNodeId": "GND058",
+            "status": "up",
+            "params": {
+                "delayMs": 6.4,
+                "jitterMs": 9.3,
+                "bandwidthBps": 28000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00470",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0138",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 5.3,
+                "jitterMs": 2.9,
+                "bandwidthBps": 21000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00472",
+            "linkType": "5g",
+            "srcNodeId": "UAV0139",
+            "dstNodeId": "GND087",
+            "status": "up",
+            "params": {
+                "delayMs": 3.9,
+                "jitterMs": 11.7,
+                "bandwidthBps": 28000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00222",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0014",
+            "dstNodeId": "GND066",
+            "status": "up",
+            "params": {
+                "delayMs": 7.8,
+                "jitterMs": 3.7,
+                "bandwidthBps": 23000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00223",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0014",
+            "dstNodeId": "GND070",
+            "status": "up",
+            "params": {
+                "delayMs": 17.4,
+                "jitterMs": 5.1,
+                "bandwidthBps": 56000,
+                "ber": 4e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00474",
+            "linkType": "5g",
+            "srcNodeId": "UAV0140",
+            "dstNodeId": "GND098",
+            "status": "up",
+            "params": {
+                "delayMs": 2.6,
+                "jitterMs": 7.2,
+                "bandwidthBps": 31000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00476",
+            "linkType": "5g",
+            "srcNodeId": "UAV0141",
+            "dstNodeId": "GND097",
+            "status": "up",
+            "params": {
+                "delayMs": 5.9,
+                "jitterMs": 3.6,
+                "bandwidthBps": 30000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00478",
+            "linkType": "5g",
+            "srcNodeId": "UAV0142",
+            "dstNodeId": "GND059",
+            "status": "up",
+            "params": {
+                "delayMs": 8.0,
+                "jitterMs": 7.3,
+                "bandwidthBps": 27000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00480",
+            "linkType": "5g",
+            "srcNodeId": "UAV0143",
+            "dstNodeId": "GND078",
+            "status": "up",
+            "params": {
+                "delayMs": 3.0,
+                "jitterMs": 4.0,
+                "bandwidthBps": 24000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00482",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0144",
+            "dstNodeId": "GND094",
+            "status": "up",
+            "params": {
+                "delayMs": 4.2,
+                "jitterMs": 3.3,
+                "bandwidthBps": 21000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00484",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0145",
+            "dstNodeId": "GND090",
+            "status": "up",
+            "params": {
+                "delayMs": 2.9,
+                "jitterMs": 1.6,
+                "bandwidthBps": 31000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00486",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0146",
+            "dstNodeId": "GND095",
+            "status": "up",
+            "params": {
+                "delayMs": 7.4,
+                "jitterMs": 4.5,
+                "bandwidthBps": 30000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00488",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0147",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 4.8,
+                "bandwidthBps": 28000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00490",
+            "linkType": "5g",
+            "srcNodeId": "UAV0148",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 3.1,
+                "jitterMs": 9.8,
+                "bandwidthBps": 25000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00492",
+            "linkType": "5g",
+            "srcNodeId": "UAV0149",
+            "dstNodeId": "GND010",
+            "status": "up",
+            "params": {
+                "delayMs": 8.0,
+                "jitterMs": 2.6,
+                "bandwidthBps": 30000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00225",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0015",
+            "dstNodeId": "GND048",
+            "status": "up",
+            "params": {
+                "delayMs": 2.9,
+                "jitterMs": 18.7,
+                "bandwidthBps": 160000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00224",
+            "linkType": "5g",
+            "srcNodeId": "UAV0015",
+            "dstNodeId": "GND068",
+            "status": "up",
+            "params": {
+                "delayMs": 3.0,
+                "jitterMs": 8.1,
+                "bandwidthBps": 29000000,
+                "ber": 6e-06,
+                "packetLossRate": 6e-05
+            }
+        },
+        {
+            "linkId": "L00494",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0150",
+            "dstNodeId": "GND012",
+            "status": "up",
+            "params": {
+                "delayMs": 1.5,
+                "jitterMs": 0.2,
+                "bandwidthBps": 28000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00496",
+            "linkType": "5g",
+            "srcNodeId": "UAV0151",
+            "dstNodeId": "GND016",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 5.2,
+                "bandwidthBps": 29000000,
+                "ber": 3e-07,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00498",
+            "linkType": "5g",
+            "srcNodeId": "UAV0152",
+            "dstNodeId": "GND025",
+            "status": "up",
+            "params": {
+                "delayMs": 6.7,
+                "jitterMs": 1.0,
+                "bandwidthBps": 25000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00500",
+            "linkType": "5g",
+            "srcNodeId": "UAV0153",
+            "dstNodeId": "GND030",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 9.1,
+                "bandwidthBps": 29000000,
+                "ber": 5e-07,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00502",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0154",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 2.0,
+                "jitterMs": 5.9,
+                "bandwidthBps": 27000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00504",
+            "linkType": "5g",
+            "srcNodeId": "UAV0155",
+            "dstNodeId": "GND008",
+            "status": "up",
+            "params": {
+                "delayMs": 4.2,
+                "jitterMs": 8.4,
+                "bandwidthBps": 24000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00506",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0156",
+            "dstNodeId": "GND045",
+            "status": "up",
+            "params": {
+                "delayMs": 0.8,
+                "jitterMs": 6.2,
+                "bandwidthBps": 29000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00508",
+            "linkType": "5g",
+            "srcNodeId": "UAV0157",
+            "dstNodeId": "GND050",
+            "status": "up",
+            "params": {
+                "delayMs": 4.6,
+                "jitterMs": 5.5,
+                "bandwidthBps": 24000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00510",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0158",
+            "dstNodeId": "GND029",
+            "status": "up",
+            "params": {
+                "delayMs": 7.6,
+                "jitterMs": 5.7,
+                "bandwidthBps": 26000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00512",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0159",
+            "dstNodeId": "GND083",
+            "status": "up",
+            "params": {
+                "delayMs": 6.0,
+                "jitterMs": 6.6,
+                "bandwidthBps": 25000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00227",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0016",
+            "dstNodeId": "GND078",
+            "status": "up",
+            "params": {
+                "delayMs": 310.1,
+                "jitterMs": 10.1,
+                "bandwidthBps": 18000000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00226",
+            "linkType": "5g",
+            "srcNodeId": "UAV0016",
+            "dstNodeId": "GND081",
+            "status": "up",
+            "params": {
+                "delayMs": 2.6,
+                "jitterMs": 10.5,
+                "bandwidthBps": 23000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00514",
+            "linkType": "5g",
+            "srcNodeId": "UAV0160",
+            "dstNodeId": "GND039",
+            "status": "up",
+            "params": {
+                "delayMs": 5.5,
+                "jitterMs": 11.2,
+                "bandwidthBps": 27000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00516",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0161",
+            "dstNodeId": "GND075",
+            "status": "up",
+            "params": {
+                "delayMs": 6.6,
+                "jitterMs": 7.5,
+                "bandwidthBps": 21000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00518",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0162",
+            "dstNodeId": "GND099",
+            "status": "up",
+            "params": {
+                "delayMs": 6.4,
+                "jitterMs": 4.1,
+                "bandwidthBps": 20000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00520",
+            "linkType": "5g",
+            "srcNodeId": "UAV0163",
+            "dstNodeId": "GND077",
+            "status": "up",
+            "params": {
+                "delayMs": 3.2,
+                "jitterMs": 1.7,
+                "bandwidthBps": 29000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00522",
+            "linkType": "5g",
+            "srcNodeId": "UAV0164",
+            "dstNodeId": "GND101",
+            "status": "up",
+            "params": {
+                "delayMs": 3.4,
+                "jitterMs": 0.7,
+                "bandwidthBps": 23000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00524",
+            "linkType": "5g",
+            "srcNodeId": "UAV0165",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 1.1,
+                "bandwidthBps": 30000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00526",
+            "linkType": "5g",
+            "srcNodeId": "UAV0166",
+            "dstNodeId": "GND094",
+            "status": "up",
+            "params": {
+                "delayMs": 6.3,
+                "jitterMs": 12.0,
+                "bandwidthBps": 30000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00528",
+            "linkType": "5g",
+            "srcNodeId": "UAV0167",
+            "dstNodeId": "GND100",
+            "status": "up",
+            "params": {
+                "delayMs": 0.1,
+                "jitterMs": 1.2,
+                "bandwidthBps": 30000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00530",
+            "linkType": "5g",
+            "srcNodeId": "UAV0168",
+            "dstNodeId": "GND102",
+            "status": "up",
+            "params": {
+                "delayMs": 1.8,
+                "jitterMs": 12.0,
+                "bandwidthBps": 31000000,
+                "ber": 9e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00532",
+            "linkType": "5g",
+            "srcNodeId": "UAV0169",
+            "dstNodeId": "GND005",
+            "status": "up",
+            "params": {
+                "delayMs": 5.7,
+                "jitterMs": 4.0,
+                "bandwidthBps": 24000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00228",
+            "linkType": "5g",
+            "srcNodeId": "UAV0017",
+            "dstNodeId": "GND083",
+            "status": "up",
+            "params": {
+                "delayMs": 5.9,
+                "jitterMs": 10.4,
+                "bandwidthBps": 31000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00229",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0017",
+            "dstNodeId": "GND089",
+            "status": "up",
+            "params": {
+                "delayMs": 470.2,
+                "jitterMs": 174.0,
+                "bandwidthBps": 17000000,
+                "ber": 0.0001,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00534",
+            "linkType": "5g",
+            "srcNodeId": "UAV0170",
+            "dstNodeId": "GND032",
+            "status": "up",
+            "params": {
+                "delayMs": 4.4,
+                "jitterMs": 2.8,
+                "bandwidthBps": 31000000,
+                "ber": 4e-07,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00536",
+            "linkType": "microwave",
+            "srcNodeId": "AIR001",
+            "dstNodeId": "GND005",
+            "status": "up",
+            "params": {
+                "delayMs": 2.0,
+                "jitterMs": 3.3,
+                "bandwidthBps": 21000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00545",
+            "linkType": "satcom",
+            "srcNodeId": "AIR001",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 276.8,
+                "jitterMs": 154.5,
+                "bandwidthBps": 14000000,
+                "ber": 5e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00546",
+            "linkType": "uhf",
+            "srcNodeId": "AIR002",
+            "dstNodeId": "GND033",
+            "status": "up",
+            "params": {
+                "delayMs": 17.7,
+                "jitterMs": 3.7,
+                "bandwidthBps": 220000,
+                "ber": 6e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00555",
+            "linkType": "satcom",
+            "srcNodeId": "AIR002",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 314.7,
+                "jitterMs": 146.0,
+                "bandwidthBps": 18000000,
+                "ber": 7e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00556",
+            "linkType": "vhf",
+            "srcNodeId": "AIR003",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 12.2,
+                "jitterMs": 14.5,
+                "bandwidthBps": 47000,
+                "ber": 0.0001,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00565",
+            "linkType": "satcom",
+            "srcNodeId": "AIR003",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 322.1,
+                "jitterMs": 13.6,
+                "bandwidthBps": 16000000,
+                "ber": 3e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00231",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0018",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 317.1,
+                "jitterMs": 139.6,
+                "bandwidthBps": 16000000,
+                "ber": 6e-05,
+                "packetLossRate": 8.999999999999999e-05
+            }
+        },
+        {
+            "linkId": "L00230",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0018",
+            "dstNodeId": "GND094",
+            "status": "up",
+            "params": {
+                "delayMs": 0.7,
+                "jitterMs": 4.4,
+                "bandwidthBps": 22000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00233",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0019",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 7.1,
+                "jitterMs": 4.6,
+                "bandwidthBps": 47000,
+                "ber": 4e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00232",
+            "linkType": "5g",
+            "srcNodeId": "UAV0019",
+            "dstNodeId": "GND094",
+            "status": "up",
+            "params": {
+                "delayMs": 4.5,
+                "jitterMs": 0.3,
+                "bandwidthBps": 23000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00198",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0002",
+            "dstNodeId": "GND026",
+            "status": "up",
+            "params": {
+                "delayMs": 7.8,
+                "jitterMs": 6.0,
+                "bandwidthBps": 29000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00199",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0002",
+            "dstNodeId": "GND028",
+            "status": "up",
+            "params": {
+                "delayMs": 10.0,
+                "jitterMs": 5.6,
+                "bandwidthBps": 61000,
+                "ber": 5e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00235",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0020",
+            "dstNodeId": "GND068",
+            "status": "up",
+            "params": {
+                "delayMs": 16.9,
+                "jitterMs": 11.2,
+                "bandwidthBps": 48000,
+                "ber": 4e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00234",
+            "linkType": "5g",
+            "srcNodeId": "UAV0020",
+            "dstNodeId": "GND073",
+            "status": "up",
+            "params": {
+                "delayMs": 7.3,
+                "jitterMs": 5.0,
+                "bandwidthBps": 29000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00236",
+            "linkType": "5g",
+            "srcNodeId": "UAV0021",
+            "dstNodeId": "GND102",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 7.2,
+                "bandwidthBps": 31000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00237",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0021",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 410.8,
+                "jitterMs": 198.3,
+                "bandwidthBps": 12000000,
+                "ber": 0.0001,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00238",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0022",
+            "dstNodeId": "GND005",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 1.2,
+                "bandwidthBps": 28000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00239",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0022",
+            "dstNodeId": "GND009",
+            "status": "up",
+            "params": {
+                "delayMs": 7.3,
+                "jitterMs": 4.7,
+                "bandwidthBps": 250000,
+                "ber": 6e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00240",
+            "linkType": "5g",
+            "srcNodeId": "UAV0023",
+            "dstNodeId": "GND032",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 3.0,
+                "bandwidthBps": 26000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00241",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0023",
+            "dstNodeId": "GND008",
+            "status": "up",
+            "params": {
+                "delayMs": 3.7,
+                "jitterMs": 6.8,
+                "bandwidthBps": 62000,
+                "ber": 4e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00242",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0024",
+            "dstNodeId": "GND011",
+            "status": "up",
+            "params": {
+                "delayMs": 5.1,
+                "jitterMs": 5.9,
+                "bandwidthBps": 21000000,
+                "ber": 2e-07,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00243",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0024",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 9.5,
+                "jitterMs": 3.8,
+                "bandwidthBps": 230000,
+                "ber": 2e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00244",
+            "linkType": "5g",
+            "srcNodeId": "UAV0025",
+            "dstNodeId": "GND024",
+            "status": "up",
+            "params": {
+                "delayMs": 2.4,
+                "jitterMs": 7.7,
+                "bandwidthBps": 24000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00245",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0025",
+            "dstNodeId": "GND025",
+            "status": "up",
+            "params": {
+                "delayMs": 17.8,
+                "jitterMs": 6.7,
+                "bandwidthBps": 52000,
+                "ber": 0.0001,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00246",
+            "linkType": "5g",
+            "srcNodeId": "UAV0026",
+            "dstNodeId": "GND019",
+            "status": "up",
+            "params": {
+                "delayMs": 2.4,
+                "jitterMs": 1.5,
+                "bandwidthBps": 29000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00247",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0026",
+            "dstNodeId": "GND020",
+            "status": "up",
+            "params": {
+                "delayMs": 470.5,
+                "jitterMs": 110.6,
+                "bandwidthBps": 12000000,
+                "ber": 7e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00248",
+            "linkType": "5g",
+            "srcNodeId": "UAV0027",
+            "dstNodeId": "GND030",
+            "status": "up",
+            "params": {
+                "delayMs": 7.0,
+                "jitterMs": 8.6,
+                "bandwidthBps": 27000000,
+                "ber": 3e-06,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00249",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0027",
+            "dstNodeId": "GND005",
+            "status": "up",
+            "params": {
+                "delayMs": 8.3,
+                "jitterMs": 5.0,
+                "bandwidthBps": 230000,
+                "ber": 6e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00250",
+            "linkType": "5g",
+            "srcNodeId": "UAV0028",
+            "dstNodeId": "GND031",
+            "status": "up",
+            "params": {
+                "delayMs": 3.8,
+                "jitterMs": 5.2,
+                "bandwidthBps": 26000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00251",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0028",
+            "dstNodeId": "GND033",
+            "status": "up",
+            "params": {
+                "delayMs": 312.6,
+                "jitterMs": 193.4,
+                "bandwidthBps": 12000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00253",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0029",
+            "dstNodeId": "GND014",
+            "status": "up",
+            "params": {
+                "delayMs": 8.9,
+                "jitterMs": 8.5,
+                "bandwidthBps": 160000,
+                "ber": 8e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00252",
+            "linkType": "5g",
+            "srcNodeId": "UAV0029",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 7.7,
+                "jitterMs": 10.3,
+                "bandwidthBps": 28000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00200",
+            "linkType": "5g",
+            "srcNodeId": "UAV0003",
+            "dstNodeId": "GND033",
+            "status": "up",
+            "params": {
+                "delayMs": 7.0,
+                "jitterMs": 3.5,
+                "bandwidthBps": 24000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00201",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0003",
+            "dstNodeId": "GND008",
+            "status": "up",
+            "params": {
+                "delayMs": 14.6,
+                "jitterMs": 17.9,
+                "bandwidthBps": 170000,
+                "ber": 4e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00255",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0030",
+            "dstNodeId": "GND017",
+            "status": "up",
+            "params": {
+                "delayMs": 18.4,
+                "jitterMs": 14.6,
+                "bandwidthBps": 170000,
+                "ber": 8e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00254",
+            "linkType": "5g",
+            "srcNodeId": "UAV0030",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 2.9,
+                "jitterMs": 0.6,
+                "bandwidthBps": 30000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00257",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0031",
+            "dstNodeId": "GND048",
+            "status": "up",
+            "params": {
+                "delayMs": 15.2,
+                "jitterMs": 8.1,
+                "bandwidthBps": 47000,
+                "ber": 2e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00256",
+            "linkType": "5g",
+            "srcNodeId": "UAV0031",
+            "dstNodeId": "GND050",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 11.3,
+                "bandwidthBps": 28000000,
+                "ber": 6e-06,
+                "packetLossRate": 9e-06
+            }
+        },
+        {
+            "linkId": "L00258",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0032",
+            "dstNodeId": "GND029",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 7.9,
+                "bandwidthBps": 31000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00259",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0032",
+            "dstNodeId": "GND053",
+            "status": "up",
+            "params": {
+                "delayMs": 369.4,
+                "jitterMs": 112.4,
+                "bandwidthBps": 14000000,
+                "ber": 8e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00261",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0033",
+            "dstNodeId": "GND085",
+            "status": "up",
+            "params": {
+                "delayMs": 6.5,
+                "jitterMs": 19.4,
+                "bandwidthBps": 62000,
+                "ber": 3e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00260",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0033",
+            "dstNodeId": "GND089",
+            "status": "up",
+            "params": {
+                "delayMs": 1.0,
+                "jitterMs": 7.2,
+                "bandwidthBps": 30000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00262",
+            "linkType": "5g",
+            "srcNodeId": "UAV0034",
+            "dstNodeId": "GND063",
+            "status": "up",
+            "params": {
+                "delayMs": 0.5,
+                "jitterMs": 9.7,
+                "bandwidthBps": 27000000,
+                "ber": 5e-07,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00263",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0034",
+            "dstNodeId": "GND067",
+            "status": "up",
+            "params": {
+                "delayMs": 3.5,
+                "jitterMs": 12.6,
+                "bandwidthBps": 230000,
+                "ber": 6e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00264",
+            "linkType": "5g",
+            "srcNodeId": "UAV0035",
+            "dstNodeId": "GND064",
+            "status": "up",
+            "params": {
+                "delayMs": 0.2,
+                "jitterMs": 2.1,
+                "bandwidthBps": 23000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00265",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0035",
+            "dstNodeId": "GND065",
+            "status": "up",
+            "params": {
+                "delayMs": 8.1,
+                "jitterMs": 7.6,
+                "bandwidthBps": 51000,
+                "ber": 7e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00266",
+            "linkType": "5g",
+            "srcNodeId": "UAV0036",
+            "dstNodeId": "GND069",
+            "status": "up",
+            "params": {
+                "delayMs": 3.7,
+                "jitterMs": 3.7,
+                "bandwidthBps": 26000000,
+                "ber": 4e-07,
+                "packetLossRate": 3e-05
+            }
+        },
+        {
+            "linkId": "L00267",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0036",
+            "dstNodeId": "GND071",
+            "status": "up",
+            "params": {
+                "delayMs": 496.1,
+                "jitterMs": 114.7,
+                "bandwidthBps": 14000000,
+                "ber": 6e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00268",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0037",
+            "dstNodeId": "GND077",
+            "status": "up",
+            "params": {
+                "delayMs": 2.8,
+                "jitterMs": 0.3,
+                "bandwidthBps": 28000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00269",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0037",
+            "dstNodeId": "GND082",
+            "status": "up",
+            "params": {
+                "delayMs": 352.1,
+                "jitterMs": 97.9,
+                "bandwidthBps": 13000000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00270",
+            "linkType": "5g",
+            "srcNodeId": "UAV0038",
+            "dstNodeId": "GND083",
+            "status": "up",
+            "params": {
+                "delayMs": 2.1,
+                "jitterMs": 10.6,
+                "bandwidthBps": 23000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00271",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0038",
+            "dstNodeId": "GND089",
+            "status": "up",
+            "params": {
+                "delayMs": 2.8,
+                "jitterMs": 12.5,
+                "bandwidthBps": 63000,
+                "ber": 4e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00272",
+            "linkType": "5g",
+            "srcNodeId": "UAV0039",
+            "dstNodeId": "GND088",
+            "status": "up",
+            "params": {
+                "delayMs": 7.4,
+                "jitterMs": 2.7,
+                "bandwidthBps": 30000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00273",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0039",
+            "dstNodeId": "GND089",
+            "status": "up",
+            "params": {
+                "delayMs": 3.6,
+                "jitterMs": 8.9,
+                "bandwidthBps": 220000,
+                "ber": 4e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00203",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0004",
+            "dstNodeId": "GND014",
+            "status": "up",
+            "params": {
+                "delayMs": 8.3,
+                "jitterMs": 12.7,
+                "bandwidthBps": 190000,
+                "ber": 0.0001,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00202",
+            "linkType": "5g",
+            "srcNodeId": "UAV0004",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 4.8,
+                "jitterMs": 2.6,
+                "bandwidthBps": 23000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00275",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0040",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 14.0,
+                "jitterMs": 4.6,
+                "bandwidthBps": 46000,
+                "ber": 5e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00274",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0040",
+            "dstNodeId": "GND094",
+            "status": "up",
+            "params": {
+                "delayMs": 4.7,
+                "jitterMs": 2.6,
+                "bandwidthBps": 23000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00277",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0041",
+            "dstNodeId": "GND100",
+            "status": "up",
+            "params": {
+                "delayMs": 14.7,
+                "jitterMs": 17.6,
+                "bandwidthBps": 170000,
+                "ber": 6e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00276",
+            "linkType": "5g",
+            "srcNodeId": "UAV0041",
+            "dstNodeId": "GND095",
+            "status": "up",
+            "params": {
+                "delayMs": 5.2,
+                "jitterMs": 9.2,
+                "bandwidthBps": 31000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00278",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0042",
+            "dstNodeId": "GND081",
+            "status": "up",
+            "params": {
+                "delayMs": 4.7,
+                "jitterMs": 5.0,
+                "bandwidthBps": 30000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00279",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0042",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 1.7,
+                "jitterMs": 12.2,
+                "bandwidthBps": 220000,
+                "ber": 6e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00280",
+            "linkType": "5g",
+            "srcNodeId": "UAV0043",
+            "dstNodeId": "GND032",
+            "status": "up",
+            "params": {
+                "delayMs": 3.6,
+                "jitterMs": 7.8,
+                "bandwidthBps": 28000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00281",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0043",
+            "dstNodeId": "GND006",
+            "status": "up",
+            "params": {
+                "delayMs": 348.6,
+                "jitterMs": 34.8,
+                "bandwidthBps": 17000000,
+                "ber": 5e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00282",
+            "linkType": "5g",
+            "srcNodeId": "UAV0044",
+            "dstNodeId": "GND026",
+            "status": "up",
+            "params": {
+                "delayMs": 4.3,
+                "jitterMs": 2.3,
+                "bandwidthBps": 26000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00283",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0044",
+            "dstNodeId": "GND032",
+            "status": "up",
+            "params": {
+                "delayMs": 19.0,
+                "jitterMs": 15.3,
+                "bandwidthBps": 200000,
+                "ber": 7e-05,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00285",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0045",
+            "dstNodeId": "GND036",
+            "status": "up",
+            "params": {
+                "delayMs": 1.3,
+                "jitterMs": 7.7,
+                "bandwidthBps": 51000,
+                "ber": 5e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00284",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0045",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 2.4,
+                "jitterMs": 5.7,
+                "bandwidthBps": 28000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00287",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0046",
+            "dstNodeId": "GND017",
+            "status": "up",
+            "params": {
+                "delayMs": 13.9,
+                "jitterMs": 8.4,
+                "bandwidthBps": 180000,
+                "ber": 0.0001,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00286",
+            "linkType": "5g",
+            "srcNodeId": "UAV0046",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 6.4,
+                "jitterMs": 0.2,
+                "bandwidthBps": 31000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00289",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0047",
+            "dstNodeId": "GND021",
+            "status": "up",
+            "params": {
+                "delayMs": 518.9,
+                "jitterMs": 115.3,
+                "bandwidthBps": 13000000,
+                "ber": 7e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00288",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0047",
+            "dstNodeId": "GND022",
+            "status": "up",
+            "params": {
+                "delayMs": 6.7,
+                "jitterMs": 0.4,
+                "bandwidthBps": 25000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00291",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0048",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 16.3,
+                "bandwidthBps": 61000,
+                "ber": 5e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00290",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0048",
+            "dstNodeId": "GND003",
+            "status": "up",
+            "params": {
+                "delayMs": 6.6,
+                "jitterMs": 1.8,
+                "bandwidthBps": 25000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00293",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0049",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 437.0,
+                "jitterMs": 191.9,
+                "bandwidthBps": 15000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00292",
+            "linkType": "5g",
+            "srcNodeId": "UAV0049",
+            "dstNodeId": "GND057",
+            "status": "up",
+            "params": {
+                "delayMs": 0.5,
+                "jitterMs": 9.2,
+                "bandwidthBps": 28000000,
+                "ber": 9e-06,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00204",
+            "linkType": "5g",
+            "srcNodeId": "UAV0005",
+            "dstNodeId": "GND022",
+            "status": "up",
+            "params": {
+                "delayMs": 4.9,
+                "jitterMs": 11.1,
+                "bandwidthBps": 25000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00205",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0005",
+            "dstNodeId": "GND074",
+            "status": "up",
+            "params": {
+                "delayMs": 6.4,
+                "jitterMs": 17.9,
+                "bandwidthBps": 63000,
+                "ber": 3e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00294",
+            "linkType": "5g",
+            "srcNodeId": "UAV0050",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 0.9,
+                "jitterMs": 1.5,
+                "bandwidthBps": 26000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00295",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0050",
+            "dstNodeId": "GND057",
+            "status": "up",
+            "params": {
+                "delayMs": 7.4,
+                "jitterMs": 12.8,
+                "bandwidthBps": 180000,
+                "ber": 3e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00297",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0051",
+            "dstNodeId": "GND043",
+            "status": "up",
+            "params": {
+                "delayMs": 16.0,
+                "jitterMs": 1.0,
+                "bandwidthBps": 59000,
+                "ber": 5e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00296",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0051",
+            "dstNodeId": "GND074",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 3.5,
+                "bandwidthBps": 30000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00299",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0052",
+            "dstNodeId": "GND050",
+            "status": "up",
+            "params": {
+                "delayMs": 17.5,
+                "jitterMs": 0.9,
+                "bandwidthBps": 51000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00298",
+            "linkType": "5g",
+            "srcNodeId": "UAV0052",
+            "dstNodeId": "GND072",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 4.9,
+                "bandwidthBps": 27000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00300",
+            "linkType": "5g",
+            "srcNodeId": "UAV0053",
+            "dstNodeId": "GND029",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 10.7,
+                "bandwidthBps": 26000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00301",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0053",
+            "dstNodeId": "GND054",
+            "status": "up",
+            "params": {
+                "delayMs": 2.4,
+                "jitterMs": 12.5,
+                "bandwidthBps": 59000,
+                "ber": 9e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00302",
+            "linkType": "5g",
+            "srcNodeId": "UAV0054",
+            "dstNodeId": "GND034",
+            "status": "up",
+            "params": {
+                "delayMs": 7.6,
+                "jitterMs": 2.5,
+                "bandwidthBps": 29000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00303",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0054",
+            "dstNodeId": "GND035",
+            "status": "up",
+            "params": {
+                "delayMs": 5.2,
+                "jitterMs": 12.5,
+                "bandwidthBps": 58000,
+                "ber": 2e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00304",
+            "linkType": "5g",
+            "srcNodeId": "UAV0055",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 1.7,
+                "jitterMs": 4.4,
+                "bandwidthBps": 30000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00305",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0055",
+            "dstNodeId": "GND057",
+            "status": "up",
+            "params": {
+                "delayMs": 3.1,
+                "jitterMs": 19.1,
+                "bandwidthBps": 180000,
+                "ber": 5e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00307",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0056",
+            "dstNodeId": "GND045",
+            "status": "up",
+            "params": {
+                "delayMs": 0.6,
+                "jitterMs": 12.2,
+                "bandwidthBps": 53000,
+                "ber": 9e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00306",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0056",
+            "dstNodeId": "GND048",
+            "status": "up",
+            "params": {
+                "delayMs": 2.6,
+                "jitterMs": 7.7,
+                "bandwidthBps": 27000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00308",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0057",
+            "dstNodeId": "GND069",
+            "status": "up",
+            "params": {
+                "delayMs": 5.3,
+                "jitterMs": 0.8,
+                "bandwidthBps": 21000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00309",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0057",
+            "dstNodeId": "GND071",
+            "status": "up",
+            "params": {
+                "delayMs": 3.4,
+                "jitterMs": 12.6,
+                "bandwidthBps": 48000,
+                "ber": 1e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00310",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0058",
+            "dstNodeId": "GND101",
+            "status": "up",
+            "params": {
+                "delayMs": 6.0,
+                "jitterMs": 0.6,
+                "bandwidthBps": 29000000,
+                "ber": 3e-07,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00311",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0058",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 17.7,
+                "jitterMs": 16.2,
+                "bandwidthBps": 180000,
+                "ber": 6e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00312",
+            "linkType": "5g",
+            "srcNodeId": "UAV0059",
+            "dstNodeId": "GND081",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 11.7,
+                "bandwidthBps": 27000000,
+                "ber": 8e-06,
+                "packetLossRate": 8.999999999999999e-05
+            }
+        },
+        {
+            "linkId": "L00313",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0059",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 332.8,
+                "jitterMs": 164.5,
+                "bandwidthBps": 18000000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00206",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0006",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 4.6,
+                "jitterMs": 7.0,
+                "bandwidthBps": 23000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00207",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0006",
+            "dstNodeId": "GND002",
+            "status": "up",
+            "params": {
+                "delayMs": 5.1,
+                "jitterMs": 17.2,
+                "bandwidthBps": 50000,
+                "ber": 3e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00315",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0060",
+            "dstNodeId": "GND085",
+            "status": "up",
+            "params": {
+                "delayMs": 16.5,
+                "jitterMs": 17.4,
+                "bandwidthBps": 59000,
+                "ber": 3e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00314",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0060",
+            "dstNodeId": "GND090",
+            "status": "up",
+            "params": {
+                "delayMs": 7.7,
+                "jitterMs": 5.6,
+                "bandwidthBps": 30000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00317",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0061",
+            "dstNodeId": "GND100",
+            "status": "up",
+            "params": {
+                "delayMs": 14.2,
+                "jitterMs": 19.8,
+                "bandwidthBps": 49000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00316",
+            "linkType": "5g",
+            "srcNodeId": "UAV0061",
+            "dstNodeId": "GND095",
+            "status": "up",
+            "params": {
+                "delayMs": 0.7,
+                "jitterMs": 5.7,
+                "bandwidthBps": 30000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00318",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0062",
+            "dstNodeId": "GND100",
+            "status": "up",
+            "params": {
+                "delayMs": 1.9,
+                "jitterMs": 3.6,
+                "bandwidthBps": 28000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00319",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0062",
+            "dstNodeId": "GND096",
+            "status": "up",
+            "params": {
+                "delayMs": 9.2,
+                "jitterMs": 1.7,
+                "bandwidthBps": 210000,
+                "ber": 4e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00320",
+            "linkType": "5g",
+            "srcNodeId": "UAV0063",
+            "dstNodeId": "GND102",
+            "status": "up",
+            "params": {
+                "delayMs": 3.1,
+                "jitterMs": 8.2,
+                "bandwidthBps": 27000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00321",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0063",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 18.2,
+                "jitterMs": 7.0,
+                "bandwidthBps": 190000,
+                "ber": 4e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00322",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0064",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 7.4,
+                "jitterMs": 7.3,
+                "bandwidthBps": 21000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00323",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0064",
+            "dstNodeId": "GND003",
+            "status": "up",
+            "params": {
+                "delayMs": 8.5,
+                "jitterMs": 1.5,
+                "bandwidthBps": 170000,
+                "ber": 4e-06,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00325",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0065",
+            "dstNodeId": "GND015",
+            "status": "up",
+            "params": {
+                "delayMs": 16.9,
+                "jitterMs": 9.9,
+                "bandwidthBps": 60000,
+                "ber": 4e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00324",
+            "linkType": "5g",
+            "srcNodeId": "UAV0065",
+            "dstNodeId": "GND007",
+            "status": "up",
+            "params": {
+                "delayMs": 5.3,
+                "jitterMs": 5.2,
+                "bandwidthBps": 31000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00327",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0066",
+            "dstNodeId": "GND014",
+            "status": "up",
+            "params": {
+                "delayMs": 237.5,
+                "jitterMs": 104.4,
+                "bandwidthBps": 19000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00326",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0066",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 2.0,
+                "jitterMs": 6.5,
+                "bandwidthBps": 21000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00329",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0067",
+            "dstNodeId": "GND017",
+            "status": "up",
+            "params": {
+                "delayMs": 9.7,
+                "jitterMs": 7.0,
+                "bandwidthBps": 46000,
+                "ber": 0.0001,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00328",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0067",
+            "dstNodeId": "GND018",
+            "status": "up",
+            "params": {
+                "delayMs": 1.9,
+                "jitterMs": 2.0,
+                "bandwidthBps": 25000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00331",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0068",
+            "dstNodeId": "GND016",
+            "status": "up",
+            "params": {
+                "delayMs": 375.6,
+                "jitterMs": 189.3,
+                "bandwidthBps": 18000000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00330",
+            "linkType": "5g",
+            "srcNodeId": "UAV0068",
+            "dstNodeId": "GND023",
+            "status": "up",
+            "params": {
+                "delayMs": 3.0,
+                "jitterMs": 7.3,
+                "bandwidthBps": 29000000,
+                "ber": 4e-06,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00332",
+            "linkType": "5g",
+            "srcNodeId": "UAV0069",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 2.9,
+                "jitterMs": 5.4,
+                "bandwidthBps": 30000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00333",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0069",
+            "dstNodeId": "GND003",
+            "status": "up",
+            "params": {
+                "delayMs": 258.0,
+                "jitterMs": 21.6,
+                "bandwidthBps": 14000000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00209",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0007",
+            "dstNodeId": "GND035",
+            "status": "up",
+            "params": {
+                "delayMs": 8.1,
+                "jitterMs": 18.0,
+                "bandwidthBps": 190000,
+                "ber": 6e-06,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00208",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0007",
+            "dstNodeId": "GND058",
+            "status": "up",
+            "params": {
+                "delayMs": 2.0,
+                "jitterMs": 4.4,
+                "bandwidthBps": 23000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00334",
+            "linkType": "5g",
+            "srcNodeId": "UAV0070",
+            "dstNodeId": "GND026",
+            "status": "up",
+            "params": {
+                "delayMs": 7.0,
+                "jitterMs": 2.6,
+                "bandwidthBps": 25000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00335",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0070",
+            "dstNodeId": "GND028",
+            "status": "up",
+            "params": {
+                "delayMs": 510.3,
+                "jitterMs": 38.1,
+                "bandwidthBps": 16000000,
+                "ber": 5e-05,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00336",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0071",
+            "dstNodeId": "GND014",
+            "status": "up",
+            "params": {
+                "delayMs": 6.8,
+                "jitterMs": 3.5,
+                "bandwidthBps": 30000000,
+                "ber": 7e-07,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00337",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0071",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 4.2,
+                "jitterMs": 17.7,
+                "bandwidthBps": 200000,
+                "ber": 0.0001,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00339",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0072",
+            "dstNodeId": "GND043",
+            "status": "up",
+            "params": {
+                "delayMs": 492.4,
+                "jitterMs": 79.8,
+                "bandwidthBps": 18000000,
+                "ber": 6e-05,
+                "packetLossRate": 5e-05
+            }
+        },
+        {
+            "linkId": "L00338",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0072",
+            "dstNodeId": "GND074",
+            "status": "up",
+            "params": {
+                "delayMs": 1.2,
+                "jitterMs": 3.5,
+                "bandwidthBps": 23000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00341",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0073",
+            "dstNodeId": "GND049",
+            "status": "up",
+            "params": {
+                "delayMs": 404.5,
+                "jitterMs": 15.2,
+                "bandwidthBps": 12000000,
+                "ber": 6e-05,
+                "packetLossRate": 5e-05
+            }
+        },
+        {
+            "linkId": "L00340",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0073",
+            "dstNodeId": "GND075",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 1.5,
+                "bandwidthBps": 20000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00342",
+            "linkType": "5g",
+            "srcNodeId": "UAV0074",
+            "dstNodeId": "GND077",
+            "status": "up",
+            "params": {
+                "delayMs": 3.0,
+                "jitterMs": 3.8,
+                "bandwidthBps": 28000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00343",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0074",
+            "dstNodeId": "GND082",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 15.1,
+                "bandwidthBps": 47000,
+                "ber": 3e-05,
+                "packetLossRate": 8.999999999999999e-05
+            }
+        },
+        {
+            "linkId": "L00344",
+            "linkType": "5g",
+            "srcNodeId": "UAV0075",
+            "dstNodeId": "GND059",
+            "status": "up",
+            "params": {
+                "delayMs": 7.0,
+                "jitterMs": 7.6,
+                "bandwidthBps": 26000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00345",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0075",
+            "dstNodeId": "GND060",
+            "status": "up",
+            "params": {
+                "delayMs": 510.4,
+                "jitterMs": 114.7,
+                "bandwidthBps": 13000000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00346",
+            "linkType": "5g",
+            "srcNodeId": "UAV0076",
+            "dstNodeId": "GND083",
+            "status": "up",
+            "params": {
+                "delayMs": 6.9,
+                "jitterMs": 5.7,
+                "bandwidthBps": 26000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00347",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0076",
+            "dstNodeId": "GND089",
+            "status": "up",
+            "params": {
+                "delayMs": 361.0,
+                "jitterMs": 31.2,
+                "bandwidthBps": 15000000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00348",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0077",
+            "dstNodeId": "GND067",
+            "status": "up",
+            "params": {
+                "delayMs": 6.0,
+                "jitterMs": 3.4,
+                "bandwidthBps": 31000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00349",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0077",
+            "dstNodeId": "GND092",
+            "status": "up",
+            "params": {
+                "delayMs": 1.0,
+                "jitterMs": 4.1,
+                "bandwidthBps": 52000,
+                "ber": 2e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00351",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0078",
+            "dstNodeId": "GND050",
+            "status": "up",
+            "params": {
+                "delayMs": 369.5,
+                "jitterMs": 186.0,
+                "bandwidthBps": 17000000,
+                "ber": 2e-07,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00350",
+            "linkType": "5g",
+            "srcNodeId": "UAV0078",
+            "dstNodeId": "GND072",
+            "status": "up",
+            "params": {
+                "delayMs": 3.4,
+                "jitterMs": 10.4,
+                "bandwidthBps": 31000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00353",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0079",
+            "dstNodeId": "GND078",
+            "status": "up",
+            "params": {
+                "delayMs": 0.9,
+                "jitterMs": 8.8,
+                "bandwidthBps": 160000,
+                "ber": 5e-06,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00352",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0079",
+            "dstNodeId": "GND081",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 4.8,
+                "bandwidthBps": 29000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00210",
+            "linkType": "5g",
+            "srcNodeId": "UAV0008",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 7.7,
+                "jitterMs": 2.8,
+                "bandwidthBps": 30000000,
+                "ber": 3e-06,
+                "packetLossRate": 2e-05
+            }
+        },
+        {
+            "linkId": "L00211",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0008",
+            "dstNodeId": "GND065",
+            "status": "up",
+            "params": {
+                "delayMs": 253.8,
+                "jitterMs": 112.3,
+                "bandwidthBps": 13000000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00354",
+            "linkType": "5g",
+            "srcNodeId": "UAV0080",
+            "dstNodeId": "GND081",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 3.9,
+                "bandwidthBps": 31000000,
+                "ber": 4e-06,
+                "packetLossRate": 2e-05
+            }
+        },
+        {
+            "linkId": "L00355",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0080",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 230.6,
+                "jitterMs": 156.9,
+                "bandwidthBps": 18000000,
+                "ber": 6e-05,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00356",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0081",
+            "dstNodeId": "GND085",
+            "status": "up",
+            "params": {
+                "delayMs": 6.4,
+                "jitterMs": 5.2,
+                "bandwidthBps": 27000000,
+                "ber": 3e-06,
+                "packetLossRate": 7.000000000000001e-05
+            }
+        },
+        {
+            "linkId": "L00357",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0081",
+            "dstNodeId": "GND087",
+            "status": "up",
+            "params": {
+                "delayMs": 15.2,
+                "jitterMs": 10.2,
+                "bandwidthBps": 160000,
+                "ber": 8e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00359",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0082",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 333.3,
+                "jitterMs": 175.1,
+                "bandwidthBps": 12000000,
+                "ber": 5e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00358",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0082",
+            "dstNodeId": "GND095",
+            "status": "up",
+            "params": {
+                "delayMs": 1.6,
+                "jitterMs": 3.2,
+                "bandwidthBps": 20000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00361",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0083",
+            "dstNodeId": "GND073",
+            "status": "up",
+            "params": {
+                "delayMs": 8.7,
+                "jitterMs": 5.1,
+                "bandwidthBps": 170000,
+                "ber": 3e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00360",
+            "linkType": "5g",
+            "srcNodeId": "UAV0083",
+            "dstNodeId": "GND099",
+            "status": "up",
+            "params": {
+                "delayMs": 5.9,
+                "jitterMs": 5.8,
+                "bandwidthBps": 31000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00362",
+            "linkType": "5g",
+            "srcNodeId": "UAV0084",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 5.1,
+                "jitterMs": 7.8,
+                "bandwidthBps": 29000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00363",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0084",
+            "dstNodeId": "GND077",
+            "status": "up",
+            "params": {
+                "delayMs": 289.9,
+                "jitterMs": 79.2,
+                "bandwidthBps": 14000000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00364",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0085",
+            "dstNodeId": "GND004",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 6.1,
+                "bandwidthBps": 21000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00365",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0085",
+            "dstNodeId": "GND006",
+            "status": "up",
+            "params": {
+                "delayMs": 10.3,
+                "jitterMs": 14.8,
+                "bandwidthBps": 160000,
+                "ber": 8e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00366",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0086",
+            "dstNodeId": "GND010",
+            "status": "up",
+            "params": {
+                "delayMs": 7.9,
+                "jitterMs": 5.2,
+                "bandwidthBps": 23000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00367",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0086",
+            "dstNodeId": "GND013",
+            "status": "up",
+            "params": {
+                "delayMs": 6.5,
+                "jitterMs": 8.1,
+                "bandwidthBps": 48000,
+                "ber": 4e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00368",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0087",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 6.1,
+                "jitterMs": 2.9,
+                "bandwidthBps": 28000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00369",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0087",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 11.6,
+                "jitterMs": 4.2,
+                "bandwidthBps": 50000,
+                "ber": 8e-05,
+                "packetLossRate": 0.003
+            }
+        },
+        {
+            "linkId": "L00371",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0088",
+            "dstNodeId": "GND017",
+            "status": "up",
+            "params": {
+                "delayMs": 17.8,
+                "jitterMs": 3.5,
+                "bandwidthBps": 200000,
+                "ber": 4e-05,
+                "packetLossRate": 0.004
+            }
+        },
+        {
+            "linkId": "L00370",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0088",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 5.6,
+                "jitterMs": 3.9,
+                "bandwidthBps": 23000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00373",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0089",
+            "dstNodeId": "GND021",
+            "status": "up",
+            "params": {
+                "delayMs": 18.7,
+                "jitterMs": 8.5,
+                "bandwidthBps": 250000,
+                "ber": 8e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00372",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0089",
+            "dstNodeId": "GND025",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 2.3,
+                "bandwidthBps": 31000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00212",
+            "linkType": "5g",
+            "srcNodeId": "UAV0009",
+            "dstNodeId": "GND065",
+            "status": "up",
+            "params": {
+                "delayMs": 5.8,
+                "jitterMs": 8.0,
+                "bandwidthBps": 29000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00213",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0009",
+            "dstNodeId": "GND070",
+            "status": "up",
+            "params": {
+                "delayMs": 357.0,
+                "jitterMs": 128.6,
+                "bandwidthBps": 13000000,
+                "ber": 5e-05,
+                "packetLossRate": 4e-05
+            }
+        },
+        {
+            "linkId": "L00374",
+            "linkType": "5g",
+            "srcNodeId": "UAV0090",
+            "dstNodeId": "GND029",
+            "status": "up",
+            "params": {
+                "delayMs": 5.8,
+                "jitterMs": 4.3,
+                "bandwidthBps": 24000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00376",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0091",
+            "dstNodeId": "GND028",
+            "status": "up",
+            "params": {
+                "delayMs": 7.8,
+                "jitterMs": 2.9,
+                "bandwidthBps": 25000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00378",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0092",
+            "dstNodeId": "GND033",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 0.3,
+                "bandwidthBps": 21000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00380",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0093",
+            "dstNodeId": "GND046",
+            "status": "up",
+            "params": {
+                "delayMs": 7.6,
+                "jitterMs": 2.4,
+                "bandwidthBps": 21000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00382",
+            "linkType": "5g",
+            "srcNodeId": "UAV0094",
+            "dstNodeId": "GND050",
+            "status": "up",
+            "params": {
+                "delayMs": 2.9,
+                "jitterMs": 4.5,
+                "bandwidthBps": 23000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00384",
+            "linkType": "5g",
+            "srcNodeId": "UAV0095",
+            "dstNodeId": "GND078",
+            "status": "up",
+            "params": {
+                "delayMs": 0.6,
+                "jitterMs": 8.9,
+                "bandwidthBps": 27000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00386",
+            "linkType": "5g",
+            "srcNodeId": "UAV0096",
+            "dstNodeId": "GND080",
+            "status": "up",
+            "params": {
+                "delayMs": 4.6,
+                "jitterMs": 7.3,
+                "bandwidthBps": 30000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00388",
+            "linkType": "5g",
+            "srcNodeId": "UAV0097",
+            "dstNodeId": "GND040",
+            "status": "up",
+            "params": {
+                "delayMs": 5.1,
+                "jitterMs": 5.5,
+                "bandwidthBps": 23000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00390",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0098",
+            "dstNodeId": "GND075",
+            "status": "up",
+            "params": {
+                "delayMs": 3.4,
+                "jitterMs": 5.6,
+                "bandwidthBps": 22000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00392",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0099",
+            "dstNodeId": "GND075",
+            "status": "up",
+            "params": {
+                "delayMs": 7.6,
+                "jitterMs": 5.0,
+                "bandwidthBps": 26000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00001",
+            "linkType": "microwave",
+            "srcNodeId": "GND001",
+            "dstNodeId": "GND002",
+            "status": "up",
+            "params": {
+                "delayMs": 3.0,
+                "jitterMs": 7.4,
+                "bandwidthBps": 24000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00154",
+            "linkType": "fiber",
+            "srcNodeId": "GND001",
+            "dstNodeId": "GND006",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 1.9,
+                "bandwidthBps": 9600000000,
+                "ber": 9e-08,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00155",
+            "linkType": "satcom",
+            "srcNodeId": "GND001",
+            "dstNodeId": "GND006",
+            "status": "up",
+            "params": {
+                "delayMs": 379.9,
+                "jitterMs": 174.3,
+                "bandwidthBps": 17000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00013",
+            "linkType": "5g",
+            "srcNodeId": "GND010",
+            "dstNodeId": "GND006",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 9.7,
+                "bandwidthBps": 28000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00016",
+            "linkType": "5g",
+            "srcNodeId": "GND010",
+            "dstNodeId": "GND006",
+            "status": "up",
+            "params": {
+                "delayMs": 1.3,
+                "jitterMs": 1.6,
+                "bandwidthBps": 27000000,
+                "ber": 2e-08,
+                "packetLossRate": 5e-05
+            }
+        },
+        {
+            "linkId": "L00148",
+            "linkType": "microwave",
+            "srcNodeId": "GND100",
+            "dstNodeId": "GND096",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 3.3,
+                "bandwidthBps": 27000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00151",
+            "linkType": "5g",
+            "srcNodeId": "GND100",
+            "dstNodeId": "GND096",
+            "status": "up",
+            "params": {
+                "delayMs": 2.4,
+                "jitterMs": 5.6,
+                "bandwidthBps": 31000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00194",
+            "linkType": "fiber",
+            "srcNodeId": "GND101",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 0.2,
+                "jitterMs": 0.4,
+                "bandwidthBps": 8000000000,
+                "ber": 7e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00152",
+            "linkType": "5g",
+            "srcNodeId": "GND101",
+            "dstNodeId": "GND102",
+            "status": "up",
+            "params": {
+                "delayMs": 2.0,
+                "jitterMs": 11.1,
+                "bandwidthBps": 23000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00195",
+            "linkType": "satcom",
+            "srcNodeId": "GND101",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 207.9,
+                "jitterMs": 195.4,
+                "bandwidthBps": 19000000,
+                "ber": 9e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00153",
+            "linkType": "microwave",
+            "srcNodeId": "GND102",
+            "dstNodeId": "GND101",
+            "status": "up",
+            "params": {
+                "delayMs": 5.8,
+                "jitterMs": 7.3,
+                "bandwidthBps": 28000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00017",
+            "linkType": "5g",
+            "srcNodeId": "GND011",
+            "dstNodeId": "GND012",
+            "status": "up",
+            "params": {
+                "delayMs": 3.2,
+                "jitterMs": 6.7,
+                "bandwidthBps": 29000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00158",
+            "linkType": "fiber",
+            "srcNodeId": "GND011",
+            "dstNodeId": "GND016",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 1.2,
+                "bandwidthBps": 6700000000,
+                "ber": 4e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00159",
+            "linkType": "satcom",
+            "srcNodeId": "GND011",
+            "dstNodeId": "GND016",
+            "status": "up",
+            "params": {
+                "delayMs": 506.8,
+                "jitterMs": 172.3,
+                "bandwidthBps": 12000000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00018",
+            "linkType": "5g",
+            "srcNodeId": "GND012",
+            "dstNodeId": "GND013",
+            "status": "up",
+            "params": {
+                "delayMs": 6.2,
+                "jitterMs": 4.2,
+                "bandwidthBps": 29000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00019",
+            "linkType": "5g",
+            "srcNodeId": "GND013",
+            "dstNodeId": "GND014",
+            "status": "up",
+            "params": {
+                "delayMs": 7.6,
+                "jitterMs": 3.7,
+                "bandwidthBps": 29000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00022",
+            "linkType": "5g",
+            "srcNodeId": "GND014",
+            "dstNodeId": "GND011",
+            "status": "up",
+            "params": {
+                "delayMs": 1.6,
+                "jitterMs": 0.9,
+                "bandwidthBps": 24000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00020",
+            "linkType": "microwave",
+            "srcNodeId": "GND014",
+            "dstNodeId": "GND015",
+            "status": "up",
+            "params": {
+                "delayMs": 6.4,
+                "jitterMs": 3.8,
+                "bandwidthBps": 22000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00021",
+            "linkType": "5g",
+            "srcNodeId": "GND015",
+            "dstNodeId": "GND011",
+            "status": "up",
+            "params": {
+                "delayMs": 1.8,
+                "jitterMs": 7.9,
+                "bandwidthBps": 31000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00023",
+            "linkType": "5g",
+            "srcNodeId": "GND015",
+            "dstNodeId": "GND013",
+            "status": "up",
+            "params": {
+                "delayMs": 2.4,
+                "jitterMs": 4.6,
+                "bandwidthBps": 28000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00024",
+            "linkType": "microwave",
+            "srcNodeId": "GND016",
+            "dstNodeId": "GND017",
+            "status": "up",
+            "params": {
+                "delayMs": 2.6,
+                "jitterMs": 4.3,
+                "bandwidthBps": 23000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00160",
+            "linkType": "fiber",
+            "srcNodeId": "GND016",
+            "dstNodeId": "GND021",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 0.8,
+                "bandwidthBps": 6900000000,
+                "ber": 9e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00161",
+            "linkType": "satcom",
+            "srcNodeId": "GND016",
+            "dstNodeId": "GND021",
+            "status": "up",
+            "params": {
+                "delayMs": 273.8,
+                "jitterMs": 141.5,
+                "bandwidthBps": 16000000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00025",
+            "linkType": "5g",
+            "srcNodeId": "GND017",
+            "dstNodeId": "GND018",
+            "status": "up",
+            "params": {
+                "delayMs": 6.2,
+                "jitterMs": 6.7,
+                "bandwidthBps": 24000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00029",
+            "linkType": "microwave",
+            "srcNodeId": "GND018",
+            "dstNodeId": "GND017",
+            "status": "up",
+            "params": {
+                "delayMs": 1.8,
+                "jitterMs": 7.0,
+                "bandwidthBps": 23000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00026",
+            "linkType": "microwave",
+            "srcNodeId": "GND018",
+            "dstNodeId": "GND019",
+            "status": "up",
+            "params": {
+                "delayMs": 1.2,
+                "jitterMs": 6.6,
+                "bandwidthBps": 30000000,
+                "ber": 6e-06,
+                "packetLossRate": 6e-05
+            }
+        },
+        {
+            "linkId": "L00027",
+            "linkType": "microwave",
+            "srcNodeId": "GND019",
+            "dstNodeId": "GND020",
+            "status": "up",
+            "params": {
+                "delayMs": 2.3,
+                "jitterMs": 3.4,
+                "bandwidthBps": 28000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00006",
+            "linkType": "microwave",
+            "srcNodeId": "GND002",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 3.4,
+                "jitterMs": 4.6,
+                "bandwidthBps": 23000000,
+                "ber": 2e-07,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00002",
+            "linkType": "5g",
+            "srcNodeId": "GND002",
+            "dstNodeId": "GND003",
+            "status": "up",
+            "params": {
+                "delayMs": 1.0,
+                "jitterMs": 3.9,
+                "bandwidthBps": 27000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00028",
+            "linkType": "5g",
+            "srcNodeId": "GND020",
+            "dstNodeId": "GND016",
+            "status": "up",
+            "params": {
+                "delayMs": 4.1,
+                "jitterMs": 0.3,
+                "bandwidthBps": 31000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00030",
+            "linkType": "5g",
+            "srcNodeId": "GND020",
+            "dstNodeId": "GND019",
+            "status": "up",
+            "params": {
+                "delayMs": 2.6,
+                "jitterMs": 11.9,
+                "bandwidthBps": 28000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00031",
+            "linkType": "microwave",
+            "srcNodeId": "GND021",
+            "dstNodeId": "GND022",
+            "status": "up",
+            "params": {
+                "delayMs": 5.0,
+                "jitterMs": 7.0,
+                "bandwidthBps": 26000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00162",
+            "linkType": "fiber",
+            "srcNodeId": "GND021",
+            "dstNodeId": "GND026",
+            "status": "up",
+            "params": {
+                "delayMs": 0.2,
+                "jitterMs": 0.6,
+                "bandwidthBps": 7700000000,
+                "ber": 9e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00163",
+            "linkType": "satcom",
+            "srcNodeId": "GND021",
+            "dstNodeId": "GND026",
+            "status": "up",
+            "params": {
+                "delayMs": 374.9,
+                "jitterMs": 84.4,
+                "bandwidthBps": 19000000,
+                "ber": 8e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00036",
+            "linkType": "5g",
+            "srcNodeId": "GND022",
+            "dstNodeId": "GND021",
+            "status": "up",
+            "params": {
+                "delayMs": 2.8,
+                "jitterMs": 4.3,
+                "bandwidthBps": 30000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00032",
+            "linkType": "5g",
+            "srcNodeId": "GND022",
+            "dstNodeId": "GND023",
+            "status": "up",
+            "params": {
+                "delayMs": 7.6,
+                "jitterMs": 8.8,
+                "bandwidthBps": 30000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00037",
+            "linkType": "5g",
+            "srcNodeId": "GND023",
+            "dstNodeId": "GND021",
+            "status": "up",
+            "params": {
+                "delayMs": 3.8,
+                "jitterMs": 1.8,
+                "bandwidthBps": 26000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00033",
+            "linkType": "5g",
+            "srcNodeId": "GND023",
+            "dstNodeId": "GND024",
+            "status": "up",
+            "params": {
+                "delayMs": 0.5,
+                "jitterMs": 8.1,
+                "bandwidthBps": 25000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00038",
+            "linkType": "microwave",
+            "srcNodeId": "GND024",
+            "dstNodeId": "GND023",
+            "status": "up",
+            "params": {
+                "delayMs": 0.1,
+                "jitterMs": 6.4,
+                "bandwidthBps": 30000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00034",
+            "linkType": "5g",
+            "srcNodeId": "GND024",
+            "dstNodeId": "GND025",
+            "status": "up",
+            "params": {
+                "delayMs": 4.4,
+                "jitterMs": 4.2,
+                "bandwidthBps": 25000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00035",
+            "linkType": "5g",
+            "srcNodeId": "GND025",
+            "dstNodeId": "GND021",
+            "status": "up",
+            "params": {
+                "delayMs": 0.6,
+                "jitterMs": 10.5,
+                "bandwidthBps": 27000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00039",
+            "linkType": "5g",
+            "srcNodeId": "GND025",
+            "dstNodeId": "GND021",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 5.3,
+                "bandwidthBps": 27000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00040",
+            "linkType": "microwave",
+            "srcNodeId": "GND026",
+            "dstNodeId": "GND027",
+            "status": "up",
+            "params": {
+                "delayMs": 0.5,
+                "jitterMs": 7.0,
+                "bandwidthBps": 21000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00164",
+            "linkType": "fiber",
+            "srcNodeId": "GND026",
+            "dstNodeId": "GND031",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 0.1,
+                "bandwidthBps": 8800000000,
+                "ber": 9e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00165",
+            "linkType": "satcom",
+            "srcNodeId": "GND026",
+            "dstNodeId": "GND031",
+            "status": "up",
+            "params": {
+                "delayMs": 399.6,
+                "jitterMs": 161.8,
+                "bandwidthBps": 14000000,
+                "ber": 8e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00041",
+            "linkType": "microwave",
+            "srcNodeId": "GND027",
+            "dstNodeId": "GND028",
+            "status": "up",
+            "params": {
+                "delayMs": 0.6,
+                "jitterMs": 7.0,
+                "bandwidthBps": 20000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00045",
+            "linkType": "microwave",
+            "srcNodeId": "GND028",
+            "dstNodeId": "GND026",
+            "status": "up",
+            "params": {
+                "delayMs": 4.7,
+                "jitterMs": 4.4,
+                "bandwidthBps": 25000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00042",
+            "linkType": "5g",
+            "srcNodeId": "GND028",
+            "dstNodeId": "GND029",
+            "status": "up",
+            "params": {
+                "delayMs": 1.5,
+                "jitterMs": 2.1,
+                "bandwidthBps": 30000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00046",
+            "linkType": "microwave",
+            "srcNodeId": "GND029",
+            "dstNodeId": "GND027",
+            "status": "up",
+            "params": {
+                "delayMs": 6.5,
+                "jitterMs": 5.4,
+                "bandwidthBps": 26000000,
+                "ber": 8e-07,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00043",
+            "linkType": "microwave",
+            "srcNodeId": "GND029",
+            "dstNodeId": "GND030",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 6.5,
+                "bandwidthBps": 21000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00007",
+            "linkType": "microwave",
+            "srcNodeId": "GND003",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 6.5,
+                "jitterMs": 1.4,
+                "bandwidthBps": 20000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00003",
+            "linkType": "5g",
+            "srcNodeId": "GND003",
+            "dstNodeId": "GND004",
+            "status": "up",
+            "params": {
+                "delayMs": 3.8,
+                "jitterMs": 9.4,
+                "bandwidthBps": 26000000,
+                "ber": 5e-06,
+                "packetLossRate": 7.000000000000001e-05
+            }
+        },
+        {
+            "linkId": "L00044",
+            "linkType": "5g",
+            "srcNodeId": "GND030",
+            "dstNodeId": "GND026",
+            "status": "up",
+            "params": {
+                "delayMs": 3.4,
+                "jitterMs": 9.5,
+                "bandwidthBps": 26000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00047",
+            "linkType": "microwave",
+            "srcNodeId": "GND030",
+            "dstNodeId": "GND026",
+            "status": "up",
+            "params": {
+                "delayMs": 0.7,
+                "jitterMs": 2.1,
+                "bandwidthBps": 29000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00048",
+            "linkType": "5g",
+            "srcNodeId": "GND031",
+            "dstNodeId": "GND032",
+            "status": "up",
+            "params": {
+                "delayMs": 2.3,
+                "jitterMs": 3.8,
+                "bandwidthBps": 30000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00166",
+            "linkType": "fiber",
+            "srcNodeId": "GND031",
+            "dstNodeId": "GND036",
+            "status": "up",
+            "params": {
+                "delayMs": 0.2,
+                "jitterMs": 1.6,
+                "bandwidthBps": 9700000000,
+                "ber": 3e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00167",
+            "linkType": "satcom",
+            "srcNodeId": "GND031",
+            "dstNodeId": "GND036",
+            "status": "up",
+            "params": {
+                "delayMs": 434.2,
+                "jitterMs": 192.5,
+                "bandwidthBps": 17000000,
+                "ber": 5e-05,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00049",
+            "linkType": "5g",
+            "srcNodeId": "GND032",
+            "dstNodeId": "GND033",
+            "status": "up",
+            "params": {
+                "delayMs": 7.9,
+                "jitterMs": 7.9,
+                "bandwidthBps": 28000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00053",
+            "linkType": "microwave",
+            "srcNodeId": "GND033",
+            "dstNodeId": "GND031",
+            "status": "up",
+            "params": {
+                "delayMs": 1.4,
+                "jitterMs": 1.0,
+                "bandwidthBps": 30000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00050",
+            "linkType": "microwave",
+            "srcNodeId": "GND033",
+            "dstNodeId": "GND034",
+            "status": "up",
+            "params": {
+                "delayMs": 5.6,
+                "jitterMs": 2.7,
+                "bandwidthBps": 29000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00051",
+            "linkType": "microwave",
+            "srcNodeId": "GND034",
+            "dstNodeId": "GND035",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 6.2,
+                "bandwidthBps": 28000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00052",
+            "linkType": "5g",
+            "srcNodeId": "GND035",
+            "dstNodeId": "GND031",
+            "status": "up",
+            "params": {
+                "delayMs": 4.5,
+                "jitterMs": 2.5,
+                "bandwidthBps": 29000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00054",
+            "linkType": "5g",
+            "srcNodeId": "GND035",
+            "dstNodeId": "GND034",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 1.6,
+                "bandwidthBps": 26000000,
+                "ber": 5e-06,
+                "packetLossRate": 5e-05
+            }
+        },
+        {
+            "linkId": "L00055",
+            "linkType": "5g",
+            "srcNodeId": "GND036",
+            "dstNodeId": "GND037",
+            "status": "up",
+            "params": {
+                "delayMs": 4.5,
+                "jitterMs": 10.4,
+                "bandwidthBps": 26000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00168",
+            "linkType": "fiber",
+            "srcNodeId": "GND036",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 1.2,
+                "bandwidthBps": 7100000000,
+                "ber": 5e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00169",
+            "linkType": "satcom",
+            "srcNodeId": "GND036",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 333.1,
+                "jitterMs": 191.6,
+                "bandwidthBps": 16000000,
+                "ber": 7e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00060",
+            "linkType": "5g",
+            "srcNodeId": "GND037",
+            "dstNodeId": "GND036",
+            "status": "up",
+            "params": {
+                "delayMs": 3.2,
+                "jitterMs": 10.7,
+                "bandwidthBps": 28000000,
+                "ber": 4e-06,
+                "packetLossRate": 4e-05
+            }
+        },
+        {
+            "linkId": "L00056",
+            "linkType": "5g",
+            "srcNodeId": "GND037",
+            "dstNodeId": "GND038",
+            "status": "up",
+            "params": {
+                "delayMs": 3.7,
+                "jitterMs": 0.6,
+                "bandwidthBps": 25000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00061",
+            "linkType": "5g",
+            "srcNodeId": "GND038",
+            "dstNodeId": "GND036",
+            "status": "up",
+            "params": {
+                "delayMs": 2.8,
+                "jitterMs": 5.4,
+                "bandwidthBps": 29000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00057",
+            "linkType": "5g",
+            "srcNodeId": "GND038",
+            "dstNodeId": "GND039",
+            "status": "up",
+            "params": {
+                "delayMs": 3.0,
+                "jitterMs": 2.1,
+                "bandwidthBps": 24000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00058",
+            "linkType": "5g",
+            "srcNodeId": "GND039",
+            "dstNodeId": "GND040",
+            "status": "up",
+            "params": {
+                "delayMs": 3.1,
+                "jitterMs": 7.9,
+                "bandwidthBps": 25000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00004",
+            "linkType": "5g",
+            "srcNodeId": "GND004",
+            "dstNodeId": "GND005",
+            "status": "up",
+            "params": {
+                "delayMs": 6.7,
+                "jitterMs": 2.9,
+                "bandwidthBps": 29000000,
+                "ber": 6e-06,
+                "packetLossRate": 8.999999999999999e-05
+            }
+        },
+        {
+            "linkId": "L00059",
+            "linkType": "5g",
+            "srcNodeId": "GND040",
+            "dstNodeId": "GND036",
+            "status": "up",
+            "params": {
+                "delayMs": 0.7,
+                "jitterMs": 7.6,
+                "bandwidthBps": 27000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00062",
+            "linkType": "microwave",
+            "srcNodeId": "GND040",
+            "dstNodeId": "GND039",
+            "status": "up",
+            "params": {
+                "delayMs": 1.8,
+                "jitterMs": 6.8,
+                "bandwidthBps": 22000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00063",
+            "linkType": "5g",
+            "srcNodeId": "GND041",
+            "dstNodeId": "GND042",
+            "status": "up",
+            "params": {
+                "delayMs": 5.1,
+                "jitterMs": 10.9,
+                "bandwidthBps": 28000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00170",
+            "linkType": "fiber",
+            "srcNodeId": "GND041",
+            "dstNodeId": "GND046",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 1.0,
+                "bandwidthBps": 9600000000,
+                "ber": 6e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00171",
+            "linkType": "satcom",
+            "srcNodeId": "GND041",
+            "dstNodeId": "GND046",
+            "status": "up",
+            "params": {
+                "delayMs": 472.7,
+                "jitterMs": 167.2,
+                "bandwidthBps": 13000000,
+                "ber": 7e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00068",
+            "linkType": "microwave",
+            "srcNodeId": "GND042",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 6.5,
+                "jitterMs": 4.2,
+                "bandwidthBps": 22000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00064",
+            "linkType": "microwave",
+            "srcNodeId": "GND042",
+            "dstNodeId": "GND043",
+            "status": "up",
+            "params": {
+                "delayMs": 4.9,
+                "jitterMs": 5.4,
+                "bandwidthBps": 28000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00065",
+            "linkType": "5g",
+            "srcNodeId": "GND043",
+            "dstNodeId": "GND044",
+            "status": "up",
+            "params": {
+                "delayMs": 7.7,
+                "jitterMs": 4.3,
+                "bandwidthBps": 28000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00069",
+            "linkType": "microwave",
+            "srcNodeId": "GND044",
+            "dstNodeId": "GND043",
+            "status": "up",
+            "params": {
+                "delayMs": 8.0,
+                "jitterMs": 5.9,
+                "bandwidthBps": 25000000,
+                "ber": 1e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00066",
+            "linkType": "microwave",
+            "srcNodeId": "GND044",
+            "dstNodeId": "GND045",
+            "status": "up",
+            "params": {
+                "delayMs": 7.1,
+                "jitterMs": 2.3,
+                "bandwidthBps": 30000000,
+                "ber": 3e-07,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00067",
+            "linkType": "5g",
+            "srcNodeId": "GND045",
+            "dstNodeId": "GND041",
+            "status": "up",
+            "params": {
+                "delayMs": 6.5,
+                "jitterMs": 11.0,
+                "bandwidthBps": 28000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00070",
+            "linkType": "microwave",
+            "srcNodeId": "GND045",
+            "dstNodeId": "GND043",
+            "status": "up",
+            "params": {
+                "delayMs": 2.6,
+                "jitterMs": 2.1,
+                "bandwidthBps": 28000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00071",
+            "linkType": "microwave",
+            "srcNodeId": "GND046",
+            "dstNodeId": "GND047",
+            "status": "up",
+            "params": {
+                "delayMs": 3.9,
+                "jitterMs": 3.7,
+                "bandwidthBps": 24000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00172",
+            "linkType": "fiber",
+            "srcNodeId": "GND046",
+            "dstNodeId": "GND051",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 0.8,
+                "bandwidthBps": 9400000000,
+                "ber": 1e-07,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00173",
+            "linkType": "satcom",
+            "srcNodeId": "GND046",
+            "dstNodeId": "GND051",
+            "status": "up",
+            "params": {
+                "delayMs": 260.6,
+                "jitterMs": 59.0,
+                "bandwidthBps": 18000000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00072",
+            "linkType": "5g",
+            "srcNodeId": "GND047",
+            "dstNodeId": "GND048",
+            "status": "up",
+            "params": {
+                "delayMs": 1.8,
+                "jitterMs": 1.7,
+                "bandwidthBps": 26000000,
+                "ber": 6e-08,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00073",
+            "linkType": "microwave",
+            "srcNodeId": "GND048",
+            "dstNodeId": "GND049",
+            "status": "up",
+            "params": {
+                "delayMs": 2.0,
+                "jitterMs": 6.0,
+                "bandwidthBps": 21000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00076",
+            "linkType": "microwave",
+            "srcNodeId": "GND049",
+            "dstNodeId": "GND047",
+            "status": "up",
+            "params": {
+                "delayMs": 6.3,
+                "jitterMs": 3.6,
+                "bandwidthBps": 21000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00074",
+            "linkType": "microwave",
+            "srcNodeId": "GND049",
+            "dstNodeId": "GND050",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 3.6,
+                "bandwidthBps": 26000000,
+                "ber": 7e-07,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00005",
+            "linkType": "microwave",
+            "srcNodeId": "GND005",
+            "dstNodeId": "GND001",
+            "status": "up",
+            "params": {
+                "delayMs": 0.6,
+                "jitterMs": 0.8,
+                "bandwidthBps": 25000000,
+                "ber": 6e-07,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00008",
+            "linkType": "microwave",
+            "srcNodeId": "GND005",
+            "dstNodeId": "GND003",
+            "status": "up",
+            "params": {
+                "delayMs": 1.6,
+                "jitterMs": 6.4,
+                "bandwidthBps": 31000000,
+                "ber": 2e-07,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00075",
+            "linkType": "microwave",
+            "srcNodeId": "GND050",
+            "dstNodeId": "GND046",
+            "status": "up",
+            "params": {
+                "delayMs": 7.3,
+                "jitterMs": 0.4,
+                "bandwidthBps": 28000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00077",
+            "linkType": "microwave",
+            "srcNodeId": "GND050",
+            "dstNodeId": "GND048",
+            "status": "up",
+            "params": {
+                "delayMs": 2.9,
+                "jitterMs": 2.5,
+                "bandwidthBps": 27000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00078",
+            "linkType": "microwave",
+            "srcNodeId": "GND051",
+            "dstNodeId": "GND052",
+            "status": "up",
+            "params": {
+                "delayMs": 6.1,
+                "jitterMs": 8.0,
+                "bandwidthBps": 24000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00174",
+            "linkType": "fiber",
+            "srcNodeId": "GND051",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 1.2,
+                "bandwidthBps": 8800000000,
+                "ber": 3e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00175",
+            "linkType": "satcom",
+            "srcNodeId": "GND051",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 384.2,
+                "jitterMs": 157.6,
+                "bandwidthBps": 19000000,
+                "ber": 5e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00079",
+            "linkType": "5g",
+            "srcNodeId": "GND052",
+            "dstNodeId": "GND053",
+            "status": "up",
+            "params": {
+                "delayMs": 3.3,
+                "jitterMs": 9.5,
+                "bandwidthBps": 30000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00083",
+            "linkType": "microwave",
+            "srcNodeId": "GND053",
+            "dstNodeId": "GND051",
+            "status": "up",
+            "params": {
+                "delayMs": 5.7,
+                "jitterMs": 7.4,
+                "bandwidthBps": 28000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00080",
+            "linkType": "microwave",
+            "srcNodeId": "GND053",
+            "dstNodeId": "GND054",
+            "status": "up",
+            "params": {
+                "delayMs": 8.0,
+                "jitterMs": 6.4,
+                "bandwidthBps": 23000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00084",
+            "linkType": "microwave",
+            "srcNodeId": "GND054",
+            "dstNodeId": "GND052",
+            "status": "up",
+            "params": {
+                "delayMs": 4.4,
+                "jitterMs": 5.3,
+                "bandwidthBps": 27000000,
+                "ber": 4e-06,
+                "packetLossRate": 2e-05
+            }
+        },
+        {
+            "linkId": "L00081",
+            "linkType": "microwave",
+            "srcNodeId": "GND054",
+            "dstNodeId": "GND055",
+            "status": "up",
+            "params": {
+                "delayMs": 3.8,
+                "jitterMs": 3.2,
+                "bandwidthBps": 30000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00082",
+            "linkType": "microwave",
+            "srcNodeId": "GND055",
+            "dstNodeId": "GND051",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 5.3,
+                "bandwidthBps": 29000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00085",
+            "linkType": "5g",
+            "srcNodeId": "GND055",
+            "dstNodeId": "GND052",
+            "status": "up",
+            "params": {
+                "delayMs": 6.7,
+                "jitterMs": 2.0,
+                "bandwidthBps": 30000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00086",
+            "linkType": "5g",
+            "srcNodeId": "GND056",
+            "dstNodeId": "GND057",
+            "status": "up",
+            "params": {
+                "delayMs": 7.0,
+                "jitterMs": 10.5,
+                "bandwidthBps": 27000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00176",
+            "linkType": "fiber",
+            "srcNodeId": "GND056",
+            "dstNodeId": "GND061",
+            "status": "up",
+            "params": {
+                "delayMs": 0.2,
+                "jitterMs": 2.0,
+                "bandwidthBps": 8300000000,
+                "ber": 1e-07,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00177",
+            "linkType": "satcom",
+            "srcNodeId": "GND056",
+            "dstNodeId": "GND061",
+            "status": "up",
+            "params": {
+                "delayMs": 202.8,
+                "jitterMs": 194.6,
+                "bandwidthBps": 15000000,
+                "ber": 2e-05,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00091",
+            "linkType": "5g",
+            "srcNodeId": "GND057",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 3.2,
+                "jitterMs": 5.2,
+                "bandwidthBps": 23000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00087",
+            "linkType": "microwave",
+            "srcNodeId": "GND057",
+            "dstNodeId": "GND058",
+            "status": "up",
+            "params": {
+                "delayMs": 2.3,
+                "jitterMs": 5.2,
+                "bandwidthBps": 26000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00088",
+            "linkType": "5g",
+            "srcNodeId": "GND058",
+            "dstNodeId": "GND059",
+            "status": "up",
+            "params": {
+                "delayMs": 1.4,
+                "jitterMs": 6.6,
+                "bandwidthBps": 31000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00089",
+            "linkType": "microwave",
+            "srcNodeId": "GND059",
+            "dstNodeId": "GND060",
+            "status": "up",
+            "params": {
+                "delayMs": 5.1,
+                "jitterMs": 0.9,
+                "bandwidthBps": 23000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00156",
+            "linkType": "fiber",
+            "srcNodeId": "GND006",
+            "dstNodeId": "GND011",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 0.1,
+                "bandwidthBps": 7700000000,
+                "ber": 3e-08,
+                "packetLossRate": 5e-05
+            }
+        },
+        {
+            "linkId": "L00157",
+            "linkType": "satcom",
+            "srcNodeId": "GND006",
+            "dstNodeId": "GND011",
+            "status": "up",
+            "params": {
+                "delayMs": 519.1,
+                "jitterMs": 145.6,
+                "bandwidthBps": 14000000,
+                "ber": 3e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00009",
+            "linkType": "5g",
+            "srcNodeId": "GND006",
+            "dstNodeId": "GND007",
+            "status": "up",
+            "params": {
+                "delayMs": 3.0,
+                "jitterMs": 4.2,
+                "bandwidthBps": 26000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00090",
+            "linkType": "microwave",
+            "srcNodeId": "GND060",
+            "dstNodeId": "GND056",
+            "status": "up",
+            "params": {
+                "delayMs": 1.5,
+                "jitterMs": 3.1,
+                "bandwidthBps": 30000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00092",
+            "linkType": "5g",
+            "srcNodeId": "GND060",
+            "dstNodeId": "GND059",
+            "status": "up",
+            "params": {
+                "delayMs": 5.2,
+                "jitterMs": 2.3,
+                "bandwidthBps": 24000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00093",
+            "linkType": "5g",
+            "srcNodeId": "GND061",
+            "dstNodeId": "GND062",
+            "status": "up",
+            "params": {
+                "delayMs": 7.5,
+                "jitterMs": 8.2,
+                "bandwidthBps": 27000000,
+                "ber": 8e-06,
+                "packetLossRate": 3e-05
+            }
+        },
+        {
+            "linkId": "L00178",
+            "linkType": "fiber",
+            "srcNodeId": "GND061",
+            "dstNodeId": "GND066",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 0.7,
+                "bandwidthBps": 9900000000,
+                "ber": 6e-08,
+                "packetLossRate": 0.0001
+            }
+        },
+        {
+            "linkId": "L00179",
+            "linkType": "satcom",
+            "srcNodeId": "GND061",
+            "dstNodeId": "GND066",
+            "status": "up",
+            "params": {
+                "delayMs": 301.6,
+                "jitterMs": 15.5,
+                "bandwidthBps": 19000000,
+                "ber": 9e-05,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00098",
+            "linkType": "microwave",
+            "srcNodeId": "GND062",
+            "dstNodeId": "GND061",
+            "status": "up",
+            "params": {
+                "delayMs": 7.1,
+                "jitterMs": 1.6,
+                "bandwidthBps": 20000000,
+                "ber": 9e-07,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00094",
+            "linkType": "5g",
+            "srcNodeId": "GND062",
+            "dstNodeId": "GND063",
+            "status": "up",
+            "params": {
+                "delayMs": 3.1,
+                "jitterMs": 5.7,
+                "bandwidthBps": 30000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00095",
+            "linkType": "microwave",
+            "srcNodeId": "GND063",
+            "dstNodeId": "GND064",
+            "status": "up",
+            "params": {
+                "delayMs": 2.8,
+                "jitterMs": 2.0,
+                "bandwidthBps": 27000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00096",
+            "linkType": "microwave",
+            "srcNodeId": "GND064",
+            "dstNodeId": "GND065",
+            "status": "up",
+            "params": {
+                "delayMs": 0.2,
+                "jitterMs": 4.3,
+                "bandwidthBps": 30000000,
+                "ber": 8e-06,
+                "packetLossRate": 5e-05
+            }
+        },
+        {
+            "linkId": "L00097",
+            "linkType": "microwave",
+            "srcNodeId": "GND065",
+            "dstNodeId": "GND061",
+            "status": "up",
+            "params": {
+                "delayMs": 3.7,
+                "jitterMs": 0.6,
+                "bandwidthBps": 29000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00099",
+            "linkType": "microwave",
+            "srcNodeId": "GND065",
+            "dstNodeId": "GND064",
+            "status": "up",
+            "params": {
+                "delayMs": 7.0,
+                "jitterMs": 0.9,
+                "bandwidthBps": 26000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00100",
+            "linkType": "5g",
+            "srcNodeId": "GND066",
+            "dstNodeId": "GND067",
+            "status": "up",
+            "params": {
+                "delayMs": 4.2,
+                "jitterMs": 3.1,
+                "bandwidthBps": 25000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00180",
+            "linkType": "fiber",
+            "srcNodeId": "GND066",
+            "dstNodeId": "GND071",
+            "status": "up",
+            "params": {
+                "delayMs": 0.2,
+                "jitterMs": 1.1,
+                "bandwidthBps": 7200000000,
+                "ber": 5e-08,
+                "packetLossRate": 4e-06
+            }
+        },
+        {
+            "linkId": "L00181",
+            "linkType": "satcom",
+            "srcNodeId": "GND066",
+            "dstNodeId": "GND071",
+            "status": "up",
+            "params": {
+                "delayMs": 264.3,
+                "jitterMs": 35.4,
+                "bandwidthBps": 18000000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00101",
+            "linkType": "5g",
+            "srcNodeId": "GND067",
+            "dstNodeId": "GND068",
+            "status": "up",
+            "params": {
+                "delayMs": 1.5,
+                "jitterMs": 1.0,
+                "bandwidthBps": 28000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00102",
+            "linkType": "5g",
+            "srcNodeId": "GND068",
+            "dstNodeId": "GND069",
+            "status": "up",
+            "params": {
+                "delayMs": 4.8,
+                "jitterMs": 9.8,
+                "bandwidthBps": 30000000,
+                "ber": 2e-07,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00105",
+            "linkType": "5g",
+            "srcNodeId": "GND069",
+            "dstNodeId": "GND068",
+            "status": "up",
+            "params": {
+                "delayMs": 6.1,
+                "jitterMs": 6.6,
+                "bandwidthBps": 28000000,
+                "ber": 7e-06,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00103",
+            "linkType": "microwave",
+            "srcNodeId": "GND069",
+            "dstNodeId": "GND070",
+            "status": "up",
+            "params": {
+                "delayMs": 4.4,
+                "jitterMs": 5.9,
+                "bandwidthBps": 23000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00010",
+            "linkType": "microwave",
+            "srcNodeId": "GND007",
+            "dstNodeId": "GND008",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 7.6,
+                "bandwidthBps": 23000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00104",
+            "linkType": "microwave",
+            "srcNodeId": "GND070",
+            "dstNodeId": "GND066",
+            "status": "up",
+            "params": {
+                "delayMs": 7.9,
+                "jitterMs": 0.4,
+                "bandwidthBps": 26000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00106",
+            "linkType": "microwave",
+            "srcNodeId": "GND070",
+            "dstNodeId": "GND066",
+            "status": "up",
+            "params": {
+                "delayMs": 0.5,
+                "jitterMs": 0.9,
+                "bandwidthBps": 23000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00107",
+            "linkType": "microwave",
+            "srcNodeId": "GND071",
+            "dstNodeId": "GND072",
+            "status": "up",
+            "params": {
+                "delayMs": 3.6,
+                "jitterMs": 1.5,
+                "bandwidthBps": 22000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00182",
+            "linkType": "fiber",
+            "srcNodeId": "GND071",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 1.7,
+                "bandwidthBps": 9000000000,
+                "ber": 2e-08,
+                "packetLossRate": 4e-05
+            }
+        },
+        {
+            "linkId": "L00183",
+            "linkType": "satcom",
+            "srcNodeId": "GND071",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 362.6,
+                "jitterMs": 179.1,
+                "bandwidthBps": 14000000,
+                "ber": 6e-05,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00108",
+            "linkType": "5g",
+            "srcNodeId": "GND072",
+            "dstNodeId": "GND073",
+            "status": "up",
+            "params": {
+                "delayMs": 4.9,
+                "jitterMs": 8.5,
+                "bandwidthBps": 28000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00112",
+            "linkType": "5g",
+            "srcNodeId": "GND073",
+            "dstNodeId": "GND071",
+            "status": "up",
+            "params": {
+                "delayMs": 5.9,
+                "jitterMs": 9.7,
+                "bandwidthBps": 31000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00109",
+            "linkType": "microwave",
+            "srcNodeId": "GND073",
+            "dstNodeId": "GND074",
+            "status": "up",
+            "params": {
+                "delayMs": 2.5,
+                "jitterMs": 4.9,
+                "bandwidthBps": 25000000,
+                "ber": 7e-07,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00110",
+            "linkType": "5g",
+            "srcNodeId": "GND074",
+            "dstNodeId": "GND075",
+            "status": "up",
+            "params": {
+                "delayMs": 7.7,
+                "jitterMs": 8.8,
+                "bandwidthBps": 30000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00111",
+            "linkType": "5g",
+            "srcNodeId": "GND075",
+            "dstNodeId": "GND071",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 2.1,
+                "bandwidthBps": 29000000,
+                "ber": 1e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00113",
+            "linkType": "microwave",
+            "srcNodeId": "GND075",
+            "dstNodeId": "GND074",
+            "status": "up",
+            "params": {
+                "delayMs": 7.9,
+                "jitterMs": 3.2,
+                "bandwidthBps": 21000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00114",
+            "linkType": "5g",
+            "srcNodeId": "GND076",
+            "dstNodeId": "GND077",
+            "status": "up",
+            "params": {
+                "delayMs": 3.6,
+                "jitterMs": 10.1,
+                "bandwidthBps": 24000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00184",
+            "linkType": "fiber",
+            "srcNodeId": "GND076",
+            "dstNodeId": "GND081",
+            "status": "up",
+            "params": {
+                "delayMs": 0.1,
+                "jitterMs": 1.5,
+                "bandwidthBps": 9400000000,
+                "ber": 2e-09,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00185",
+            "linkType": "satcom",
+            "srcNodeId": "GND076",
+            "dstNodeId": "GND081",
+            "status": "up",
+            "params": {
+                "delayMs": 507.2,
+                "jitterMs": 31.2,
+                "bandwidthBps": 17000000,
+                "ber": 5e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00119",
+            "linkType": "microwave",
+            "srcNodeId": "GND077",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 4.6,
+                "jitterMs": 2.3,
+                "bandwidthBps": 26000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00115",
+            "linkType": "5g",
+            "srcNodeId": "GND077",
+            "dstNodeId": "GND078",
+            "status": "up",
+            "params": {
+                "delayMs": 7.0,
+                "jitterMs": 12.0,
+                "bandwidthBps": 26000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00116",
+            "linkType": "5g",
+            "srcNodeId": "GND078",
+            "dstNodeId": "GND079",
+            "status": "up",
+            "params": {
+                "delayMs": 4.4,
+                "jitterMs": 3.3,
+                "bandwidthBps": 31000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00117",
+            "linkType": "5g",
+            "srcNodeId": "GND079",
+            "dstNodeId": "GND080",
+            "status": "up",
+            "params": {
+                "delayMs": 6.5,
+                "jitterMs": 6.8,
+                "bandwidthBps": 25000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00014",
+            "linkType": "microwave",
+            "srcNodeId": "GND008",
+            "dstNodeId": "GND007",
+            "status": "up",
+            "params": {
+                "delayMs": 0.9,
+                "jitterMs": 2.8,
+                "bandwidthBps": 21000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00011",
+            "linkType": "microwave",
+            "srcNodeId": "GND008",
+            "dstNodeId": "GND009",
+            "status": "up",
+            "params": {
+                "delayMs": 2.3,
+                "jitterMs": 5.1,
+                "bandwidthBps": 30000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00118",
+            "linkType": "5g",
+            "srcNodeId": "GND080",
+            "dstNodeId": "GND076",
+            "status": "up",
+            "params": {
+                "delayMs": 7.4,
+                "jitterMs": 0.1,
+                "bandwidthBps": 28000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00120",
+            "linkType": "microwave",
+            "srcNodeId": "GND080",
+            "dstNodeId": "GND078",
+            "status": "up",
+            "params": {
+                "delayMs": 1.1,
+                "jitterMs": 5.2,
+                "bandwidthBps": 27000000,
+                "ber": 3e-07,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00121",
+            "linkType": "microwave",
+            "srcNodeId": "GND081",
+            "dstNodeId": "GND082",
+            "status": "up",
+            "params": {
+                "delayMs": 5.6,
+                "jitterMs": 7.5,
+                "bandwidthBps": 26000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00186",
+            "linkType": "fiber",
+            "srcNodeId": "GND081",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 0.3,
+                "bandwidthBps": 9300000000,
+                "ber": 4e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00187",
+            "linkType": "satcom",
+            "srcNodeId": "GND081",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 238.1,
+                "jitterMs": 176.9,
+                "bandwidthBps": 13000000,
+                "ber": 3e-05,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00122",
+            "linkType": "5g",
+            "srcNodeId": "GND082",
+            "dstNodeId": "GND083",
+            "status": "up",
+            "params": {
+                "delayMs": 1.4,
+                "jitterMs": 4.9,
+                "bandwidthBps": 27000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00123",
+            "linkType": "microwave",
+            "srcNodeId": "GND083",
+            "dstNodeId": "GND084",
+            "status": "up",
+            "params": {
+                "delayMs": 3.5,
+                "jitterMs": 3.7,
+                "bandwidthBps": 29000000,
+                "ber": 9e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00126",
+            "linkType": "microwave",
+            "srcNodeId": "GND084",
+            "dstNodeId": "GND082",
+            "status": "up",
+            "params": {
+                "delayMs": 7.3,
+                "jitterMs": 7.6,
+                "bandwidthBps": 27000000,
+                "ber": 2e-07,
+                "packetLossRate": 5e-06
+            }
+        },
+        {
+            "linkId": "L00124",
+            "linkType": "microwave",
+            "srcNodeId": "GND084",
+            "dstNodeId": "GND085",
+            "status": "up",
+            "params": {
+                "delayMs": 4.4,
+                "jitterMs": 5.6,
+                "bandwidthBps": 28000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00125",
+            "linkType": "5g",
+            "srcNodeId": "GND085",
+            "dstNodeId": "GND081",
+            "status": "up",
+            "params": {
+                "delayMs": 2.4,
+                "jitterMs": 0.2,
+                "bandwidthBps": 27000000,
+                "ber": 9e-07,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00127",
+            "linkType": "5g",
+            "srcNodeId": "GND085",
+            "dstNodeId": "GND083",
+            "status": "up",
+            "params": {
+                "delayMs": 1.5,
+                "jitterMs": 10.0,
+                "bandwidthBps": 29000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.0006
+            }
+        },
+        {
+            "linkId": "L00128",
+            "linkType": "microwave",
+            "srcNodeId": "GND086",
+            "dstNodeId": "GND087",
+            "status": "up",
+            "params": {
+                "delayMs": 2.6,
+                "jitterMs": 2.2,
+                "bandwidthBps": 25000000,
+                "ber": 6e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00188",
+            "linkType": "fiber",
+            "srcNodeId": "GND086",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 0.1,
+                "jitterMs": 0.1,
+                "bandwidthBps": 7000000000,
+                "ber": 7e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00189",
+            "linkType": "satcom",
+            "srcNodeId": "GND086",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 330.2,
+                "jitterMs": 12.3,
+                "bandwidthBps": 17000000,
+                "ber": 3e-05,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00129",
+            "linkType": "microwave",
+            "srcNodeId": "GND087",
+            "dstNodeId": "GND088",
+            "status": "up",
+            "params": {
+                "delayMs": 4.6,
+                "jitterMs": 3.5,
+                "bandwidthBps": 30000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00133",
+            "linkType": "5g",
+            "srcNodeId": "GND088",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 3.4,
+                "jitterMs": 5.9,
+                "bandwidthBps": 29000000,
+                "ber": 4e-06,
+                "packetLossRate": 8e-05
+            }
+        },
+        {
+            "linkId": "L00130",
+            "linkType": "5g",
+            "srcNodeId": "GND088",
+            "dstNodeId": "GND089",
+            "status": "up",
+            "params": {
+                "delayMs": 3.6,
+                "jitterMs": 1.6,
+                "bandwidthBps": 27000000,
+                "ber": 5e-07,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00134",
+            "linkType": "5g",
+            "srcNodeId": "GND089",
+            "dstNodeId": "GND087",
+            "status": "up",
+            "params": {
+                "delayMs": 0.4,
+                "jitterMs": 6.6,
+                "bandwidthBps": 31000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00131",
+            "linkType": "microwave",
+            "srcNodeId": "GND089",
+            "dstNodeId": "GND090",
+            "status": "up",
+            "params": {
+                "delayMs": 5.4,
+                "jitterMs": 4.2,
+                "bandwidthBps": 29000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00012",
+            "linkType": "microwave",
+            "srcNodeId": "GND009",
+            "dstNodeId": "GND010",
+            "status": "up",
+            "params": {
+                "delayMs": 0.5,
+                "jitterMs": 4.6,
+                "bandwidthBps": 26000000,
+                "ber": 5e-07,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00015",
+            "linkType": "microwave",
+            "srcNodeId": "GND009",
+            "dstNodeId": "GND006",
+            "status": "up",
+            "params": {
+                "delayMs": 6.5,
+                "jitterMs": 7.7,
+                "bandwidthBps": 23000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00132",
+            "linkType": "5g",
+            "srcNodeId": "GND090",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 2.3,
+                "jitterMs": 3.2,
+                "bandwidthBps": 27000000,
+                "ber": 2e-06,
+                "packetLossRate": 0.0005
+            }
+        },
+        {
+            "linkId": "L00135",
+            "linkType": "microwave",
+            "srcNodeId": "GND090",
+            "dstNodeId": "GND086",
+            "status": "up",
+            "params": {
+                "delayMs": 1.5,
+                "jitterMs": 4.9,
+                "bandwidthBps": 29000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00136",
+            "linkType": "5g",
+            "srcNodeId": "GND091",
+            "dstNodeId": "GND092",
+            "status": "up",
+            "params": {
+                "delayMs": 7.8,
+                "jitterMs": 0.4,
+                "bandwidthBps": 24000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00190",
+            "linkType": "fiber",
+            "srcNodeId": "GND091",
+            "dstNodeId": "GND096",
+            "status": "up",
+            "params": {
+                "delayMs": 0.1,
+                "jitterMs": 0.6,
+                "bandwidthBps": 8400000000,
+                "ber": 8e-08,
+                "packetLossRate": 2e-05
+            }
+        },
+        {
+            "linkId": "L00191",
+            "linkType": "satcom",
+            "srcNodeId": "GND091",
+            "dstNodeId": "GND096",
+            "status": "up",
+            "params": {
+                "delayMs": 353.3,
+                "jitterMs": 35.5,
+                "bandwidthBps": 13000000,
+                "ber": 9e-05,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00137",
+            "linkType": "microwave",
+            "srcNodeId": "GND092",
+            "dstNodeId": "GND093",
+            "status": "up",
+            "params": {
+                "delayMs": 1.3,
+                "jitterMs": 0.2,
+                "bandwidthBps": 24000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00141",
+            "linkType": "microwave",
+            "srcNodeId": "GND093",
+            "dstNodeId": "GND092",
+            "status": "up",
+            "params": {
+                "delayMs": 3.9,
+                "jitterMs": 4.8,
+                "bandwidthBps": 23000000,
+                "ber": 7e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00138",
+            "linkType": "5g",
+            "srcNodeId": "GND093",
+            "dstNodeId": "GND094",
+            "status": "up",
+            "params": {
+                "delayMs": 7.1,
+                "jitterMs": 6.9,
+                "bandwidthBps": 29000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0007000000000000001
+            }
+        },
+        {
+            "linkId": "L00142",
+            "linkType": "5g",
+            "srcNodeId": "GND094",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 4.5,
+                "jitterMs": 9.2,
+                "bandwidthBps": 24000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0004
+            }
+        },
+        {
+            "linkId": "L00139",
+            "linkType": "5g",
+            "srcNodeId": "GND094",
+            "dstNodeId": "GND095",
+            "status": "up",
+            "params": {
+                "delayMs": 1.5,
+                "jitterMs": 4.5,
+                "bandwidthBps": 27000000,
+                "ber": 8e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00140",
+            "linkType": "5g",
+            "srcNodeId": "GND095",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 4.2,
+                "jitterMs": 0.2,
+                "bandwidthBps": 23000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00143",
+            "linkType": "microwave",
+            "srcNodeId": "GND095",
+            "dstNodeId": "GND091",
+            "status": "up",
+            "params": {
+                "delayMs": 7.2,
+                "jitterMs": 5.1,
+                "bandwidthBps": 29000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00192",
+            "linkType": "fiber",
+            "srcNodeId": "GND096",
+            "dstNodeId": "GND101",
+            "status": "up",
+            "params": {
+                "delayMs": 0.3,
+                "jitterMs": 1.8,
+                "bandwidthBps": 7600000000,
+                "ber": 2e-08,
+                "packetLossRate": 0.0002
+            }
+        },
+        {
+            "linkId": "L00193",
+            "linkType": "satcom",
+            "srcNodeId": "GND096",
+            "dstNodeId": "GND101",
+            "status": "up",
+            "params": {
+                "delayMs": 336.2,
+                "jitterMs": 149.8,
+                "bandwidthBps": 13000000,
+                "ber": 4e-05,
+                "packetLossRate": 0.0009
+            }
+        },
+        {
+            "linkId": "L00144",
+            "linkType": "microwave",
+            "srcNodeId": "GND096",
+            "dstNodeId": "GND097",
+            "status": "up",
+            "params": {
+                "delayMs": 5.1,
+                "jitterMs": 5.7,
+                "bandwidthBps": 25000000,
+                "ber": 5e-06,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00145",
+            "linkType": "5g",
+            "srcNodeId": "GND097",
+            "dstNodeId": "GND098",
+            "status": "up",
+            "params": {
+                "delayMs": 4.2,
+                "jitterMs": 3.2,
+                "bandwidthBps": 23000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.001
+            }
+        },
+        {
+            "linkId": "L00149",
+            "linkType": "microwave",
+            "srcNodeId": "GND098",
+            "dstNodeId": "GND097",
+            "status": "up",
+            "params": {
+                "delayMs": 3.2,
+                "jitterMs": 1.6,
+                "bandwidthBps": 25000000,
+                "ber": 1e-05,
+                "packetLossRate": 0.0008
+            }
+        },
+        {
+            "linkId": "L00146",
+            "linkType": "5g",
+            "srcNodeId": "GND098",
+            "dstNodeId": "GND099",
+            "status": "up",
+            "params": {
+                "delayMs": 2.2,
+                "jitterMs": 6.4,
+                "bandwidthBps": 30000000,
+                "ber": 3e-06,
+                "packetLossRate": 0.0003
+            }
+        },
+        {
+            "linkId": "L00147",
+            "linkType": "microwave",
+            "srcNodeId": "GND099",
+            "dstNodeId": "GND100",
+            "status": "up",
+            "params": {
+                "delayMs": 4.6,
+                "jitterMs": 3.2,
+                "bandwidthBps": 22000000,
+                "ber": 8e-07,
+                "packetLossRate": 0.002
+            }
+        },
+        {
+            "linkId": "L00150",
+            "linkType": "5g",
+            "srcNodeId": "GND099",
+            "dstNodeId": "GND097",
+            "status": "up",
+            "params": {
+                "delayMs": 1.1,
+                "jitterMs": 3.1,
+                "bandwidthBps": 29000000,
+                "ber": 4e-06,
+                "packetLossRate": 0.0007000000000000001
+            }
+        }
+    ]
+}

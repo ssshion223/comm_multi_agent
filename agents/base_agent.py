@@ -1,6 +1,6 @@
 from typing import Any
 from openai import AsyncOpenAI
-from config.configuration import llm_api_key, llm_url, llm_model
+from config.configuration import llm_api_key, llm_url
 import json
 import inspect
 llm_client = AsyncOpenAI(

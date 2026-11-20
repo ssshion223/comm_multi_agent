@@ -1,0 +1,6545 @@
+{
+    "nodes": [
+        {
+            "nodeId": "AIR001",
+            "name": "空中节点1",
+            "nodeType": "air",
+            "ip": "10.3.0.1",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 30000.0,
+                "y": 30000.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "AIR002",
+            "name": "空中节点2",
+            "nodeType": "air",
+            "ip": "10.3.0.2",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 50000.0,
+                "y": 30000.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "AIR003",
+            "name": "空中节点3",
+            "nodeType": "air",
+            "ip": "10.3.0.3",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 70000.0,
+                "y": 30000.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "EXT001",
+            "name": "业务引接端（规格态适配合成）",
+            "nodeType": "ground",
+            "ip": "10.2.1.254",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 10909.1,
+                "y": 29651.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND001",
+            "name": "地面节点1",
+            "nodeType": "ground",
+            "ip": "10.2.1.1",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 10909.1,
+                "y": 29651.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND002",
+            "name": "地面节点2",
+            "nodeType": "ground",
+            "ip": "10.2.1.2",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 6812.9,
+                "y": 30299.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND003",
+            "name": "地面节点3",
+            "nodeType": "ground",
+            "ip": "10.2.1.3",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 15329.7,
+                "y": 32435.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND004",
+            "name": "地面节点4",
+            "nodeType": "ground",
+            "ip": "10.2.1.4",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 27386.0,
+                "y": 13935.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND005",
+            "name": "地面节点5",
+            "nodeType": "ground",
+            "ip": "10.2.1.5",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 29307.0,
+                "y": 30208.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND006",
+            "name": "地面节点6",
+            "nodeType": "ground",
+            "ip": "10.2.1.6",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 30568.4,
+                "y": 22245.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND007",
+            "name": "地面节点7",
+            "nodeType": "ground",
+            "ip": "10.2.1.7",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 51367.5,
+                "y": 15676.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND008",
+            "name": "地面节点8",
+            "nodeType": "ground",
+            "ip": "10.2.1.8",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 47419.7,
+                "y": 29365.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND009",
+            "name": "地面节点9",
+            "nodeType": "ground",
+            "ip": "10.2.1.9",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 25774.1,
+                "y": 25924.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND010",
+            "name": "地面节点10",
+            "nodeType": "ground",
+            "ip": "10.2.1.10",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 36177.6,
+                "y": 14207.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND011",
+            "name": "地面节点11",
+            "nodeType": "ground",
+            "ip": "10.2.1.11",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 59613.0,
+                "y": 19337.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND012",
+            "name": "地面节点12",
+            "nodeType": "ground",
+            "ip": "10.2.1.12",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 60158.2,
+                "y": 8355.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND013",
+            "name": "地面节点13",
+            "nodeType": "ground",
+            "ip": "10.2.1.13",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 44460.6,
+                "y": 16064.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND014",
+            "name": "地面节点14",
+            "nodeType": "ground",
+            "ip": "10.2.1.14",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 67651.0,
+                "y": 22266.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND015",
+            "name": "地面节点15",
+            "nodeType": "ground",
+            "ip": "10.2.1.15",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 51638.9,
+                "y": 13808.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND016",
+            "name": "地面节点16",
+            "nodeType": "ground",
+            "ip": "10.2.1.16",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 94128.2,
+                "y": 19635.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND017",
+            "name": "地面节点17",
+            "nodeType": "ground",
+            "ip": "10.2.1.17",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 79892.5,
+                "y": 26097.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND018",
+            "name": "地面节点18",
+            "nodeType": "ground",
+            "ip": "10.2.1.18",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 75444.8,
+                "y": 22574.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND019",
+            "name": "地面节点19",
+            "nodeType": "ground",
+            "ip": "10.2.1.19",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 88097.9,
+                "y": 23025.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND020",
+            "name": "地面节点20",
+            "nodeType": "ground",
+            "ip": "10.2.1.20",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 88046.2,
+                "y": 28593.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND021",
+            "name": "地面节点21",
+            "nodeType": "ground",
+            "ip": "10.2.1.21",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 99317.2,
+                "y": 17748.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND022",
+            "name": "地面节点22",
+            "nodeType": "ground",
+            "ip": "10.2.1.22",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 108435.6,
+                "y": 18733.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND023",
+            "name": "地面节点23",
+            "nodeType": "ground",
+            "ip": "10.2.1.23",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 93789.3,
+                "y": 18067.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND024",
+            "name": "地面节点24",
+            "nodeType": "ground",
+            "ip": "10.2.1.24",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 88024.6,
+                "y": 15095.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND025",
+            "name": "地面节点25",
+            "nodeType": "ground",
+            "ip": "10.2.1.25",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 97519.3,
+                "y": 13415.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND026",
+            "name": "地面节点26",
+            "nodeType": "ground",
+            "ip": "10.2.1.26",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 36104.5,
+                "y": 36507.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND027",
+            "name": "地面节点27",
+            "nodeType": "ground",
+            "ip": "10.2.1.27",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 10956.4,
+                "y": 43302.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND028",
+            "name": "地面节点28",
+            "nodeType": "ground",
+            "ip": "10.2.1.28",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 35094.5,
+                "y": 40817.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND029",
+            "name": "地面节点29",
+            "nodeType": "ground",
+            "ip": "10.2.1.29",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 18731.4,
+                "y": 50362.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND030",
+            "name": "地面节点30",
+            "nodeType": "ground",
+            "ip": "10.2.1.30",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 25025.1,
+                "y": 31361.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND031",
+            "name": "地面节点31",
+            "nodeType": "ground",
+            "ip": "10.2.1.31",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 51189.8,
+                "y": 36549.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND032",
+            "name": "地面节点32",
+            "nodeType": "ground",
+            "ip": "10.2.1.32",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 35371.4,
+                "y": 30641.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND033",
+            "name": "地面节点33",
+            "nodeType": "ground",
+            "ip": "10.2.1.33",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 50354.5,
+                "y": 28178.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND034",
+            "name": "地面节点34",
+            "nodeType": "ground",
+            "ip": "10.2.1.34",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 39785.6,
+                "y": 55147.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND035",
+            "name": "地面节点35",
+            "nodeType": "ground",
+            "ip": "10.2.1.35",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 35342.5,
+                "y": 52249.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND036",
+            "name": "地面节点36",
+            "nodeType": "ground",
+            "ip": "10.2.1.36",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 58678.3,
+                "y": 40908.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND037",
+            "name": "地面节点37",
+            "nodeType": "ground",
+            "ip": "10.2.1.37",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 66631.1,
+                "y": 27110.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND038",
+            "name": "地面节点38",
+            "nodeType": "ground",
+            "ip": "10.2.1.38",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 47753.3,
+                "y": 33402.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND039",
+            "name": "地面节点39",
+            "nodeType": "ground",
+            "ip": "10.2.1.39",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 65264.8,
+                "y": 47392.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND040",
+            "name": "地面节点40",
+            "nodeType": "ground",
+            "ip": "10.2.1.40",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 59238.7,
+                "y": 49790.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND041",
+            "name": "地面节点41",
+            "nodeType": "ground",
+            "ip": "10.2.1.41",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 78607.2,
+                "y": 35194.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND042",
+            "name": "地面节点42",
+            "nodeType": "ground",
+            "ip": "10.2.1.42",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 69298.8,
+                "y": 49453.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND043",
+            "name": "地面节点43",
+            "nodeType": "ground",
+            "ip": "10.2.1.43",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 90417.4,
+                "y": 40757.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND044",
+            "name": "地面节点44",
+            "nodeType": "ground",
+            "ip": "10.2.1.44",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 91098.3,
+                "y": 30480.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND045",
+            "name": "地面节点45",
+            "nodeType": "ground",
+            "ip": "10.2.1.45",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 90592.3,
+                "y": 47347.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND046",
+            "name": "地面节点46",
+            "nodeType": "ground",
+            "ip": "10.2.1.46",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 89240.1,
+                "y": 29440.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND047",
+            "name": "地面节点47",
+            "nodeType": "ground",
+            "ip": "10.2.1.47",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 87868.4,
+                "y": 43943.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND048",
+            "name": "地面节点48",
+            "nodeType": "ground",
+            "ip": "10.2.1.48",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 96566.9,
+                "y": 50141.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND049",
+            "name": "地面节点49",
+            "nodeType": "ground",
+            "ip": "10.2.1.49",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 85993.8,
+                "y": 45631.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND050",
+            "name": "地面节点50",
+            "nodeType": "ground",
+            "ip": "10.2.1.50",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 104118.3,
+                "y": 51524.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND051",
+            "name": "地面节点51",
+            "nodeType": "ground",
+            "ip": "10.2.1.51",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 4365.6,
+                "y": 53105.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND052",
+            "name": "地面节点52",
+            "nodeType": "ground",
+            "ip": "10.2.1.52",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 23193.4,
+                "y": 66985.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND053",
+            "name": "地面节点53",
+            "nodeType": "ground",
+            "ip": "10.2.1.53",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 12273.3,
+                "y": 53013.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND054",
+            "name": "地面节点54",
+            "nodeType": "ground",
+            "ip": "10.2.1.54",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 25156.3,
+                "y": 55784.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND055",
+            "name": "地面节点55",
+            "nodeType": "ground",
+            "ip": "10.2.1.55",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 15730.5,
+                "y": 63826.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND056",
+            "name": "地面节点56",
+            "nodeType": "ground",
+            "ip": "10.2.1.56",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 50520.6,
+                "y": 49153.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND057",
+            "name": "地面节点57",
+            "nodeType": "ground",
+            "ip": "10.2.1.57",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 50917.9,
+                "y": 46099.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND058",
+            "name": "地面节点58",
+            "nodeType": "ground",
+            "ip": "10.2.1.58",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 33881.4,
+                "y": 48687.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND059",
+            "name": "地面节点59",
+            "nodeType": "ground",
+            "ip": "10.2.1.59",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 34316.5,
+                "y": 73037.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND060",
+            "name": "地面节点60",
+            "nodeType": "ground",
+            "ip": "10.2.1.60",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 33372.6,
+                "y": 63024.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND061",
+            "name": "地面节点61",
+            "nodeType": "ground",
+            "ip": "10.2.1.61",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 63828.8,
+                "y": 54739.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND062",
+            "name": "地面节点62",
+            "nodeType": "ground",
+            "ip": "10.2.1.62",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 64262.8,
+                "y": 57267.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND063",
+            "name": "地面节点63",
+            "nodeType": "ground",
+            "ip": "10.2.1.63",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 76553.5,
+                "y": 65365.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND064",
+            "name": "地面节点64",
+            "nodeType": "ground",
+            "ip": "10.2.1.64",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 73900.4,
+                "y": 51881.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND065",
+            "name": "地面节点65",
+            "nodeType": "ground",
+            "ip": "10.2.1.65",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 70917.6,
+                "y": 46364.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND066",
+            "name": "地面节点66",
+            "nodeType": "ground",
+            "ip": "10.2.1.66",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 69412.9,
+                "y": 47409.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND067",
+            "name": "地面节点67",
+            "nodeType": "ground",
+            "ip": "10.2.1.67",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 74901.2,
+                "y": 72725.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND068",
+            "name": "地面节点68",
+            "nodeType": "ground",
+            "ip": "10.2.1.68",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 93732.0,
+                "y": 61910.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND069",
+            "name": "地面节点69",
+            "nodeType": "ground",
+            "ip": "10.2.1.69",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 83637.5,
+                "y": 59644.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND070",
+            "name": "地面节点70",
+            "nodeType": "ground",
+            "ip": "10.2.1.70",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 69652.0,
+                "y": 47401.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND071",
+            "name": "地面节点71",
+            "nodeType": "ground",
+            "ip": "10.2.1.71",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 84344.9,
+                "y": 62533.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND072",
+            "name": "地面节点72",
+            "nodeType": "ground",
+            "ip": "10.2.1.72",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 112733.3,
+                "y": 54253.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND073",
+            "name": "地面节点73",
+            "nodeType": "ground",
+            "ip": "10.2.1.73",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 92684.4,
+                "y": 70287.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND074",
+            "name": "地面节点74",
+            "nodeType": "ground",
+            "ip": "10.2.1.74",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 95541.7,
+                "y": 43094.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND075",
+            "name": "地面节点75",
+            "nodeType": "ground",
+            "ip": "10.2.1.75",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 86283.5,
+                "y": 48869.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND076",
+            "name": "地面节点76",
+            "nodeType": "ground",
+            "ip": "10.2.1.76",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 15604.6,
+                "y": 96019.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND077",
+            "name": "地面节点77",
+            "nodeType": "ground",
+            "ip": "10.2.1.77",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 16424.1,
+                "y": 83475.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND078",
+            "name": "地面节点78",
+            "nodeType": "ground",
+            "ip": "10.2.1.78",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 30422.6,
+                "y": 78436.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND079",
+            "name": "地面节点79",
+            "nodeType": "ground",
+            "ip": "10.2.1.79",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 21795.1,
+                "y": 63112.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND080",
+            "name": "地面节点80",
+            "nodeType": "ground",
+            "ip": "10.2.1.80",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 30597.4,
+                "y": 69501.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND081",
+            "name": "地面节点81",
+            "nodeType": "ground",
+            "ip": "10.2.1.81",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 40362.7,
+                "y": 89763.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND082",
+            "name": "地面节点82",
+            "nodeType": "ground",
+            "ip": "10.2.1.82",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 24890.6,
+                "y": 79082.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND083",
+            "name": "地面节点83",
+            "nodeType": "ground",
+            "ip": "10.2.1.83",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 49847.1,
+                "y": 70166.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND084",
+            "name": "地面节点84",
+            "nodeType": "ground",
+            "ip": "10.2.1.84",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 24345.8,
+                "y": 72011.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND085",
+            "name": "地面节点85",
+            "nodeType": "ground",
+            "ip": "10.2.1.85",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 51770.0,
+                "y": 79868.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND086",
+            "name": "地面节点86",
+            "nodeType": "ground",
+            "ip": "10.2.1.86",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 46064.0,
+                "y": 88414.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND087",
+            "name": "地面节点87",
+            "nodeType": "ground",
+            "ip": "10.2.1.87",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 58674.4,
+                "y": 73496.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND088",
+            "name": "地面节点88",
+            "nodeType": "ground",
+            "ip": "10.2.1.88",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 42847.6,
+                "y": 80170.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND089",
+            "name": "地面节点89",
+            "nodeType": "ground",
+            "ip": "10.2.1.89",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 51305.1,
+                "y": 73127.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND090",
+            "name": "地面节点90",
+            "nodeType": "ground",
+            "ip": "10.2.1.90",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 55778.0,
+                "y": 85781.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND091",
+            "name": "地面节点91",
+            "nodeType": "ground",
+            "ip": "10.2.1.91",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 79996.1,
+                "y": 81963.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND092",
+            "name": "地面节点92",
+            "nodeType": "ground",
+            "ip": "10.2.1.92",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 75611.8,
+                "y": 72842.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND093",
+            "name": "地面节点93",
+            "nodeType": "ground",
+            "ip": "10.2.1.93",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 81995.0,
+                "y": 73572.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND094",
+            "name": "地面节点94",
+            "nodeType": "ground",
+            "ip": "10.2.1.94",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 71455.2,
+                "y": 91988.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND095",
+            "name": "地面节点95",
+            "nodeType": "ground",
+            "ip": "10.2.1.95",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 85534.8,
+                "y": 90070.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND096",
+            "name": "地面节点96",
+            "nodeType": "ground",
+            "ip": "10.2.1.96",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 115992.0,
+                "y": 78634.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND097",
+            "name": "地面节点97",
+            "nodeType": "ground",
+            "ip": "10.2.1.97",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 91646.2,
+                "y": 71429.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND098",
+            "name": "地面节点98",
+            "nodeType": "ground",
+            "ip": "10.2.1.98",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 87077.1,
+                "y": 72217.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND099",
+            "name": "地面节点99",
+            "nodeType": "ground",
+            "ip": "10.2.1.99",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 101996.7,
+                "y": 71252.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND100",
+            "name": "地面节点100",
+            "nodeType": "ground",
+            "ip": "10.2.1.100",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 111938.0,
+                "y": 87452.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND101",
+            "name": "地面节点101",
+            "nodeType": "ground",
+            "ip": "10.2.1.101",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 20616.8,
+                "y": 88344.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "GND102",
+            "name": "地面节点102",
+            "nodeType": "ground",
+            "ip": "10.2.1.102",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 21103.1,
+                "y": 106710.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0001",
+            "name": "无人平台1",
+            "nodeType": "uav",
+            "ip": "10.1.1.1",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 25405.5,
+                "y": 20369.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0002",
+            "name": "无人平台2",
+            "nodeType": "uav",
+            "ip": "10.1.1.2",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 36022.6,
+                "y": 36955.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0003",
+            "name": "无人平台3",
+            "nodeType": "uav",
+            "ip": "10.1.1.3",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 52756.2,
+                "y": 27084.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0004",
+            "name": "无人平台4",
+            "nodeType": "uav",
+            "ip": "10.1.1.4",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 66833.0,
+                "y": 29011.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0005",
+            "name": "无人平台5",
+            "nodeType": "uav",
+            "ip": "10.1.1.5",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 109508.7,
+                "y": 33170.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0006",
+            "name": "无人平台6",
+            "nodeType": "uav",
+            "ip": "10.1.1.6",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 9273.8,
+                "y": 30306.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0007",
+            "name": "无人平台7",
+            "nodeType": "uav",
+            "ip": "10.1.1.7",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 39649.4,
+                "y": 47742.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0008",
+            "name": "无人平台8",
+            "nodeType": "uav",
+            "ip": "10.1.1.8",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 70753.7,
+                "y": 37773.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0009",
+            "name": "无人平台9",
+            "nodeType": "uav",
+            "ip": "10.1.1.9",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 69330.6,
+                "y": 40809.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0010",
+            "name": "无人平台10",
+            "nodeType": "uav",
+            "ip": "10.1.1.10",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 104363.0,
+                "y": 40756.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0011",
+            "name": "无人平台11",
+            "nodeType": "uav",
+            "ip": "10.1.1.11",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 25585.4,
+                "y": 43991.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0012",
+            "name": "无人平台12",
+            "nodeType": "uav",
+            "ip": "10.1.1.12",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 44643.7,
+                "y": 63096.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0013",
+            "name": "无人平台13",
+            "nodeType": "uav",
+            "ip": "10.1.1.13",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 60062.0,
+                "y": 46850.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0014",
+            "name": "无人平台14",
+            "nodeType": "uav",
+            "ip": "10.1.1.14",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 68713.8,
+                "y": 46376.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0015",
+            "name": "无人平台15",
+            "nodeType": "uav",
+            "ip": "10.1.1.15",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 93837.0,
+                "y": 58180.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0016",
+            "name": "无人平台16",
+            "nodeType": "uav",
+            "ip": "10.1.1.16",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 34819.7,
+                "y": 84947.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0017",
+            "name": "无人平台17",
+            "nodeType": "uav",
+            "ip": "10.1.1.17",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 48576.8,
+                "y": 66086.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0018",
+            "name": "无人平台18",
+            "nodeType": "uav",
+            "ip": "10.1.1.18",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 74141.7,
+                "y": 88426.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0019",
+            "name": "无人平台19",
+            "nodeType": "uav",
+            "ip": "10.1.1.19",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 68872.5,
+                "y": 90069.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0020",
+            "name": "无人平台20",
+            "nodeType": "uav",
+            "ip": "10.1.1.20",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 95097.8,
+                "y": 66468.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0021",
+            "name": "无人平台21",
+            "nodeType": "uav",
+            "ip": "10.1.1.21",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 14841.2,
+                "y": 111880.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0022",
+            "name": "无人平台22",
+            "nodeType": "uav",
+            "ip": "10.1.1.22",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 29458.0,
+                "y": 26547.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0023",
+            "name": "无人平台23",
+            "nodeType": "uav",
+            "ip": "10.1.1.23",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 38948.3,
+                "y": 26869.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0024",
+            "name": "无人平台24",
+            "nodeType": "uav",
+            "ip": "10.1.1.24",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 59481.8,
+                "y": 24032.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0025",
+            "name": "无人平台25",
+            "nodeType": "uav",
+            "ip": "10.1.1.25",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 86020.6,
+                "y": 5297.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0026",
+            "name": "无人平台26",
+            "nodeType": "uav",
+            "ip": "10.1.1.26",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 87325.9,
+                "y": 24337.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0027",
+            "name": "无人平台27",
+            "nodeType": "uav",
+            "ip": "10.1.1.27",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 25120.7,
+                "y": 37624.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0028",
+            "name": "无人平台28",
+            "nodeType": "uav",
+            "ip": "10.1.1.28",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 55568.2,
+                "y": 32964.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0029",
+            "name": "无人平台29",
+            "nodeType": "uav",
+            "ip": "10.1.1.29",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 60714.7,
+                "y": 29065.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0030",
+            "name": "无人平台30",
+            "nodeType": "uav",
+            "ip": "10.1.1.30",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 81070.9,
+                "y": 32485.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0031",
+            "name": "无人平台31",
+            "nodeType": "uav",
+            "ip": "10.1.1.31",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 103428.4,
+                "y": 54203.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0032",
+            "name": "无人平台32",
+            "nodeType": "uav",
+            "ip": "10.1.1.32",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 16632.1,
+                "y": 52841.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0033",
+            "name": "无人平台33",
+            "nodeType": "uav",
+            "ip": "10.1.1.33",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 47269.9,
+                "y": 76410.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0034",
+            "name": "无人平台34",
+            "nodeType": "uav",
+            "ip": "10.1.1.34",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 73583.3,
+                "y": 65280.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0035",
+            "name": "无人平台35",
+            "nodeType": "uav",
+            "ip": "10.1.1.35",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 76300.1,
+                "y": 49755.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0036",
+            "name": "无人平台36",
+            "nodeType": "uav",
+            "ip": "10.1.1.36",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 87104.7,
+                "y": 56340.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0037",
+            "name": "无人平台37",
+            "nodeType": "uav",
+            "ip": "10.1.1.37",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 16735.1,
+                "y": 78083.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0038",
+            "name": "无人平台38",
+            "nodeType": "uav",
+            "ip": "10.1.1.38",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 46069.8,
+                "y": 64943.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0039",
+            "name": "无人平台39",
+            "nodeType": "uav",
+            "ip": "10.1.1.39",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 43863.1,
+                "y": 75063.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0040",
+            "name": "无人平台40",
+            "nodeType": "uav",
+            "ip": "10.1.1.40",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 72968.7,
+                "y": 86157.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0041",
+            "name": "无人平台41",
+            "nodeType": "uav",
+            "ip": "10.1.1.41",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 96925.6,
+                "y": 96942.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0042",
+            "name": "无人平台42",
+            "nodeType": "uav",
+            "ip": "10.1.1.42",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 35444.7,
+                "y": 95402.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0043",
+            "name": "无人平台43",
+            "nodeType": "uav",
+            "ip": "10.1.1.43",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 36171.4,
+                "y": 26687.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0044",
+            "name": "无人平台44",
+            "nodeType": "uav",
+            "ip": "10.1.1.44",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 36484.1,
+                "y": 35077.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0045",
+            "name": "无人平台45",
+            "nodeType": "uav",
+            "ip": "10.1.1.45",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 63037.6,
+                "y": 33352.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0046",
+            "name": "无人平台46",
+            "nodeType": "uav",
+            "ip": "10.1.1.46",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 73802.6,
+                "y": 32746.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0047",
+            "name": "无人平台47",
+            "nodeType": "uav",
+            "ip": "10.1.1.47",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 106576.7,
+                "y": 12207.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0048",
+            "name": "无人平台48",
+            "nodeType": "uav",
+            "ip": "10.1.1.48",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 15069.9,
+                "y": 30040.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0049",
+            "name": "无人平台49",
+            "nodeType": "uav",
+            "ip": "10.1.1.49",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 51157.6,
+                "y": 46201.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0050",
+            "name": "无人平台50",
+            "nodeType": "uav",
+            "ip": "10.1.1.50",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 51502.7,
+                "y": 50025.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0051",
+            "name": "无人平台51",
+            "nodeType": "uav",
+            "ip": "10.1.1.51",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 94282.0,
+                "y": 40982.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0052",
+            "name": "无人平台52",
+            "nodeType": "uav",
+            "ip": "10.1.1.52",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 112617.3,
+                "y": 47482.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0053",
+            "name": "无人平台53",
+            "nodeType": "uav",
+            "ip": "10.1.1.53",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 24151.8,
+                "y": 46090.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0054",
+            "name": "无人平台54",
+            "nodeType": "uav",
+            "ip": "10.1.1.54",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 40713.5,
+                "y": 55917.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0055",
+            "name": "无人平台55",
+            "nodeType": "uav",
+            "ip": "10.1.1.55",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 50586.2,
+                "y": 49592.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0056",
+            "name": "无人平台56",
+            "nodeType": "uav",
+            "ip": "10.1.1.56",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 94085.2,
+                "y": 52668.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0057",
+            "name": "无人平台57",
+            "nodeType": "uav",
+            "ip": "10.1.1.57",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 83441.6,
+                "y": 56015.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0058",
+            "name": "无人平台58",
+            "nodeType": "uav",
+            "ip": "10.1.1.58",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 26580.5,
+                "y": 94675.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0059",
+            "name": "无人平台59",
+            "nodeType": "uav",
+            "ip": "10.1.1.59",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 38354.8,
+                "y": 89699.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0060",
+            "name": "无人平台60",
+            "nodeType": "uav",
+            "ip": "10.1.1.60",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 61208.8,
+                "y": 86207.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0061",
+            "name": "无人平台61",
+            "nodeType": "uav",
+            "ip": "10.1.1.61",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 95775.1,
+                "y": 87305.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0062",
+            "name": "无人平台62",
+            "nodeType": "uav",
+            "ip": "10.1.1.62",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 109412.2,
+                "y": 81397.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0063",
+            "name": "无人平台63",
+            "nodeType": "uav",
+            "ip": "10.1.1.63",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 16471.9,
+                "y": 115981.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0064",
+            "name": "无人平台64",
+            "nodeType": "uav",
+            "ip": "10.1.1.64",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 10557.6,
+                "y": 35060.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0065",
+            "name": "无人平台65",
+            "nodeType": "uav",
+            "ip": "10.1.1.65",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 50166.2,
+                "y": 20302.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0066",
+            "name": "无人平台66",
+            "nodeType": "uav",
+            "ip": "10.1.1.66",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 65300.3,
+                "y": 28679.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0067",
+            "name": "无人平台67",
+            "nodeType": "uav",
+            "ip": "10.1.1.67",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 77687.1,
+                "y": 17422.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0068",
+            "name": "无人平台68",
+            "nodeType": "uav",
+            "ip": "10.1.1.68",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 94140.9,
+                "y": 17095.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0069",
+            "name": "无人平台69",
+            "nodeType": "uav",
+            "ip": "10.1.1.69",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 15988.8,
+                "y": 25897.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0070",
+            "name": "无人平台70",
+            "nodeType": "uav",
+            "ip": "10.1.1.70",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 36082.2,
+                "y": 37675.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0071",
+            "name": "无人平台71",
+            "nodeType": "uav",
+            "ip": "10.1.1.71",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 66375.0,
+                "y": 23461.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0072",
+            "name": "无人平台72",
+            "nodeType": "uav",
+            "ip": "10.1.1.72",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 94808.7,
+                "y": 40483.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0073",
+            "name": "无人平台73",
+            "nodeType": "uav",
+            "ip": "10.1.1.73",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 86042.3,
+                "y": 50160.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0074",
+            "name": "无人平台74",
+            "nodeType": "uav",
+            "ip": "10.1.1.74",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 17135.9,
+                "y": 77088.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0075",
+            "name": "无人平台75",
+            "nodeType": "uav",
+            "ip": "10.1.1.75",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 39255.6,
+                "y": 67633.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0076",
+            "name": "无人平台76",
+            "nodeType": "uav",
+            "ip": "10.1.1.76",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 45180.9,
+                "y": 67865.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0077",
+            "name": "无人平台77",
+            "nodeType": "uav",
+            "ip": "10.1.1.77",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 74773.3,
+                "y": 74827.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0078",
+            "name": "无人平台78",
+            "nodeType": "uav",
+            "ip": "10.1.1.78",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 109291.2,
+                "y": 54246.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0079",
+            "name": "无人平台79",
+            "nodeType": "uav",
+            "ip": "10.1.1.79",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 32471.4,
+                "y": 87565.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0080",
+            "name": "无人平台80",
+            "nodeType": "uav",
+            "ip": "10.1.1.80",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 43788.8,
+                "y": 96215.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0081",
+            "name": "无人平台81",
+            "nodeType": "uav",
+            "ip": "10.1.1.81",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 55729.5,
+                "y": 78497.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0082",
+            "name": "无人平台82",
+            "nodeType": "uav",
+            "ip": "10.1.1.82",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 92049.6,
+                "y": 89571.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0083",
+            "name": "无人平台83",
+            "nodeType": "uav",
+            "ip": "10.1.1.83",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 104056.9,
+                "y": 70793.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0084",
+            "name": "无人平台84",
+            "nodeType": "uav",
+            "ip": "10.1.1.84",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 9736.7,
+                "y": 90286.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0085",
+            "name": "无人平台85",
+            "nodeType": "uav",
+            "ip": "10.1.1.85",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 16975.9,
+                "y": 9431.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0086",
+            "name": "无人平台86",
+            "nodeType": "uav",
+            "ip": "10.1.1.86",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 37341.5,
+                "y": 18707.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0087",
+            "name": "无人平台87",
+            "nodeType": "uav",
+            "ip": "10.1.1.87",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 70075.3,
+                "y": 34673.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0088",
+            "name": "无人平台88",
+            "nodeType": "uav",
+            "ip": "10.1.1.88",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 76031.5,
+                "y": 32620.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0089",
+            "name": "无人平台89",
+            "nodeType": "uav",
+            "ip": "10.1.1.89",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 101074.6,
+                "y": 6521.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0090",
+            "name": "无人平台90",
+            "nodeType": "uav",
+            "ip": "10.1.1.90",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 23662.5,
+                "y": 46494.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0091",
+            "name": "无人平台91",
+            "nodeType": "uav",
+            "ip": "10.1.1.91",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 30642.9,
+                "y": 37800.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0092",
+            "name": "无人平台92",
+            "nodeType": "uav",
+            "ip": "10.1.1.92",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 56412.9,
+                "y": 30025.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0093",
+            "name": "无人平台93",
+            "nodeType": "uav",
+            "ip": "10.1.1.93",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 87808.2,
+                "y": 34088.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0094",
+            "name": "无人平台94",
+            "nodeType": "uav",
+            "ip": "10.1.1.94",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 106222.9,
+                "y": 44710.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0095",
+            "name": "无人平台95",
+            "nodeType": "uav",
+            "ip": "10.1.1.95",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 28660.6,
+                "y": 75616.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0096",
+            "name": "无人平台96",
+            "nodeType": "uav",
+            "ip": "10.1.1.96",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 29503.9,
+                "y": 67514.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0097",
+            "name": "无人平台97",
+            "nodeType": "uav",
+            "ip": "10.1.1.97",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 58329.2,
+                "y": 49074.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0098",
+            "name": "无人平台98",
+            "nodeType": "uav",
+            "ip": "10.1.1.98",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 82216.6,
+                "y": 51490.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0099",
+            "name": "无人平台99",
+            "nodeType": "uav",
+            "ip": "10.1.1.99",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 87153.2,
+                "y": 54153.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0100",
+            "name": "无人平台100",
+            "nodeType": "uav",
+            "ip": "10.1.1.100",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 12538.6,
+                "y": 74394.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0101",
+            "name": "无人平台101",
+            "nodeType": "uav",
+            "ip": "10.1.1.101",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 28872.2,
+                "y": 79303.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0102",
+            "name": "无人平台102",
+            "nodeType": "uav",
+            "ip": "10.1.1.102",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 75007.3,
+                "y": 70130.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0103",
+            "name": "无人平台103",
+            "nodeType": "uav",
+            "ip": "10.1.1.103",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 71981.5,
+                "y": 81090.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0104",
+            "name": "无人平台104",
+            "nodeType": "uav",
+            "ip": "10.1.1.104",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 109621.9,
+                "y": 65352.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0105",
+            "name": "无人平台105",
+            "nodeType": "uav",
+            "ip": "10.1.1.105",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 26668.5,
+                "y": 89889.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0106",
+            "name": "无人平台106",
+            "nodeType": "uav",
+            "ip": "10.1.1.106",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 7975.9,
+                "y": 32211.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0107",
+            "name": "无人平台107",
+            "nodeType": "uav",
+            "ip": "10.1.1.107",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 23494.3,
+                "y": 13004.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0108",
+            "name": "无人平台108",
+            "nodeType": "uav",
+            "ip": "10.1.1.108",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 64906.2,
+                "y": 13836.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0109",
+            "name": "无人平台109",
+            "nodeType": "uav",
+            "ip": "10.1.1.109",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 86968.4,
+                "y": 36065.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0110",
+            "name": "无人平台110",
+            "nodeType": "uav",
+            "ip": "10.1.1.110",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 89763.8,
+                "y": 32029.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0111",
+            "name": "无人平台111",
+            "nodeType": "uav",
+            "ip": "10.1.1.111",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 30871.4,
+                "y": 52801.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0112",
+            "name": "无人平台112",
+            "nodeType": "uav",
+            "ip": "10.1.1.112",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 31020.8,
+                "y": 51087.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0113",
+            "name": "无人平台113",
+            "nodeType": "uav",
+            "ip": "10.1.1.113",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 63441.5,
+                "y": 27458.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0114",
+            "name": "无人平台114",
+            "nodeType": "uav",
+            "ip": "10.1.1.114",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 90606.8,
+                "y": 34121.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0115",
+            "name": "无人平台115",
+            "nodeType": "uav",
+            "ip": "10.1.1.115",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 96138.4,
+                "y": 25298.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0116",
+            "name": "无人平台116",
+            "nodeType": "uav",
+            "ip": "10.1.1.116",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 17009.5,
+                "y": 50649.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0117",
+            "name": "无人平台117",
+            "nodeType": "uav",
+            "ip": "10.1.1.117",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 35845.2,
+                "y": 57788.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0118",
+            "name": "无人平台118",
+            "nodeType": "uav",
+            "ip": "10.1.1.118",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 59618.6,
+                "y": 46104.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0119",
+            "name": "无人平台119",
+            "nodeType": "uav",
+            "ip": "10.1.1.119",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 73470.9,
+                "y": 59384.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0120",
+            "name": "无人平台120",
+            "nodeType": "uav",
+            "ip": "10.1.1.120",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 112444.8,
+                "y": 56919.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0121",
+            "name": "无人平台121",
+            "nodeType": "uav",
+            "ip": "10.1.1.121",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 32494.2,
+                "y": 82440.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0122",
+            "name": "无人平台122",
+            "nodeType": "uav",
+            "ip": "10.1.1.122",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 24394.2,
+                "y": 85646.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0123",
+            "name": "无人平台123",
+            "nodeType": "uav",
+            "ip": "10.1.1.123",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 51756.5,
+                "y": 68798.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0124",
+            "name": "无人平台124",
+            "nodeType": "uav",
+            "ip": "10.1.1.124",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 90310.5,
+                "y": 73436.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0125",
+            "name": "无人平台125",
+            "nodeType": "uav",
+            "ip": "10.1.1.125",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 82639.4,
+                "y": 82590.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0126",
+            "name": "无人平台126",
+            "nodeType": "uav",
+            "ip": "10.1.1.126",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 20790.5,
+                "y": 85235.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0127",
+            "name": "无人平台127",
+            "nodeType": "uav",
+            "ip": "10.1.1.127",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 29351.8,
+                "y": 5021.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0128",
+            "name": "无人平台128",
+            "nodeType": "uav",
+            "ip": "10.1.1.128",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 46678.8,
+                "y": 8615.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0129",
+            "name": "无人平台129",
+            "nodeType": "uav",
+            "ip": "10.1.1.129",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 62147.4,
+                "y": 18566.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0130",
+            "name": "无人平台130",
+            "nodeType": "uav",
+            "ip": "10.1.1.130",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 72079.0,
+                "y": 17698.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0131",
+            "name": "无人平台131",
+            "nodeType": "uav",
+            "ip": "10.1.1.131",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 103831.7,
+                "y": 20549.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0132",
+            "name": "无人平台132",
+            "nodeType": "uav",
+            "ip": "10.1.1.132",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 36198.1,
+                "y": 46165.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0133",
+            "name": "无人平台133",
+            "nodeType": "uav",
+            "ip": "10.1.1.133",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 22919.1,
+                "y": 35105.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0134",
+            "name": "无人平台134",
+            "nodeType": "uav",
+            "ip": "10.1.1.134",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 69631.5,
+                "y": 27987.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0135",
+            "name": "无人平台135",
+            "nodeType": "uav",
+            "ip": "10.1.1.135",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 90160.3,
+                "y": 46310.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0136",
+            "name": "无人平台136",
+            "nodeType": "uav",
+            "ip": "10.1.1.136",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 89860.5,
+                "y": 46872.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0137",
+            "name": "无人平台137",
+            "nodeType": "uav",
+            "ip": "10.1.1.137",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 26298.1,
+                "y": 47758.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0138",
+            "name": "无人平台138",
+            "nodeType": "uav",
+            "ip": "10.1.1.138",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 49361.2,
+                "y": 52036.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0139",
+            "name": "无人平台139",
+            "nodeType": "uav",
+            "ip": "10.1.1.139",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 59705.4,
+                "y": 69349.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0140",
+            "name": "无人平台140",
+            "nodeType": "uav",
+            "ip": "10.1.1.140",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 85267.8,
+                "y": 73487.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0141",
+            "name": "无人平台141",
+            "nodeType": "uav",
+            "ip": "10.1.1.141",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 89440.9,
+                "y": 69829.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0142",
+            "name": "无人平台142",
+            "nodeType": "uav",
+            "ip": "10.1.1.142",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 32967.9,
+                "y": 72676.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0143",
+            "name": "无人平台143",
+            "nodeType": "uav",
+            "ip": "10.1.1.143",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 33052.7,
+                "y": 84614.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0144",
+            "name": "无人平台144",
+            "nodeType": "uav",
+            "ip": "10.1.1.144",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 69249.5,
+                "y": 93962.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0145",
+            "name": "无人平台145",
+            "nodeType": "uav",
+            "ip": "10.1.1.145",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 62364.4,
+                "y": 83038.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0146",
+            "name": "无人平台146",
+            "nodeType": "uav",
+            "ip": "10.1.1.146",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 95334.5,
+                "y": 82992.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0147",
+            "name": "无人平台147",
+            "nodeType": "uav",
+            "ip": "10.1.1.147",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 18898.9,
+                "y": 94284.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0148",
+            "name": "无人平台148",
+            "nodeType": "uav",
+            "ip": "10.1.1.148",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 11439.3,
+                "y": 13860.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0149",
+            "name": "无人平台149",
+            "nodeType": "uav",
+            "ip": "10.1.1.149",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 35793.5,
+                "y": 6373.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0150",
+            "name": "无人平台150",
+            "nodeType": "uav",
+            "ip": "10.1.1.150",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 59070.5,
+                "y": 5161.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0151",
+            "name": "无人平台151",
+            "nodeType": "uav",
+            "ip": "10.1.1.151",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 95062.5,
+                "y": 23450.0
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0152",
+            "name": "无人平台152",
+            "nodeType": "uav",
+            "ip": "10.1.1.152",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 99529.1,
+                "y": 12001.4
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0153",
+            "name": "无人平台153",
+            "nodeType": "uav",
+            "ip": "10.1.1.153",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 26491.2,
+                "y": 39888.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0154",
+            "name": "无人平台154",
+            "nodeType": "uav",
+            "ip": "10.1.1.154",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 44845.8,
+                "y": 46979.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0155",
+            "name": "无人平台155",
+            "nodeType": "uav",
+            "ip": "10.1.1.155",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 45207.5,
+                "y": 30529.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0156",
+            "name": "无人平台156",
+            "nodeType": "uav",
+            "ip": "10.1.1.156",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 90993.5,
+                "y": 53335.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0157",
+            "name": "无人平台157",
+            "nodeType": "uav",
+            "ip": "10.1.1.157",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 107845.2,
+                "y": 46492.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0158",
+            "name": "无人平台158",
+            "nodeType": "uav",
+            "ip": "10.1.1.158",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 16751.2,
+                "y": 54095.2
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0159",
+            "name": "无人平台159",
+            "nodeType": "uav",
+            "ip": "10.1.1.159",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 42397.9,
+                "y": 70444.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0160",
+            "name": "无人平台160",
+            "nodeType": "uav",
+            "ip": "10.1.1.160",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 66199.8,
+                "y": 43161.5
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0161",
+            "name": "无人平台161",
+            "nodeType": "uav",
+            "ip": "10.1.1.161",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 86355.0,
+                "y": 51844.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0162",
+            "name": "无人平台162",
+            "nodeType": "uav",
+            "ip": "10.1.1.162",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 112397.2,
+                "y": 66927.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0163",
+            "name": "无人平台163",
+            "nodeType": "uav",
+            "ip": "10.1.1.163",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 9572.9,
+                "y": 89148.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0164",
+            "name": "无人平台164",
+            "nodeType": "uav",
+            "ip": "10.1.1.164",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 23255.7,
+                "y": 85240.8
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0165",
+            "name": "无人平台165",
+            "nodeType": "uav",
+            "ip": "10.1.1.165",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 75013.0,
+                "y": 81710.1
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0166",
+            "name": "无人平台166",
+            "nodeType": "uav",
+            "ip": "10.1.1.166",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 69708.3,
+                "y": 83699.3
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0167",
+            "name": "无人平台167",
+            "nodeType": "uav",
+            "ip": "10.1.1.167",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 107480.3,
+                "y": 89303.9
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0168",
+            "name": "无人平台168",
+            "nodeType": "uav",
+            "ip": "10.1.1.168",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 20794.1,
+                "y": 101242.6
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0169",
+            "name": "无人平台169",
+            "nodeType": "uav",
+            "ip": "10.1.1.169",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 28952.0,
+                "y": 30532.7
+            },
+            "status": "online"
+        },
+        {
+            "nodeId": "UAV0170",
+            "name": "无人平台170",
+            "nodeType": "uav",
+            "ip": "10.1.1.170",
+            "mask": "255.255.0.0",
+            "position": {
+                "x": 35298.3,
+                "y": 26303.0
+            },
+            "status": "online"
+        }
+    ],
+    "links": [
+        {
+            "linkId": "L99001",
+            "linkType": "fiber",
+            "srcNodeId": "EXT001",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00196",
+            "linkType": "5g",
+            "srcNodeId": "UAV0001",
+            "dstNodeId": "GND006",
+            "status": "up"
+        },
+        {
+            "linkId": "L00197",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0001",
+            "dstNodeId": "GND009",
+            "status": "up"
+        },
+        {
+            "linkId": "L00215",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0010",
+            "dstNodeId": "GND050",
+            "status": "up"
+        },
+        {
+            "linkId": "L00214",
+            "linkType": "5g",
+            "srcNodeId": "UAV0010",
+            "dstNodeId": "GND074",
+            "status": "up"
+        },
+        {
+            "linkId": "L00394",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0100",
+            "dstNodeId": "GND077",
+            "status": "up"
+        },
+        {
+            "linkId": "L00396",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0101",
+            "dstNodeId": "GND078",
+            "status": "up"
+        },
+        {
+            "linkId": "L00398",
+            "linkType": "5g",
+            "srcNodeId": "UAV0102",
+            "dstNodeId": "GND067",
+            "status": "up"
+        },
+        {
+            "linkId": "L00400",
+            "linkType": "5g",
+            "srcNodeId": "UAV0103",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00402",
+            "linkType": "5g",
+            "srcNodeId": "UAV0104",
+            "dstNodeId": "GND099",
+            "status": "up"
+        },
+        {
+            "linkId": "L00404",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0105",
+            "dstNodeId": "GND101",
+            "status": "up"
+        },
+        {
+            "linkId": "L00406",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0106",
+            "dstNodeId": "GND002",
+            "status": "up"
+        },
+        {
+            "linkId": "L00408",
+            "linkType": "5g",
+            "srcNodeId": "UAV0107",
+            "dstNodeId": "GND004",
+            "status": "up"
+        },
+        {
+            "linkId": "L00410",
+            "linkType": "5g",
+            "srcNodeId": "UAV0108",
+            "dstNodeId": "GND012",
+            "status": "up"
+        },
+        {
+            "linkId": "L00412",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0109",
+            "dstNodeId": "GND043",
+            "status": "up"
+        },
+        {
+            "linkId": "L00216",
+            "linkType": "5g",
+            "srcNodeId": "UAV0011",
+            "dstNodeId": "GND029",
+            "status": "up"
+        },
+        {
+            "linkId": "L00217",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0011",
+            "dstNodeId": "GND058",
+            "status": "up"
+        },
+        {
+            "linkId": "L00414",
+            "linkType": "5g",
+            "srcNodeId": "UAV0110",
+            "dstNodeId": "GND044",
+            "status": "up"
+        },
+        {
+            "linkId": "L00416",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0111",
+            "dstNodeId": "GND035",
+            "status": "up"
+        },
+        {
+            "linkId": "L00418",
+            "linkType": "5g",
+            "srcNodeId": "UAV0112",
+            "dstNodeId": "GND058",
+            "status": "up"
+        },
+        {
+            "linkId": "L00420",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0113",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00422",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0114",
+            "dstNodeId": "GND044",
+            "status": "up"
+        },
+        {
+            "linkId": "L00424",
+            "linkType": "5g",
+            "srcNodeId": "UAV0115",
+            "dstNodeId": "GND016",
+            "status": "up"
+        },
+        {
+            "linkId": "L00426",
+            "linkType": "5g",
+            "srcNodeId": "UAV0116",
+            "dstNodeId": "GND029",
+            "status": "up"
+        },
+        {
+            "linkId": "L00428",
+            "linkType": "5g",
+            "srcNodeId": "UAV0117",
+            "dstNodeId": "GND034",
+            "status": "up"
+        },
+        {
+            "linkId": "L00430",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0118",
+            "dstNodeId": "GND040",
+            "status": "up"
+        },
+        {
+            "linkId": "L00432",
+            "linkType": "5g",
+            "srcNodeId": "UAV0119",
+            "dstNodeId": "GND063",
+            "status": "up"
+        },
+        {
+            "linkId": "L00219",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0012",
+            "dstNodeId": "GND034",
+            "status": "up"
+        },
+        {
+            "linkId": "L00218",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0012",
+            "dstNodeId": "GND083",
+            "status": "up"
+        },
+        {
+            "linkId": "L00434",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0120",
+            "dstNodeId": "GND072",
+            "status": "up"
+        },
+        {
+            "linkId": "L00436",
+            "linkType": "5g",
+            "srcNodeId": "UAV0121",
+            "dstNodeId": "GND078",
+            "status": "up"
+        },
+        {
+            "linkId": "L00438",
+            "linkType": "5g",
+            "srcNodeId": "UAV0122",
+            "dstNodeId": "GND101",
+            "status": "up"
+        },
+        {
+            "linkId": "L00440",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0123",
+            "dstNodeId": "GND083",
+            "status": "up"
+        },
+        {
+            "linkId": "L00442",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0124",
+            "dstNodeId": "GND097",
+            "status": "up"
+        },
+        {
+            "linkId": "L00444",
+            "linkType": "5g",
+            "srcNodeId": "UAV0125",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00446",
+            "linkType": "5g",
+            "srcNodeId": "UAV0126",
+            "dstNodeId": "GND101",
+            "status": "up"
+        },
+        {
+            "linkId": "L00448",
+            "linkType": "5g",
+            "srcNodeId": "UAV0127",
+            "dstNodeId": "GND004",
+            "status": "up"
+        },
+        {
+            "linkId": "L00450",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0128",
+            "dstNodeId": "GND015",
+            "status": "up"
+        },
+        {
+            "linkId": "L00452",
+            "linkType": "5g",
+            "srcNodeId": "UAV0129",
+            "dstNodeId": "GND011",
+            "status": "up"
+        },
+        {
+            "linkId": "L00221",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0013",
+            "dstNodeId": "GND039",
+            "status": "up"
+        },
+        {
+            "linkId": "L00220",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0013",
+            "dstNodeId": "GND040",
+            "status": "up"
+        },
+        {
+            "linkId": "L00454",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0130",
+            "dstNodeId": "GND018",
+            "status": "up"
+        },
+        {
+            "linkId": "L00456",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0131",
+            "dstNodeId": "GND022",
+            "status": "up"
+        },
+        {
+            "linkId": "L00458",
+            "linkType": "5g",
+            "srcNodeId": "UAV0132",
+            "dstNodeId": "GND058",
+            "status": "up"
+        },
+        {
+            "linkId": "L00460",
+            "linkType": "5g",
+            "srcNodeId": "UAV0133",
+            "dstNodeId": "GND030",
+            "status": "up"
+        },
+        {
+            "linkId": "L00462",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0134",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00464",
+            "linkType": "5g",
+            "srcNodeId": "UAV0135",
+            "dstNodeId": "GND045",
+            "status": "up"
+        },
+        {
+            "linkId": "L00466",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0136",
+            "dstNodeId": "GND045",
+            "status": "up"
+        },
+        {
+            "linkId": "L00468",
+            "linkType": "5g",
+            "srcNodeId": "UAV0137",
+            "dstNodeId": "GND058",
+            "status": "up"
+        },
+        {
+            "linkId": "L00470",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0138",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00472",
+            "linkType": "5g",
+            "srcNodeId": "UAV0139",
+            "dstNodeId": "GND087",
+            "status": "up"
+        },
+        {
+            "linkId": "L00222",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0014",
+            "dstNodeId": "GND066",
+            "status": "up"
+        },
+        {
+            "linkId": "L00223",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0014",
+            "dstNodeId": "GND070",
+            "status": "up"
+        },
+        {
+            "linkId": "L00474",
+            "linkType": "5g",
+            "srcNodeId": "UAV0140",
+            "dstNodeId": "GND098",
+            "status": "up"
+        },
+        {
+            "linkId": "L00476",
+            "linkType": "5g",
+            "srcNodeId": "UAV0141",
+            "dstNodeId": "GND097",
+            "status": "up"
+        },
+        {
+            "linkId": "L00478",
+            "linkType": "5g",
+            "srcNodeId": "UAV0142",
+            "dstNodeId": "GND059",
+            "status": "up"
+        },
+        {
+            "linkId": "L00480",
+            "linkType": "5g",
+            "srcNodeId": "UAV0143",
+            "dstNodeId": "GND078",
+            "status": "up"
+        },
+        {
+            "linkId": "L00482",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0144",
+            "dstNodeId": "GND094",
+            "status": "up"
+        },
+        {
+            "linkId": "L00484",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0145",
+            "dstNodeId": "GND090",
+            "status": "up"
+        },
+        {
+            "linkId": "L00486",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0146",
+            "dstNodeId": "GND095",
+            "status": "up"
+        },
+        {
+            "linkId": "L00488",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0147",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00490",
+            "linkType": "5g",
+            "srcNodeId": "UAV0148",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00492",
+            "linkType": "5g",
+            "srcNodeId": "UAV0149",
+            "dstNodeId": "GND010",
+            "status": "up"
+        },
+        {
+            "linkId": "L00225",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0015",
+            "dstNodeId": "GND048",
+            "status": "up"
+        },
+        {
+            "linkId": "L00224",
+            "linkType": "5g",
+            "srcNodeId": "UAV0015",
+            "dstNodeId": "GND068",
+            "status": "up"
+        },
+        {
+            "linkId": "L00494",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0150",
+            "dstNodeId": "GND012",
+            "status": "up"
+        },
+        {
+            "linkId": "L00496",
+            "linkType": "5g",
+            "srcNodeId": "UAV0151",
+            "dstNodeId": "GND016",
+            "status": "up"
+        },
+        {
+            "linkId": "L00498",
+            "linkType": "5g",
+            "srcNodeId": "UAV0152",
+            "dstNodeId": "GND025",
+            "status": "up"
+        },
+        {
+            "linkId": "L00500",
+            "linkType": "5g",
+            "srcNodeId": "UAV0153",
+            "dstNodeId": "GND030",
+            "status": "up"
+        },
+        {
+            "linkId": "L00502",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0154",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00504",
+            "linkType": "5g",
+            "srcNodeId": "UAV0155",
+            "dstNodeId": "GND008",
+            "status": "up"
+        },
+        {
+            "linkId": "L00506",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0156",
+            "dstNodeId": "GND045",
+            "status": "up"
+        },
+        {
+            "linkId": "L00508",
+            "linkType": "5g",
+            "srcNodeId": "UAV0157",
+            "dstNodeId": "GND050",
+            "status": "up"
+        },
+        {
+            "linkId": "L00510",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0158",
+            "dstNodeId": "GND029",
+            "status": "up"
+        },
+        {
+            "linkId": "L00512",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0159",
+            "dstNodeId": "GND083",
+            "status": "up"
+        },
+        {
+            "linkId": "L00227",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0016",
+            "dstNodeId": "GND078",
+            "status": "up"
+        },
+        {
+            "linkId": "L00226",
+            "linkType": "5g",
+            "srcNodeId": "UAV0016",
+            "dstNodeId": "GND081",
+            "status": "up"
+        },
+        {
+            "linkId": "L00514",
+            "linkType": "5g",
+            "srcNodeId": "UAV0160",
+            "dstNodeId": "GND039",
+            "status": "up"
+        },
+        {
+            "linkId": "L00516",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0161",
+            "dstNodeId": "GND075",
+            "status": "up"
+        },
+        {
+            "linkId": "L00518",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0162",
+            "dstNodeId": "GND099",
+            "status": "up"
+        },
+        {
+            "linkId": "L00520",
+            "linkType": "5g",
+            "srcNodeId": "UAV0163",
+            "dstNodeId": "GND077",
+            "status": "up"
+        },
+        {
+            "linkId": "L00522",
+            "linkType": "5g",
+            "srcNodeId": "UAV0164",
+            "dstNodeId": "GND101",
+            "status": "up"
+        },
+        {
+            "linkId": "L00524",
+            "linkType": "5g",
+            "srcNodeId": "UAV0165",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00526",
+            "linkType": "5g",
+            "srcNodeId": "UAV0166",
+            "dstNodeId": "GND094",
+            "status": "up"
+        },
+        {
+            "linkId": "L00528",
+            "linkType": "5g",
+            "srcNodeId": "UAV0167",
+            "dstNodeId": "GND100",
+            "status": "up"
+        },
+        {
+            "linkId": "L00530",
+            "linkType": "5g",
+            "srcNodeId": "UAV0168",
+            "dstNodeId": "GND102",
+            "status": "up"
+        },
+        {
+            "linkId": "L00532",
+            "linkType": "5g",
+            "srcNodeId": "UAV0169",
+            "dstNodeId": "GND005",
+            "status": "up"
+        },
+        {
+            "linkId": "L00228",
+            "linkType": "5g",
+            "srcNodeId": "UAV0017",
+            "dstNodeId": "GND083",
+            "status": "up"
+        },
+        {
+            "linkId": "L00229",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0017",
+            "dstNodeId": "GND089",
+            "status": "up"
+        },
+        {
+            "linkId": "L00534",
+            "linkType": "5g",
+            "srcNodeId": "UAV0170",
+            "dstNodeId": "GND032",
+            "status": "up"
+        },
+        {
+            "linkId": "L00536",
+            "linkType": "microwave",
+            "srcNodeId": "AIR001",
+            "dstNodeId": "GND005",
+            "status": "up"
+        },
+        {
+            "linkId": "L00545",
+            "linkType": "satcom",
+            "srcNodeId": "AIR001",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00546",
+            "linkType": "uhf",
+            "srcNodeId": "AIR002",
+            "dstNodeId": "GND033",
+            "status": "up"
+        },
+        {
+            "linkId": "L00555",
+            "linkType": "satcom",
+            "srcNodeId": "AIR002",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00556",
+            "linkType": "vhf",
+            "srcNodeId": "AIR003",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00565",
+            "linkType": "satcom",
+            "srcNodeId": "AIR003",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00231",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0018",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00230",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0018",
+            "dstNodeId": "GND094",
+            "status": "up"
+        },
+        {
+            "linkId": "L00233",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0019",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00232",
+            "linkType": "5g",
+            "srcNodeId": "UAV0019",
+            "dstNodeId": "GND094",
+            "status": "up"
+        },
+        {
+            "linkId": "L00198",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0002",
+            "dstNodeId": "GND026",
+            "status": "up"
+        },
+        {
+            "linkId": "L00199",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0002",
+            "dstNodeId": "GND028",
+            "status": "up"
+        },
+        {
+            "linkId": "L00235",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0020",
+            "dstNodeId": "GND068",
+            "status": "up"
+        },
+        {
+            "linkId": "L00234",
+            "linkType": "5g",
+            "srcNodeId": "UAV0020",
+            "dstNodeId": "GND073",
+            "status": "up"
+        },
+        {
+            "linkId": "L00236",
+            "linkType": "5g",
+            "srcNodeId": "UAV0021",
+            "dstNodeId": "GND102",
+            "status": "up"
+        },
+        {
+            "linkId": "L00237",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0021",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00238",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0022",
+            "dstNodeId": "GND005",
+            "status": "up"
+        },
+        {
+            "linkId": "L00239",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0022",
+            "dstNodeId": "GND009",
+            "status": "up"
+        },
+        {
+            "linkId": "L00240",
+            "linkType": "5g",
+            "srcNodeId": "UAV0023",
+            "dstNodeId": "GND032",
+            "status": "up"
+        },
+        {
+            "linkId": "L00241",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0023",
+            "dstNodeId": "GND008",
+            "status": "up"
+        },
+        {
+            "linkId": "L00242",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0024",
+            "dstNodeId": "GND011",
+            "status": "up"
+        },
+        {
+            "linkId": "L00243",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0024",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00244",
+            "linkType": "5g",
+            "srcNodeId": "UAV0025",
+            "dstNodeId": "GND024",
+            "status": "up"
+        },
+        {
+            "linkId": "L00245",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0025",
+            "dstNodeId": "GND025",
+            "status": "up"
+        },
+        {
+            "linkId": "L00246",
+            "linkType": "5g",
+            "srcNodeId": "UAV0026",
+            "dstNodeId": "GND019",
+            "status": "up"
+        },
+        {
+            "linkId": "L00247",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0026",
+            "dstNodeId": "GND020",
+            "status": "up"
+        },
+        {
+            "linkId": "L00248",
+            "linkType": "5g",
+            "srcNodeId": "UAV0027",
+            "dstNodeId": "GND030",
+            "status": "up"
+        },
+        {
+            "linkId": "L00249",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0027",
+            "dstNodeId": "GND005",
+            "status": "up"
+        },
+        {
+            "linkId": "L00250",
+            "linkType": "5g",
+            "srcNodeId": "UAV0028",
+            "dstNodeId": "GND031",
+            "status": "up"
+        },
+        {
+            "linkId": "L00251",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0028",
+            "dstNodeId": "GND033",
+            "status": "up"
+        },
+        {
+            "linkId": "L00253",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0029",
+            "dstNodeId": "GND014",
+            "status": "up"
+        },
+        {
+            "linkId": "L00252",
+            "linkType": "5g",
+            "srcNodeId": "UAV0029",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00200",
+            "linkType": "5g",
+            "srcNodeId": "UAV0003",
+            "dstNodeId": "GND033",
+            "status": "up"
+        },
+        {
+            "linkId": "L00201",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0003",
+            "dstNodeId": "GND008",
+            "status": "up"
+        },
+        {
+            "linkId": "L00255",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0030",
+            "dstNodeId": "GND017",
+            "status": "up"
+        },
+        {
+            "linkId": "L00254",
+            "linkType": "5g",
+            "srcNodeId": "UAV0030",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00257",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0031",
+            "dstNodeId": "GND048",
+            "status": "up"
+        },
+        {
+            "linkId": "L00256",
+            "linkType": "5g",
+            "srcNodeId": "UAV0031",
+            "dstNodeId": "GND050",
+            "status": "up"
+        },
+        {
+            "linkId": "L00258",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0032",
+            "dstNodeId": "GND029",
+            "status": "up"
+        },
+        {
+            "linkId": "L00259",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0032",
+            "dstNodeId": "GND053",
+            "status": "up"
+        },
+        {
+            "linkId": "L00261",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0033",
+            "dstNodeId": "GND085",
+            "status": "up"
+        },
+        {
+            "linkId": "L00260",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0033",
+            "dstNodeId": "GND089",
+            "status": "up"
+        },
+        {
+            "linkId": "L00262",
+            "linkType": "5g",
+            "srcNodeId": "UAV0034",
+            "dstNodeId": "GND063",
+            "status": "up"
+        },
+        {
+            "linkId": "L00263",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0034",
+            "dstNodeId": "GND067",
+            "status": "up"
+        },
+        {
+            "linkId": "L00264",
+            "linkType": "5g",
+            "srcNodeId": "UAV0035",
+            "dstNodeId": "GND064",
+            "status": "up"
+        },
+        {
+            "linkId": "L00265",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0035",
+            "dstNodeId": "GND065",
+            "status": "up"
+        },
+        {
+            "linkId": "L00266",
+            "linkType": "5g",
+            "srcNodeId": "UAV0036",
+            "dstNodeId": "GND069",
+            "status": "up"
+        },
+        {
+            "linkId": "L00267",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0036",
+            "dstNodeId": "GND071",
+            "status": "up"
+        },
+        {
+            "linkId": "L00268",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0037",
+            "dstNodeId": "GND077",
+            "status": "up"
+        },
+        {
+            "linkId": "L00269",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0037",
+            "dstNodeId": "GND082",
+            "status": "up"
+        },
+        {
+            "linkId": "L00270",
+            "linkType": "5g",
+            "srcNodeId": "UAV0038",
+            "dstNodeId": "GND083",
+            "status": "up"
+        },
+        {
+            "linkId": "L00271",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0038",
+            "dstNodeId": "GND089",
+            "status": "up"
+        },
+        {
+            "linkId": "L00272",
+            "linkType": "5g",
+            "srcNodeId": "UAV0039",
+            "dstNodeId": "GND088",
+            "status": "up"
+        },
+        {
+            "linkId": "L00273",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0039",
+            "dstNodeId": "GND089",
+            "status": "up"
+        },
+        {
+            "linkId": "L00203",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0004",
+            "dstNodeId": "GND014",
+            "status": "up"
+        },
+        {
+            "linkId": "L00202",
+            "linkType": "5g",
+            "srcNodeId": "UAV0004",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00275",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0040",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00274",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0040",
+            "dstNodeId": "GND094",
+            "status": "up"
+        },
+        {
+            "linkId": "L00277",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0041",
+            "dstNodeId": "GND100",
+            "status": "up"
+        },
+        {
+            "linkId": "L00276",
+            "linkType": "5g",
+            "srcNodeId": "UAV0041",
+            "dstNodeId": "GND095",
+            "status": "up"
+        },
+        {
+            "linkId": "L00278",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0042",
+            "dstNodeId": "GND081",
+            "status": "up"
+        },
+        {
+            "linkId": "L00279",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0042",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00280",
+            "linkType": "5g",
+            "srcNodeId": "UAV0043",
+            "dstNodeId": "GND032",
+            "status": "up"
+        },
+        {
+            "linkId": "L00281",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0043",
+            "dstNodeId": "GND006",
+            "status": "up"
+        },
+        {
+            "linkId": "L00282",
+            "linkType": "5g",
+            "srcNodeId": "UAV0044",
+            "dstNodeId": "GND026",
+            "status": "up"
+        },
+        {
+            "linkId": "L00283",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0044",
+            "dstNodeId": "GND032",
+            "status": "up"
+        },
+        {
+            "linkId": "L00285",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0045",
+            "dstNodeId": "GND036",
+            "status": "up"
+        },
+        {
+            "linkId": "L00284",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0045",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00287",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0046",
+            "dstNodeId": "GND017",
+            "status": "up"
+        },
+        {
+            "linkId": "L00286",
+            "linkType": "5g",
+            "srcNodeId": "UAV0046",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00289",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0047",
+            "dstNodeId": "GND021",
+            "status": "up"
+        },
+        {
+            "linkId": "L00288",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0047",
+            "dstNodeId": "GND022",
+            "status": "up"
+        },
+        {
+            "linkId": "L00291",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0048",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00290",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0048",
+            "dstNodeId": "GND003",
+            "status": "up"
+        },
+        {
+            "linkId": "L00293",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0049",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00292",
+            "linkType": "5g",
+            "srcNodeId": "UAV0049",
+            "dstNodeId": "GND057",
+            "status": "up"
+        },
+        {
+            "linkId": "L00204",
+            "linkType": "5g",
+            "srcNodeId": "UAV0005",
+            "dstNodeId": "GND022",
+            "status": "up"
+        },
+        {
+            "linkId": "L00205",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0005",
+            "dstNodeId": "GND074",
+            "status": "up"
+        },
+        {
+            "linkId": "L00294",
+            "linkType": "5g",
+            "srcNodeId": "UAV0050",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00295",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0050",
+            "dstNodeId": "GND057",
+            "status": "up"
+        },
+        {
+            "linkId": "L00297",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0051",
+            "dstNodeId": "GND043",
+            "status": "up"
+        },
+        {
+            "linkId": "L00296",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0051",
+            "dstNodeId": "GND074",
+            "status": "up"
+        },
+        {
+            "linkId": "L00299",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0052",
+            "dstNodeId": "GND050",
+            "status": "up"
+        },
+        {
+            "linkId": "L00298",
+            "linkType": "5g",
+            "srcNodeId": "UAV0052",
+            "dstNodeId": "GND072",
+            "status": "up"
+        },
+        {
+            "linkId": "L00300",
+            "linkType": "5g",
+            "srcNodeId": "UAV0053",
+            "dstNodeId": "GND029",
+            "status": "up"
+        },
+        {
+            "linkId": "L00301",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0053",
+            "dstNodeId": "GND054",
+            "status": "up"
+        },
+        {
+            "linkId": "L00302",
+            "linkType": "5g",
+            "srcNodeId": "UAV0054",
+            "dstNodeId": "GND034",
+            "status": "up"
+        },
+        {
+            "linkId": "L00303",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0054",
+            "dstNodeId": "GND035",
+            "status": "up"
+        },
+        {
+            "linkId": "L00304",
+            "linkType": "5g",
+            "srcNodeId": "UAV0055",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00305",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0055",
+            "dstNodeId": "GND057",
+            "status": "up"
+        },
+        {
+            "linkId": "L00307",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0056",
+            "dstNodeId": "GND045",
+            "status": "up"
+        },
+        {
+            "linkId": "L00306",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0056",
+            "dstNodeId": "GND048",
+            "status": "up"
+        },
+        {
+            "linkId": "L00308",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0057",
+            "dstNodeId": "GND069",
+            "status": "up"
+        },
+        {
+            "linkId": "L00309",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0057",
+            "dstNodeId": "GND071",
+            "status": "up"
+        },
+        {
+            "linkId": "L00310",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0058",
+            "dstNodeId": "GND101",
+            "status": "up"
+        },
+        {
+            "linkId": "L00311",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0058",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00312",
+            "linkType": "5g",
+            "srcNodeId": "UAV0059",
+            "dstNodeId": "GND081",
+            "status": "up"
+        },
+        {
+            "linkId": "L00313",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0059",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00206",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0006",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00207",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0006",
+            "dstNodeId": "GND002",
+            "status": "up"
+        },
+        {
+            "linkId": "L00315",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0060",
+            "dstNodeId": "GND085",
+            "status": "up"
+        },
+        {
+            "linkId": "L00314",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0060",
+            "dstNodeId": "GND090",
+            "status": "up"
+        },
+        {
+            "linkId": "L00317",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0061",
+            "dstNodeId": "GND100",
+            "status": "up"
+        },
+        {
+            "linkId": "L00316",
+            "linkType": "5g",
+            "srcNodeId": "UAV0061",
+            "dstNodeId": "GND095",
+            "status": "up"
+        },
+        {
+            "linkId": "L00318",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0062",
+            "dstNodeId": "GND100",
+            "status": "up"
+        },
+        {
+            "linkId": "L00319",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0062",
+            "dstNodeId": "GND096",
+            "status": "up"
+        },
+        {
+            "linkId": "L00320",
+            "linkType": "5g",
+            "srcNodeId": "UAV0063",
+            "dstNodeId": "GND102",
+            "status": "up"
+        },
+        {
+            "linkId": "L00321",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0063",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00322",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0064",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00323",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0064",
+            "dstNodeId": "GND003",
+            "status": "up"
+        },
+        {
+            "linkId": "L00325",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0065",
+            "dstNodeId": "GND015",
+            "status": "up"
+        },
+        {
+            "linkId": "L00324",
+            "linkType": "5g",
+            "srcNodeId": "UAV0065",
+            "dstNodeId": "GND007",
+            "status": "up"
+        },
+        {
+            "linkId": "L00327",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0066",
+            "dstNodeId": "GND014",
+            "status": "up"
+        },
+        {
+            "linkId": "L00326",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0066",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00329",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0067",
+            "dstNodeId": "GND017",
+            "status": "up"
+        },
+        {
+            "linkId": "L00328",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0067",
+            "dstNodeId": "GND018",
+            "status": "up"
+        },
+        {
+            "linkId": "L00331",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0068",
+            "dstNodeId": "GND016",
+            "status": "up"
+        },
+        {
+            "linkId": "L00330",
+            "linkType": "5g",
+            "srcNodeId": "UAV0068",
+            "dstNodeId": "GND023",
+            "status": "up"
+        },
+        {
+            "linkId": "L00332",
+            "linkType": "5g",
+            "srcNodeId": "UAV0069",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00333",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0069",
+            "dstNodeId": "GND003",
+            "status": "up"
+        },
+        {
+            "linkId": "L00209",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0007",
+            "dstNodeId": "GND035",
+            "status": "up"
+        },
+        {
+            "linkId": "L00208",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0007",
+            "dstNodeId": "GND058",
+            "status": "up"
+        },
+        {
+            "linkId": "L00334",
+            "linkType": "5g",
+            "srcNodeId": "UAV0070",
+            "dstNodeId": "GND026",
+            "status": "up"
+        },
+        {
+            "linkId": "L00335",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0070",
+            "dstNodeId": "GND028",
+            "status": "up"
+        },
+        {
+            "linkId": "L00336",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0071",
+            "dstNodeId": "GND014",
+            "status": "up"
+        },
+        {
+            "linkId": "L00337",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0071",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00339",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0072",
+            "dstNodeId": "GND043",
+            "status": "up"
+        },
+        {
+            "linkId": "L00338",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0072",
+            "dstNodeId": "GND074",
+            "status": "up"
+        },
+        {
+            "linkId": "L00341",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0073",
+            "dstNodeId": "GND049",
+            "status": "up"
+        },
+        {
+            "linkId": "L00340",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0073",
+            "dstNodeId": "GND075",
+            "status": "up"
+        },
+        {
+            "linkId": "L00342",
+            "linkType": "5g",
+            "srcNodeId": "UAV0074",
+            "dstNodeId": "GND077",
+            "status": "up"
+        },
+        {
+            "linkId": "L00343",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0074",
+            "dstNodeId": "GND082",
+            "status": "up"
+        },
+        {
+            "linkId": "L00344",
+            "linkType": "5g",
+            "srcNodeId": "UAV0075",
+            "dstNodeId": "GND059",
+            "status": "up"
+        },
+        {
+            "linkId": "L00345",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0075",
+            "dstNodeId": "GND060",
+            "status": "up"
+        },
+        {
+            "linkId": "L00346",
+            "linkType": "5g",
+            "srcNodeId": "UAV0076",
+            "dstNodeId": "GND083",
+            "status": "up"
+        },
+        {
+            "linkId": "L00347",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0076",
+            "dstNodeId": "GND089",
+            "status": "up"
+        },
+        {
+            "linkId": "L00348",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0077",
+            "dstNodeId": "GND067",
+            "status": "up"
+        },
+        {
+            "linkId": "L00349",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0077",
+            "dstNodeId": "GND092",
+            "status": "up"
+        },
+        {
+            "linkId": "L00351",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0078",
+            "dstNodeId": "GND050",
+            "status": "up"
+        },
+        {
+            "linkId": "L00350",
+            "linkType": "5g",
+            "srcNodeId": "UAV0078",
+            "dstNodeId": "GND072",
+            "status": "up"
+        },
+        {
+            "linkId": "L00353",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0079",
+            "dstNodeId": "GND078",
+            "status": "up"
+        },
+        {
+            "linkId": "L00352",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0079",
+            "dstNodeId": "GND081",
+            "status": "up"
+        },
+        {
+            "linkId": "L00210",
+            "linkType": "5g",
+            "srcNodeId": "UAV0008",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00211",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0008",
+            "dstNodeId": "GND065",
+            "status": "up"
+        },
+        {
+            "linkId": "L00354",
+            "linkType": "5g",
+            "srcNodeId": "UAV0080",
+            "dstNodeId": "GND081",
+            "status": "up"
+        },
+        {
+            "linkId": "L00355",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0080",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00356",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0081",
+            "dstNodeId": "GND085",
+            "status": "up"
+        },
+        {
+            "linkId": "L00357",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0081",
+            "dstNodeId": "GND087",
+            "status": "up"
+        },
+        {
+            "linkId": "L00359",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0082",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00358",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0082",
+            "dstNodeId": "GND095",
+            "status": "up"
+        },
+        {
+            "linkId": "L00361",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0083",
+            "dstNodeId": "GND073",
+            "status": "up"
+        },
+        {
+            "linkId": "L00360",
+            "linkType": "5g",
+            "srcNodeId": "UAV0083",
+            "dstNodeId": "GND099",
+            "status": "up"
+        },
+        {
+            "linkId": "L00362",
+            "linkType": "5g",
+            "srcNodeId": "UAV0084",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00363",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0084",
+            "dstNodeId": "GND077",
+            "status": "up"
+        },
+        {
+            "linkId": "L00364",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0085",
+            "dstNodeId": "GND004",
+            "status": "up"
+        },
+        {
+            "linkId": "L00365",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0085",
+            "dstNodeId": "GND006",
+            "status": "up"
+        },
+        {
+            "linkId": "L00366",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0086",
+            "dstNodeId": "GND010",
+            "status": "up"
+        },
+        {
+            "linkId": "L00367",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0086",
+            "dstNodeId": "GND013",
+            "status": "up"
+        },
+        {
+            "linkId": "L00368",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0087",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00369",
+            "linkType": "vhf",
+            "srcNodeId": "UAV0087",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00371",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0088",
+            "dstNodeId": "GND017",
+            "status": "up"
+        },
+        {
+            "linkId": "L00370",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0088",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00373",
+            "linkType": "uhf",
+            "srcNodeId": "UAV0089",
+            "dstNodeId": "GND021",
+            "status": "up"
+        },
+        {
+            "linkId": "L00372",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0089",
+            "dstNodeId": "GND025",
+            "status": "up"
+        },
+        {
+            "linkId": "L00212",
+            "linkType": "5g",
+            "srcNodeId": "UAV0009",
+            "dstNodeId": "GND065",
+            "status": "up"
+        },
+        {
+            "linkId": "L00213",
+            "linkType": "satcom",
+            "srcNodeId": "UAV0009",
+            "dstNodeId": "GND070",
+            "status": "up"
+        },
+        {
+            "linkId": "L00374",
+            "linkType": "5g",
+            "srcNodeId": "UAV0090",
+            "dstNodeId": "GND029",
+            "status": "up"
+        },
+        {
+            "linkId": "L00376",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0091",
+            "dstNodeId": "GND028",
+            "status": "up"
+        },
+        {
+            "linkId": "L00378",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0092",
+            "dstNodeId": "GND033",
+            "status": "up"
+        },
+        {
+            "linkId": "L00380",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0093",
+            "dstNodeId": "GND046",
+            "status": "up"
+        },
+        {
+            "linkId": "L00382",
+            "linkType": "5g",
+            "srcNodeId": "UAV0094",
+            "dstNodeId": "GND050",
+            "status": "up"
+        },
+        {
+            "linkId": "L00384",
+            "linkType": "5g",
+            "srcNodeId": "UAV0095",
+            "dstNodeId": "GND078",
+            "status": "up"
+        },
+        {
+            "linkId": "L00386",
+            "linkType": "5g",
+            "srcNodeId": "UAV0096",
+            "dstNodeId": "GND080",
+            "status": "up"
+        },
+        {
+            "linkId": "L00388",
+            "linkType": "5g",
+            "srcNodeId": "UAV0097",
+            "dstNodeId": "GND040",
+            "status": "up"
+        },
+        {
+            "linkId": "L00390",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0098",
+            "dstNodeId": "GND075",
+            "status": "up"
+        },
+        {
+            "linkId": "L00392",
+            "linkType": "microwave",
+            "srcNodeId": "UAV0099",
+            "dstNodeId": "GND075",
+            "status": "up"
+        },
+        {
+            "linkId": "L00001",
+            "linkType": "microwave",
+            "srcNodeId": "GND001",
+            "dstNodeId": "GND002",
+            "status": "up"
+        },
+        {
+            "linkId": "L00154",
+            "linkType": "fiber",
+            "srcNodeId": "GND001",
+            "dstNodeId": "GND006",
+            "status": "up"
+        },
+        {
+            "linkId": "L00155",
+            "linkType": "satcom",
+            "srcNodeId": "GND001",
+            "dstNodeId": "GND006",
+            "status": "up"
+        },
+        {
+            "linkId": "L00013",
+            "linkType": "5g",
+            "srcNodeId": "GND010",
+            "dstNodeId": "GND006",
+            "status": "up"
+        },
+        {
+            "linkId": "L00016",
+            "linkType": "5g",
+            "srcNodeId": "GND010",
+            "dstNodeId": "GND006",
+            "status": "up"
+        },
+        {
+            "linkId": "L00148",
+            "linkType": "microwave",
+            "srcNodeId": "GND100",
+            "dstNodeId": "GND096",
+            "status": "up"
+        },
+        {
+            "linkId": "L00151",
+            "linkType": "5g",
+            "srcNodeId": "GND100",
+            "dstNodeId": "GND096",
+            "status": "up"
+        },
+        {
+            "linkId": "L00194",
+            "linkType": "fiber",
+            "srcNodeId": "GND101",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00152",
+            "linkType": "5g",
+            "srcNodeId": "GND101",
+            "dstNodeId": "GND102",
+            "status": "up"
+        },
+        {
+            "linkId": "L00195",
+            "linkType": "satcom",
+            "srcNodeId": "GND101",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00153",
+            "linkType": "microwave",
+            "srcNodeId": "GND102",
+            "dstNodeId": "GND101",
+            "status": "up"
+        },
+        {
+            "linkId": "L00017",
+            "linkType": "5g",
+            "srcNodeId": "GND011",
+            "dstNodeId": "GND012",
+            "status": "up"
+        },
+        {
+            "linkId": "L00158",
+            "linkType": "fiber",
+            "srcNodeId": "GND011",
+            "dstNodeId": "GND016",
+            "status": "up"
+        },
+        {
+            "linkId": "L00159",
+            "linkType": "satcom",
+            "srcNodeId": "GND011",
+            "dstNodeId": "GND016",
+            "status": "up"
+        },
+        {
+            "linkId": "L00018",
+            "linkType": "5g",
+            "srcNodeId": "GND012",
+            "dstNodeId": "GND013",
+            "status": "up"
+        },
+        {
+            "linkId": "L00019",
+            "linkType": "5g",
+            "srcNodeId": "GND013",
+            "dstNodeId": "GND014",
+            "status": "up"
+        },
+        {
+            "linkId": "L00022",
+            "linkType": "5g",
+            "srcNodeId": "GND014",
+            "dstNodeId": "GND011",
+            "status": "up"
+        },
+        {
+            "linkId": "L00020",
+            "linkType": "microwave",
+            "srcNodeId": "GND014",
+            "dstNodeId": "GND015",
+            "status": "up"
+        },
+        {
+            "linkId": "L00021",
+            "linkType": "5g",
+            "srcNodeId": "GND015",
+            "dstNodeId": "GND011",
+            "status": "up"
+        },
+        {
+            "linkId": "L00023",
+            "linkType": "5g",
+            "srcNodeId": "GND015",
+            "dstNodeId": "GND013",
+            "status": "up"
+        },
+        {
+            "linkId": "L00024",
+            "linkType": "microwave",
+            "srcNodeId": "GND016",
+            "dstNodeId": "GND017",
+            "status": "up"
+        },
+        {
+            "linkId": "L00160",
+            "linkType": "fiber",
+            "srcNodeId": "GND016",
+            "dstNodeId": "GND021",
+            "status": "up"
+        },
+        {
+            "linkId": "L00161",
+            "linkType": "satcom",
+            "srcNodeId": "GND016",
+            "dstNodeId": "GND021",
+            "status": "up"
+        },
+        {
+            "linkId": "L00025",
+            "linkType": "5g",
+            "srcNodeId": "GND017",
+            "dstNodeId": "GND018",
+            "status": "up"
+        },
+        {
+            "linkId": "L00029",
+            "linkType": "microwave",
+            "srcNodeId": "GND018",
+            "dstNodeId": "GND017",
+            "status": "up"
+        },
+        {
+            "linkId": "L00026",
+            "linkType": "microwave",
+            "srcNodeId": "GND018",
+            "dstNodeId": "GND019",
+            "status": "up"
+        },
+        {
+            "linkId": "L00027",
+            "linkType": "microwave",
+            "srcNodeId": "GND019",
+            "dstNodeId": "GND020",
+            "status": "up"
+        },
+        {
+            "linkId": "L00006",
+            "linkType": "microwave",
+            "srcNodeId": "GND002",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00002",
+            "linkType": "5g",
+            "srcNodeId": "GND002",
+            "dstNodeId": "GND003",
+            "status": "up"
+        },
+        {
+            "linkId": "L00028",
+            "linkType": "5g",
+            "srcNodeId": "GND020",
+            "dstNodeId": "GND016",
+            "status": "up"
+        },
+        {
+            "linkId": "L00030",
+            "linkType": "5g",
+            "srcNodeId": "GND020",
+            "dstNodeId": "GND019",
+            "status": "up"
+        },
+        {
+            "linkId": "L00031",
+            "linkType": "microwave",
+            "srcNodeId": "GND021",
+            "dstNodeId": "GND022",
+            "status": "up"
+        },
+        {
+            "linkId": "L00162",
+            "linkType": "fiber",
+            "srcNodeId": "GND021",
+            "dstNodeId": "GND026",
+            "status": "up"
+        },
+        {
+            "linkId": "L00163",
+            "linkType": "satcom",
+            "srcNodeId": "GND021",
+            "dstNodeId": "GND026",
+            "status": "up"
+        },
+        {
+            "linkId": "L00036",
+            "linkType": "5g",
+            "srcNodeId": "GND022",
+            "dstNodeId": "GND021",
+            "status": "up"
+        },
+        {
+            "linkId": "L00032",
+            "linkType": "5g",
+            "srcNodeId": "GND022",
+            "dstNodeId": "GND023",
+            "status": "up"
+        },
+        {
+            "linkId": "L00037",
+            "linkType": "5g",
+            "srcNodeId": "GND023",
+            "dstNodeId": "GND021",
+            "status": "up"
+        },
+        {
+            "linkId": "L00033",
+            "linkType": "5g",
+            "srcNodeId": "GND023",
+            "dstNodeId": "GND024",
+            "status": "up"
+        },
+        {
+            "linkId": "L00038",
+            "linkType": "microwave",
+            "srcNodeId": "GND024",
+            "dstNodeId": "GND023",
+            "status": "up"
+        },
+        {
+            "linkId": "L00034",
+            "linkType": "5g",
+            "srcNodeId": "GND024",
+            "dstNodeId": "GND025",
+            "status": "up"
+        },
+        {
+            "linkId": "L00035",
+            "linkType": "5g",
+            "srcNodeId": "GND025",
+            "dstNodeId": "GND021",
+            "status": "up"
+        },
+        {
+            "linkId": "L00039",
+            "linkType": "5g",
+            "srcNodeId": "GND025",
+            "dstNodeId": "GND021",
+            "status": "up"
+        },
+        {
+            "linkId": "L00040",
+            "linkType": "microwave",
+            "srcNodeId": "GND026",
+            "dstNodeId": "GND027",
+            "status": "up"
+        },
+        {
+            "linkId": "L00164",
+            "linkType": "fiber",
+            "srcNodeId": "GND026",
+            "dstNodeId": "GND031",
+            "status": "up"
+        },
+        {
+            "linkId": "L00165",
+            "linkType": "satcom",
+            "srcNodeId": "GND026",
+            "dstNodeId": "GND031",
+            "status": "up"
+        },
+        {
+            "linkId": "L00041",
+            "linkType": "microwave",
+            "srcNodeId": "GND027",
+            "dstNodeId": "GND028",
+            "status": "up"
+        },
+        {
+            "linkId": "L00045",
+            "linkType": "microwave",
+            "srcNodeId": "GND028",
+            "dstNodeId": "GND026",
+            "status": "up"
+        },
+        {
+            "linkId": "L00042",
+            "linkType": "5g",
+            "srcNodeId": "GND028",
+            "dstNodeId": "GND029",
+            "status": "up"
+        },
+        {
+            "linkId": "L00046",
+            "linkType": "microwave",
+            "srcNodeId": "GND029",
+            "dstNodeId": "GND027",
+            "status": "up"
+        },
+        {
+            "linkId": "L00043",
+            "linkType": "microwave",
+            "srcNodeId": "GND029",
+            "dstNodeId": "GND030",
+            "status": "up"
+        },
+        {
+            "linkId": "L00007",
+            "linkType": "microwave",
+            "srcNodeId": "GND003",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00003",
+            "linkType": "5g",
+            "srcNodeId": "GND003",
+            "dstNodeId": "GND004",
+            "status": "up"
+        },
+        {
+            "linkId": "L00044",
+            "linkType": "5g",
+            "srcNodeId": "GND030",
+            "dstNodeId": "GND026",
+            "status": "up"
+        },
+        {
+            "linkId": "L00047",
+            "linkType": "microwave",
+            "srcNodeId": "GND030",
+            "dstNodeId": "GND026",
+            "status": "up"
+        },
+        {
+            "linkId": "L00048",
+            "linkType": "5g",
+            "srcNodeId": "GND031",
+            "dstNodeId": "GND032",
+            "status": "up"
+        },
+        {
+            "linkId": "L00166",
+            "linkType": "fiber",
+            "srcNodeId": "GND031",
+            "dstNodeId": "GND036",
+            "status": "up"
+        },
+        {
+            "linkId": "L00167",
+            "linkType": "satcom",
+            "srcNodeId": "GND031",
+            "dstNodeId": "GND036",
+            "status": "up"
+        },
+        {
+            "linkId": "L00049",
+            "linkType": "5g",
+            "srcNodeId": "GND032",
+            "dstNodeId": "GND033",
+            "status": "up"
+        },
+        {
+            "linkId": "L00053",
+            "linkType": "microwave",
+            "srcNodeId": "GND033",
+            "dstNodeId": "GND031",
+            "status": "up"
+        },
+        {
+            "linkId": "L00050",
+            "linkType": "microwave",
+            "srcNodeId": "GND033",
+            "dstNodeId": "GND034",
+            "status": "up"
+        },
+        {
+            "linkId": "L00051",
+            "linkType": "microwave",
+            "srcNodeId": "GND034",
+            "dstNodeId": "GND035",
+            "status": "up"
+        },
+        {
+            "linkId": "L00052",
+            "linkType": "5g",
+            "srcNodeId": "GND035",
+            "dstNodeId": "GND031",
+            "status": "up"
+        },
+        {
+            "linkId": "L00054",
+            "linkType": "5g",
+            "srcNodeId": "GND035",
+            "dstNodeId": "GND034",
+            "status": "up"
+        },
+        {
+            "linkId": "L00055",
+            "linkType": "5g",
+            "srcNodeId": "GND036",
+            "dstNodeId": "GND037",
+            "status": "up"
+        },
+        {
+            "linkId": "L00168",
+            "linkType": "fiber",
+            "srcNodeId": "GND036",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00169",
+            "linkType": "satcom",
+            "srcNodeId": "GND036",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00060",
+            "linkType": "5g",
+            "srcNodeId": "GND037",
+            "dstNodeId": "GND036",
+            "status": "up"
+        },
+        {
+            "linkId": "L00056",
+            "linkType": "5g",
+            "srcNodeId": "GND037",
+            "dstNodeId": "GND038",
+            "status": "up"
+        },
+        {
+            "linkId": "L00061",
+            "linkType": "5g",
+            "srcNodeId": "GND038",
+            "dstNodeId": "GND036",
+            "status": "up"
+        },
+        {
+            "linkId": "L00057",
+            "linkType": "5g",
+            "srcNodeId": "GND038",
+            "dstNodeId": "GND039",
+            "status": "up"
+        },
+        {
+            "linkId": "L00058",
+            "linkType": "5g",
+            "srcNodeId": "GND039",
+            "dstNodeId": "GND040",
+            "status": "up"
+        },
+        {
+            "linkId": "L00004",
+            "linkType": "5g",
+            "srcNodeId": "GND004",
+            "dstNodeId": "GND005",
+            "status": "up"
+        },
+        {
+            "linkId": "L00059",
+            "linkType": "5g",
+            "srcNodeId": "GND040",
+            "dstNodeId": "GND036",
+            "status": "up"
+        },
+        {
+            "linkId": "L00062",
+            "linkType": "microwave",
+            "srcNodeId": "GND040",
+            "dstNodeId": "GND039",
+            "status": "up"
+        },
+        {
+            "linkId": "L00063",
+            "linkType": "5g",
+            "srcNodeId": "GND041",
+            "dstNodeId": "GND042",
+            "status": "up"
+        },
+        {
+            "linkId": "L00170",
+            "linkType": "fiber",
+            "srcNodeId": "GND041",
+            "dstNodeId": "GND046",
+            "status": "up"
+        },
+        {
+            "linkId": "L00171",
+            "linkType": "satcom",
+            "srcNodeId": "GND041",
+            "dstNodeId": "GND046",
+            "status": "up"
+        },
+        {
+            "linkId": "L00068",
+            "linkType": "microwave",
+            "srcNodeId": "GND042",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00064",
+            "linkType": "microwave",
+            "srcNodeId": "GND042",
+            "dstNodeId": "GND043",
+            "status": "up"
+        },
+        {
+            "linkId": "L00065",
+            "linkType": "5g",
+            "srcNodeId": "GND043",
+            "dstNodeId": "GND044",
+            "status": "up"
+        },
+        {
+            "linkId": "L00069",
+            "linkType": "microwave",
+            "srcNodeId": "GND044",
+            "dstNodeId": "GND043",
+            "status": "up"
+        },
+        {
+            "linkId": "L00066",
+            "linkType": "microwave",
+            "srcNodeId": "GND044",
+            "dstNodeId": "GND045",
+            "status": "up"
+        },
+        {
+            "linkId": "L00067",
+            "linkType": "5g",
+            "srcNodeId": "GND045",
+            "dstNodeId": "GND041",
+            "status": "up"
+        },
+        {
+            "linkId": "L00070",
+            "linkType": "microwave",
+            "srcNodeId": "GND045",
+            "dstNodeId": "GND043",
+            "status": "up"
+        },
+        {
+            "linkId": "L00071",
+            "linkType": "microwave",
+            "srcNodeId": "GND046",
+            "dstNodeId": "GND047",
+            "status": "up"
+        },
+        {
+            "linkId": "L00172",
+            "linkType": "fiber",
+            "srcNodeId": "GND046",
+            "dstNodeId": "GND051",
+            "status": "up"
+        },
+        {
+            "linkId": "L00173",
+            "linkType": "satcom",
+            "srcNodeId": "GND046",
+            "dstNodeId": "GND051",
+            "status": "up"
+        },
+        {
+            "linkId": "L00072",
+            "linkType": "5g",
+            "srcNodeId": "GND047",
+            "dstNodeId": "GND048",
+            "status": "up"
+        },
+        {
+            "linkId": "L00073",
+            "linkType": "microwave",
+            "srcNodeId": "GND048",
+            "dstNodeId": "GND049",
+            "status": "up"
+        },
+        {
+            "linkId": "L00076",
+            "linkType": "microwave",
+            "srcNodeId": "GND049",
+            "dstNodeId": "GND047",
+            "status": "up"
+        },
+        {
+            "linkId": "L00074",
+            "linkType": "microwave",
+            "srcNodeId": "GND049",
+            "dstNodeId": "GND050",
+            "status": "up"
+        },
+        {
+            "linkId": "L00005",
+            "linkType": "microwave",
+            "srcNodeId": "GND005",
+            "dstNodeId": "GND001",
+            "status": "up"
+        },
+        {
+            "linkId": "L00008",
+            "linkType": "microwave",
+            "srcNodeId": "GND005",
+            "dstNodeId": "GND003",
+            "status": "up"
+        },
+        {
+            "linkId": "L00075",
+            "linkType": "microwave",
+            "srcNodeId": "GND050",
+            "dstNodeId": "GND046",
+            "status": "up"
+        },
+        {
+            "linkId": "L00077",
+            "linkType": "microwave",
+            "srcNodeId": "GND050",
+            "dstNodeId": "GND048",
+            "status": "up"
+        },
+        {
+            "linkId": "L00078",
+            "linkType": "microwave",
+            "srcNodeId": "GND051",
+            "dstNodeId": "GND052",
+            "status": "up"
+        },
+        {
+            "linkId": "L00174",
+            "linkType": "fiber",
+            "srcNodeId": "GND051",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00175",
+            "linkType": "satcom",
+            "srcNodeId": "GND051",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00079",
+            "linkType": "5g",
+            "srcNodeId": "GND052",
+            "dstNodeId": "GND053",
+            "status": "up"
+        },
+        {
+            "linkId": "L00083",
+            "linkType": "microwave",
+            "srcNodeId": "GND053",
+            "dstNodeId": "GND051",
+            "status": "up"
+        },
+        {
+            "linkId": "L00080",
+            "linkType": "microwave",
+            "srcNodeId": "GND053",
+            "dstNodeId": "GND054",
+            "status": "up"
+        },
+        {
+            "linkId": "L00084",
+            "linkType": "microwave",
+            "srcNodeId": "GND054",
+            "dstNodeId": "GND052",
+            "status": "up"
+        },
+        {
+            "linkId": "L00081",
+            "linkType": "microwave",
+            "srcNodeId": "GND054",
+            "dstNodeId": "GND055",
+            "status": "up"
+        },
+        {
+            "linkId": "L00082",
+            "linkType": "microwave",
+            "srcNodeId": "GND055",
+            "dstNodeId": "GND051",
+            "status": "up"
+        },
+        {
+            "linkId": "L00085",
+            "linkType": "5g",
+            "srcNodeId": "GND055",
+            "dstNodeId": "GND052",
+            "status": "up"
+        },
+        {
+            "linkId": "L00086",
+            "linkType": "5g",
+            "srcNodeId": "GND056",
+            "dstNodeId": "GND057",
+            "status": "up"
+        },
+        {
+            "linkId": "L00176",
+            "linkType": "fiber",
+            "srcNodeId": "GND056",
+            "dstNodeId": "GND061",
+            "status": "up"
+        },
+        {
+            "linkId": "L00177",
+            "linkType": "satcom",
+            "srcNodeId": "GND056",
+            "dstNodeId": "GND061",
+            "status": "up"
+        },
+        {
+            "linkId": "L00091",
+            "linkType": "5g",
+            "srcNodeId": "GND057",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00087",
+            "linkType": "microwave",
+            "srcNodeId": "GND057",
+            "dstNodeId": "GND058",
+            "status": "up"
+        },
+        {
+            "linkId": "L00088",
+            "linkType": "5g",
+            "srcNodeId": "GND058",
+            "dstNodeId": "GND059",
+            "status": "up"
+        },
+        {
+            "linkId": "L00089",
+            "linkType": "microwave",
+            "srcNodeId": "GND059",
+            "dstNodeId": "GND060",
+            "status": "up"
+        },
+        {
+            "linkId": "L00156",
+            "linkType": "fiber",
+            "srcNodeId": "GND006",
+            "dstNodeId": "GND011",
+            "status": "up"
+        },
+        {
+            "linkId": "L00157",
+            "linkType": "satcom",
+            "srcNodeId": "GND006",
+            "dstNodeId": "GND011",
+            "status": "up"
+        },
+        {
+            "linkId": "L00009",
+            "linkType": "5g",
+            "srcNodeId": "GND006",
+            "dstNodeId": "GND007",
+            "status": "up"
+        },
+        {
+            "linkId": "L00090",
+            "linkType": "microwave",
+            "srcNodeId": "GND060",
+            "dstNodeId": "GND056",
+            "status": "up"
+        },
+        {
+            "linkId": "L00092",
+            "linkType": "5g",
+            "srcNodeId": "GND060",
+            "dstNodeId": "GND059",
+            "status": "up"
+        },
+        {
+            "linkId": "L00093",
+            "linkType": "5g",
+            "srcNodeId": "GND061",
+            "dstNodeId": "GND062",
+            "status": "up"
+        },
+        {
+            "linkId": "L00178",
+            "linkType": "fiber",
+            "srcNodeId": "GND061",
+            "dstNodeId": "GND066",
+            "status": "up"
+        },
+        {
+            "linkId": "L00179",
+            "linkType": "satcom",
+            "srcNodeId": "GND061",
+            "dstNodeId": "GND066",
+            "status": "up"
+        },
+        {
+            "linkId": "L00098",
+            "linkType": "microwave",
+            "srcNodeId": "GND062",
+            "dstNodeId": "GND061",
+            "status": "up"
+        },
+        {
+            "linkId": "L00094",
+            "linkType": "5g",
+            "srcNodeId": "GND062",
+            "dstNodeId": "GND063",
+            "status": "up"
+        },
+        {
+            "linkId": "L00095",
+            "linkType": "microwave",
+            "srcNodeId": "GND063",
+            "dstNodeId": "GND064",
+            "status": "up"
+        },
+        {
+            "linkId": "L00096",
+            "linkType": "microwave",
+            "srcNodeId": "GND064",
+            "dstNodeId": "GND065",
+            "status": "up"
+        },
+        {
+            "linkId": "L00097",
+            "linkType": "microwave",
+            "srcNodeId": "GND065",
+            "dstNodeId": "GND061",
+            "status": "up"
+        },
+        {
+            "linkId": "L00099",
+            "linkType": "microwave",
+            "srcNodeId": "GND065",
+            "dstNodeId": "GND064",
+            "status": "up"
+        },
+        {
+            "linkId": "L00100",
+            "linkType": "5g",
+            "srcNodeId": "GND066",
+            "dstNodeId": "GND067",
+            "status": "up"
+        },
+        {
+            "linkId": "L00180",
+            "linkType": "fiber",
+            "srcNodeId": "GND066",
+            "dstNodeId": "GND071",
+            "status": "up"
+        },
+        {
+            "linkId": "L00181",
+            "linkType": "satcom",
+            "srcNodeId": "GND066",
+            "dstNodeId": "GND071",
+            "status": "up"
+        },
+        {
+            "linkId": "L00101",
+            "linkType": "5g",
+            "srcNodeId": "GND067",
+            "dstNodeId": "GND068",
+            "status": "up"
+        },
+        {
+            "linkId": "L00102",
+            "linkType": "5g",
+            "srcNodeId": "GND068",
+            "dstNodeId": "GND069",
+            "status": "up"
+        },
+        {
+            "linkId": "L00105",
+            "linkType": "5g",
+            "srcNodeId": "GND069",
+            "dstNodeId": "GND068",
+            "status": "up"
+        },
+        {
+            "linkId": "L00103",
+            "linkType": "microwave",
+            "srcNodeId": "GND069",
+            "dstNodeId": "GND070",
+            "status": "up"
+        },
+        {
+            "linkId": "L00010",
+            "linkType": "microwave",
+            "srcNodeId": "GND007",
+            "dstNodeId": "GND008",
+            "status": "up"
+        },
+        {
+            "linkId": "L00104",
+            "linkType": "microwave",
+            "srcNodeId": "GND070",
+            "dstNodeId": "GND066",
+            "status": "up"
+        },
+        {
+            "linkId": "L00106",
+            "linkType": "microwave",
+            "srcNodeId": "GND070",
+            "dstNodeId": "GND066",
+            "status": "up"
+        },
+        {
+            "linkId": "L00107",
+            "linkType": "microwave",
+            "srcNodeId": "GND071",
+            "dstNodeId": "GND072",
+            "status": "up"
+        },
+        {
+            "linkId": "L00182",
+            "linkType": "fiber",
+            "srcNodeId": "GND071",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00183",
+            "linkType": "satcom",
+            "srcNodeId": "GND071",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00108",
+            "linkType": "5g",
+            "srcNodeId": "GND072",
+            "dstNodeId": "GND073",
+            "status": "up"
+        },
+        {
+            "linkId": "L00112",
+            "linkType": "5g",
+            "srcNodeId": "GND073",
+            "dstNodeId": "GND071",
+            "status": "up"
+        },
+        {
+            "linkId": "L00109",
+            "linkType": "microwave",
+            "srcNodeId": "GND073",
+            "dstNodeId": "GND074",
+            "status": "up"
+        },
+        {
+            "linkId": "L00110",
+            "linkType": "5g",
+            "srcNodeId": "GND074",
+            "dstNodeId": "GND075",
+            "status": "up"
+        },
+        {
+            "linkId": "L00111",
+            "linkType": "5g",
+            "srcNodeId": "GND075",
+            "dstNodeId": "GND071",
+            "status": "up"
+        },
+        {
+            "linkId": "L00113",
+            "linkType": "microwave",
+            "srcNodeId": "GND075",
+            "dstNodeId": "GND074",
+            "status": "up"
+        },
+        {
+            "linkId": "L00114",
+            "linkType": "5g",
+            "srcNodeId": "GND076",
+            "dstNodeId": "GND077",
+            "status": "up"
+        },
+        {
+            "linkId": "L00184",
+            "linkType": "fiber",
+            "srcNodeId": "GND076",
+            "dstNodeId": "GND081",
+            "status": "up"
+        },
+        {
+            "linkId": "L00185",
+            "linkType": "satcom",
+            "srcNodeId": "GND076",
+            "dstNodeId": "GND081",
+            "status": "up"
+        },
+        {
+            "linkId": "L00119",
+            "linkType": "microwave",
+            "srcNodeId": "GND077",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00115",
+            "linkType": "5g",
+            "srcNodeId": "GND077",
+            "dstNodeId": "GND078",
+            "status": "up"
+        },
+        {
+            "linkId": "L00116",
+            "linkType": "5g",
+            "srcNodeId": "GND078",
+            "dstNodeId": "GND079",
+            "status": "up"
+        },
+        {
+            "linkId": "L00117",
+            "linkType": "5g",
+            "srcNodeId": "GND079",
+            "dstNodeId": "GND080",
+            "status": "up"
+        },
+        {
+            "linkId": "L00014",
+            "linkType": "microwave",
+            "srcNodeId": "GND008",
+            "dstNodeId": "GND007",
+            "status": "up"
+        },
+        {
+            "linkId": "L00011",
+            "linkType": "microwave",
+            "srcNodeId": "GND008",
+            "dstNodeId": "GND009",
+            "status": "up"
+        },
+        {
+            "linkId": "L00118",
+            "linkType": "5g",
+            "srcNodeId": "GND080",
+            "dstNodeId": "GND076",
+            "status": "up"
+        },
+        {
+            "linkId": "L00120",
+            "linkType": "microwave",
+            "srcNodeId": "GND080",
+            "dstNodeId": "GND078",
+            "status": "up"
+        },
+        {
+            "linkId": "L00121",
+            "linkType": "microwave",
+            "srcNodeId": "GND081",
+            "dstNodeId": "GND082",
+            "status": "up"
+        },
+        {
+            "linkId": "L00186",
+            "linkType": "fiber",
+            "srcNodeId": "GND081",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00187",
+            "linkType": "satcom",
+            "srcNodeId": "GND081",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00122",
+            "linkType": "5g",
+            "srcNodeId": "GND082",
+            "dstNodeId": "GND083",
+            "status": "up"
+        },
+        {
+            "linkId": "L00123",
+            "linkType": "microwave",
+            "srcNodeId": "GND083",
+            "dstNodeId": "GND084",
+            "status": "up"
+        },
+        {
+            "linkId": "L00126",
+            "linkType": "microwave",
+            "srcNodeId": "GND084",
+            "dstNodeId": "GND082",
+            "status": "up"
+        },
+        {
+            "linkId": "L00124",
+            "linkType": "microwave",
+            "srcNodeId": "GND084",
+            "dstNodeId": "GND085",
+            "status": "up"
+        },
+        {
+            "linkId": "L00125",
+            "linkType": "5g",
+            "srcNodeId": "GND085",
+            "dstNodeId": "GND081",
+            "status": "up"
+        },
+        {
+            "linkId": "L00127",
+            "linkType": "5g",
+            "srcNodeId": "GND085",
+            "dstNodeId": "GND083",
+            "status": "up"
+        },
+        {
+            "linkId": "L00128",
+            "linkType": "microwave",
+            "srcNodeId": "GND086",
+            "dstNodeId": "GND087",
+            "status": "up"
+        },
+        {
+            "linkId": "L00188",
+            "linkType": "fiber",
+            "srcNodeId": "GND086",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00189",
+            "linkType": "satcom",
+            "srcNodeId": "GND086",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00129",
+            "linkType": "microwave",
+            "srcNodeId": "GND087",
+            "dstNodeId": "GND088",
+            "status": "up"
+        },
+        {
+            "linkId": "L00133",
+            "linkType": "5g",
+            "srcNodeId": "GND088",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00130",
+            "linkType": "5g",
+            "srcNodeId": "GND088",
+            "dstNodeId": "GND089",
+            "status": "up"
+        },
+        {
+            "linkId": "L00134",
+            "linkType": "5g",
+            "srcNodeId": "GND089",
+            "dstNodeId": "GND087",
+            "status": "up"
+        },
+        {
+            "linkId": "L00131",
+            "linkType": "microwave",
+            "srcNodeId": "GND089",
+            "dstNodeId": "GND090",
+            "status": "up"
+        },
+        {
+            "linkId": "L00012",
+            "linkType": "microwave",
+            "srcNodeId": "GND009",
+            "dstNodeId": "GND010",
+            "status": "up"
+        },
+        {
+            "linkId": "L00015",
+            "linkType": "microwave",
+            "srcNodeId": "GND009",
+            "dstNodeId": "GND006",
+            "status": "up"
+        },
+        {
+            "linkId": "L00132",
+            "linkType": "5g",
+            "srcNodeId": "GND090",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00135",
+            "linkType": "microwave",
+            "srcNodeId": "GND090",
+            "dstNodeId": "GND086",
+            "status": "up"
+        },
+        {
+            "linkId": "L00136",
+            "linkType": "5g",
+            "srcNodeId": "GND091",
+            "dstNodeId": "GND092",
+            "status": "up"
+        },
+        {
+            "linkId": "L00190",
+            "linkType": "fiber",
+            "srcNodeId": "GND091",
+            "dstNodeId": "GND096",
+            "status": "up"
+        },
+        {
+            "linkId": "L00191",
+            "linkType": "satcom",
+            "srcNodeId": "GND091",
+            "dstNodeId": "GND096",
+            "status": "up"
+        },
+        {
+            "linkId": "L00137",
+            "linkType": "microwave",
+            "srcNodeId": "GND092",
+            "dstNodeId": "GND093",
+            "status": "up"
+        },
+        {
+            "linkId": "L00141",
+            "linkType": "microwave",
+            "srcNodeId": "GND093",
+            "dstNodeId": "GND092",
+            "status": "up"
+        },
+        {
+            "linkId": "L00138",
+            "linkType": "5g",
+            "srcNodeId": "GND093",
+            "dstNodeId": "GND094",
+            "status": "up"
+        },
+        {
+            "linkId": "L00142",
+            "linkType": "5g",
+            "srcNodeId": "GND094",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00139",
+            "linkType": "5g",
+            "srcNodeId": "GND094",
+            "dstNodeId": "GND095",
+            "status": "up"
+        },
+        {
+            "linkId": "L00140",
+            "linkType": "5g",
+            "srcNodeId": "GND095",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00143",
+            "linkType": "microwave",
+            "srcNodeId": "GND095",
+            "dstNodeId": "GND091",
+            "status": "up"
+        },
+        {
+            "linkId": "L00192",
+            "linkType": "fiber",
+            "srcNodeId": "GND096",
+            "dstNodeId": "GND101",
+            "status": "up"
+        },
+        {
+            "linkId": "L00193",
+            "linkType": "satcom",
+            "srcNodeId": "GND096",
+            "dstNodeId": "GND101",
+            "status": "up"
+        },
+        {
+            "linkId": "L00144",
+            "linkType": "microwave",
+            "srcNodeId": "GND096",
+            "dstNodeId": "GND097",
+            "status": "up"
+        },
+        {
+            "linkId": "L00145",
+            "linkType": "5g",
+            "srcNodeId": "GND097",
+            "dstNodeId": "GND098",
+            "status": "up"
+        },
+        {
+            "linkId": "L00149",
+            "linkType": "microwave",
+            "srcNodeId": "GND098",
+            "dstNodeId": "GND097",
+            "status": "up"
+        },
+        {
+            "linkId": "L00146",
+            "linkType": "5g",
+            "srcNodeId": "GND098",
+            "dstNodeId": "GND099",
+            "status": "up"
+        },
+        {
+            "linkId": "L00147",
+            "linkType": "microwave",
+            "srcNodeId": "GND099",
+            "dstNodeId": "GND100",
+            "status": "up"
+        },
+        {
+            "linkId": "L00150",
+            "linkType": "5g",
+            "srcNodeId": "GND099",
+            "dstNodeId": "GND097",
+            "status": "up"
+        }
+    ]
+}
