@@ -54,7 +54,9 @@ class ServiceResult:
 class Service:
     service_id: str
     category: Literal["background", "test"]
+    service_type: Literal["data", "image", "video", "voice"]
     src_node_id: str
     dst_node_id: str
     priority: int
     requirement: QoS
+    paths: list[str]
