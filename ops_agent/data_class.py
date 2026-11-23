@@ -50,3 +50,11 @@ class ServiceResult:
     service_id: str
     paths: list[str]
 
+@dataclass
+class Service:
+    service_id: str
+    category: Literal["background", "test"]
+    src_node_id: str
+    dst_node_id: str
+    priority: int
+    requirement: QoS
