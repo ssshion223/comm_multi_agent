@@ -59,3 +59,6 @@ class LinkBudgetAnalyzer:
                 continue
             for link_id in service.paths:
                 self.residual_bw[link_id] -= service.requirement.bandwidth_bps
+
+    def res_bw_update(self):
+        pass
